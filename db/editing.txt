@@ -1,0 +1,905 @@
+101:E:It would be impossible to go out in such a fierce snowstorm, even if I tried.
+101:J:こんなに激しい雪では、出かけようにも(a)。
+101:R:こんなに\ruby{激}{はげ}しい\ruby{雪}{ゆき}では、\ruby{出}{で}かけようにも(a)。
+101:A:a:出かけられない:\ruby{出}{で}かけられない
+102:E:Even if I complained to the likes of a [company] president such as him/her, he/she wouldn't listen.
+102:J:あんな社長に文句をいった(a)で、聞いてくれるわけがない。
+102:R:あんな\ruby{社長}{しゃちょう}に\ruby{文句}{もんく}をいった(a)で、\ruby{聞}{き}いてくれるわけがない。
+102:A:a:ところで:ところで
+103:E:He/she sent us one letter, and we haven't heard a word from him/her since.
+103:J:手紙を一通よこした(a)、何の音沙汰もない。
+103:R:\ruby{手紙}{てがみ}を\ruby{一通}{いっつう}よこした(a)、\ruby{何}{なん}の\ruby{音沙汰}{おとさた}もない。
+103:A:a:きり:きり
+104:E:It's a waste to leave this room unused.
+104:J:この部屋を遊ばせて(a)のはもったいない。
+104:R:この\ruby{部屋}{へや}を\ruby{遊}{あそ}ばせて(a)のはもったいない。
+104:A:a:おく:おく
+105:E:His death will be mourned all the more deeply because he was the only painter born during the Meiji era.
+105:J:明治生まれの画家は、彼一人であった(a)に、彼の死は大いに悔やまれる。
+105:R:\ruby{明治}{めいじ}\ruby{生}{う}まれの\ruby{画家}{がか}は、\ruby{彼一人}{かれひとり}であった(a)に、\ruby{彼}{かれ}の\ruby{死}{し}は\ruby{大}{おお}いに\ruby{悔}{く}やまれる。
+105:A:a:だけ:だけ
+106:E:My carelessness caused a child to be seriously injured.  (My carelessness inflicted serious injury on a child.)
+106:J:私の不注意で、子供に大怪我を(a)しまった。
+106:R:\ruby{私}{わたし}の\ruby{不注意}{ふちゅうい}で、\ruby{子供}{こども}に\ruby{大怪我}{おおけが}を(a)しまった。
+106:A:a:させて:させて
+107:E:Even though he had caught a cold, he came in first in the [long-distance] race.
+107:J:彼は風邪をひいたにも(a)、マラソン大会で優勝した。
+107:R:\ruby{彼}{かれ}は\ruby{風邪}{かぜ}をひいたにも(a)、マラソン\ruby{大会}{たいかい}で\ruby{優勝}{ゆうしょう}した。
+107:A:a:かかわらず:かかわらず
+108:E:If you're going to visit him/her in the hospital, wait until he/she gets a little better.
+108:J:病院に見舞いに行く(a)、もう少し元気になってからにしなさい。
+108:R:\ruby{病院}{びょういん}に\ruby{見舞}{みま}いに\ruby{行}{い}く(a)、もう\ruby{少}{すこ}し\ruby{元気}{げんき}になってからにしなさい。
+108:A:a:なら:なら
+109:E: Since then, nuclear power has come to attract attention as a new [form of] energy.
+109:J:原子力はそれ以後新しいエネルギーとして注目を(a)ようになった。
+109:R:\ruby{原子力}{げんしりょく}はそれ\ruby{以後}{いご}\ruby{新}{あたら}しいエネルギーとして\ruby{注目}{ちゅうもく}を(a)ようになった。
+109:A:a:あびる:あびる
+110:E:I almost left my umbrella on the train, you know.
+110:J:もうちょっとで、傘を電車に忘れる(a)でしたよ。
+110:R:もうちょっとで、\ruby{傘}{かさ}を\ruby{電車}{でんしゃ}に\ruby{忘}{わす}れる(a)でしたよ。
+110:A:a:ところ:ところ
+111:E:I had a terrible time making up my mind whether to have soba (buckwheat noodles) or udon (wheat noodles), and I finally ended up having curry and rice.
+111:J:そばかうどんか、さんざんまよった(a)結局カレーライスを食べた。
+111:R:そばかうどんか、さんざんまよった(a)\ruby{結局}{けっきょく}カレーライスを\ruby{食}{た}べた。
+111:A:a:あげく:あげく
+112:E:On a hot summer day, nothing could be better than drinking cold beer in a beer garden.
+112:J:夏の暑い日にはビアガーデンで冷えたビールをのむに(a)。
+112:R:\ruby{夏}{なつ}の\ruby{暑}{あつ}い\ruby{日}{ひ}にはビアガーデンで\ruby{冷}{ひ}えたビールをのむに(a)。
+112:A:a:かぎる:かぎる
+113:E:Just what effect did these scientific-cultural phenomena have on human beings?
+113:J:こうした科学の現象はいったい、人間にどんな影響を(a)であろうか。
+113:R:こうした\ruby{科学}{かがく}の\ruby{現象}{げんしょう}はいったい、\ruby{人間}{にんげん}にどんな\ruby{影響}{えいきょう}を(a)であろうか。
+113:A:a:およぼした:およぼした
+114:E:Whether you go or not, it doesn't matter to me.  (Whether you go or not has nothing to do with me.)
+114:J:あなたが(a)と、行くまいと、私には関係ないことだ。
+114:R:あなたが(a)と、\ruby{行}{い}くまいと、\ruby{私}{わたし}には\ruby{関係}{かんけい}ないことだ。
+114:A:a:行こう:\ruby{行}{い}こう
+115:E:The bus is ready and waiting to leave, except that Yamada-san isn't here yet.
+115:J:来ていないのは山田さんだけで、バスは出発する(a)になっている。
+115:R:\ruby{来}{き}ていないのは\ruby{山田}{やまだ}さんだけで、バスは\ruby{出発}{しゅっぱつ}する(a)になっている。
+115:A:a:ばかり:ばかり
+116:E:He turned to me with an expression verging on anger and said, "What brought you here?"
+116:J:彼は、私に向って怒らん(a)の表情で「何か用事ですか」といった。
+116:R:\ruby{彼}{かれ}は、\ruby{私}{わたし}に\ruby{向}{むか}って\ruby{怒}{おこ}らん(a)の\ruby{表情}{ひょうじょう}で「\ruby{何}{なに}か\ruby{用事}{ようじ}ですか」といった。
+116:A:a:ばかり:ばかり
+117:E:Even if the sky is cloudy, it isn't [bad] enough for you to take an umbrella with you.
+117:J:空が曇っているとはいえ、傘を持っていく(a)のことはないですよ。
+117:R:\ruby{空}{そら}が\ruby{曇}{くも}っているとはいえ、\ruby{傘}{かさ}を\ruby{持}{も}っていく(a)のことはないですよ。
+117:A:a:ほど:ほど
+118:E:I didn't marry Kyoko because I wanted her inheritance or anything.
+118:J:遺産(a)がほしくて今日子と結婚したのではありません。
+118:R:\ruby{遺産}{いさん}(a)がほしくて\ruby{今日子}{きょうこ}と\ruby{結婚}{けっこん}したのではありません。
+118:A:a:なんか:なんか
+119:E:A ``Thank you very much.  This is a gift to show my appreciation...''\\B ``That's really not necessary.''(=``Such a gift isn't at all necessary.'')\\A ``Then, could you at least tell me your name, please?''
+119:J:A「どうもありがとうございました。これは御礼として、．．．」B「御礼 (a)いりませんよ」A「じゃ、(b)お名前だけでも教えてください」
+119:R:A「どうもありがとうございました。これは\ruby{御礼}{おれい}として、．．．」B「\ruby{御礼}{おれい}(a)いりませんよ」A「じゃ、(b)お\ruby{名前}{なまえ}だけでも\ruby{教}{おし}えてください」
+119:A:a:なんか:なんか
+119:A:b:せめて:せめて
+120:E:The lost boy burst into tears the instant he saw his mother, who had come to pick him up.
+120:J:迷子の男の子は、迎えに来た母親を見る(a)、わっと泣き出した。
+120:R:\ruby{迷子}{まいご}の\ruby{男}{おとこ}の\ruby{子}{こ}は、\ruby{迎}{むか}えに\ruby{来}{き}た\ruby{母親}{ははおや}を\ruby{見}{み}る(a)、わっと\ruby{泣}{な}き\ruby{出}{だ}した。
+120:A:a:なり:なり
+121:E:I ran as hard as I could so as not to miss the train, and I made it.
+121:J:電車に遅れまいとして、(a)に走って、間に合った。
+121:R:\ruby{電車}{でんしゃ}に\ruby{遅}{おく}れまいとして、(a)に\ruby{走}{はし}って、\ruby{間}{ま}に\ruby{合}{あ}った。
+121:A:a:走り:\ruby{走}{はし}り
+122:E:You're not a child [anymore], and you can't go on eating kiddie lunches forever.
+122:J:子供じゃ(a)し、いつまでも、お子様ランチを食べるんじゃない。
+122:R:\ruby{子供}{こども}じゃ(a)し、いつまでも、お\ruby{子様}{こさま}ランチを\ruby{食}{た}べるんじゃない。
+122:A:a:あるまい:あるまい
+123:E:Although I'm studying very hard, my grades aren't improving the way they should.
+123:J:一生懸命、勉強してい(a)、なかなか成績があがらない。
+123:R:\ruby{一生懸命}{いっしょうけんめい}、\ruby{勉強}{べんきょう}してい(a)、なかなか\ruby{成績}{せいせき}があがらない。
+123:A:a:ながら:ながら
+124:E:I have an entrance examination tomorrow, so I don't think I'll get much sleep tonight.
+124:J:入学試験をあしたに(a)いるので、今日は眠れそうもない。
+124:R:\ruby{入学試験}{にゅうがくしけん}をあしたに(a)いるので、\ruby{今日}{きょう}は\ruby{眠}{ねむ}れそうもない。
+124:A:a:控えて:\ruby{控}{ひか}えて
+125:E:That person appears to have already finished his meal and is having a cigarette with his coffee.
+125:J:あの人はもう食事はすんだと(a)、コーヒーを飲みながらタバコを吸っている。
+125:R:あの\ruby{人}{ひと}はもう\ruby{食事}{しょくじ}はすんだと(a)、コーヒーを\ruby{飲}{の}みながらタバコを\ruby{吸}{す}っている。
+125:A:a:みえて:みえて
+126:E:The opinion of the minority should be valued, but in the real world it tends to get ignored.
+126:J:少数意見は大切にしなければならないが、現実社会では(a)無視され(b)です。
+126:R:\ruby{少数}{しょうすう}\ruby{意見}{いけん}は\ruby{大切}{たいせつ}にしなければならないが、\ruby{現実}{げんじつ}\ruby{社会}{しゃかい}では(a)\ruby{無視}{むし}され(b)です。
+126:A:a:とかく:とかく
+126:A:b:がち:がち
+127:E:Now, at that dealer's, you can buy a Benz for 360,000 yen.  Of course, though, it doesn't have an engine.
+127:J:今、あの店で、ベンツが36万円で買えます。(a)、エンジンはありませんがね。
+127:R:\ruby{今}{いま}、あの\ruby{店}{みせ}で、ベンツが36\ruby{万円}{まんえん}で\ruby{買}{か}えます。(a)、エンジンはありませんがね。
+127:A:a:もっとも:もっとも
+128:E:Not only human societies but even monkey societies have a hierarchy of their own.
+128:J:人間(a)ならず、サルの社会にまで階級制度が存在している。
+128:R:\ruby{人間}{にんげん}(a)ならず、サルの\ruby{社会}{しゃかい}にまで\ruby{階級制度}{かいきゅうせいど}が\ruby{存在}{そんざい}している。
+128:A:a:のみ:のみ
+129:E:It would be hard enough to finish this job in three days, so telling us to finish it in half a day is absolutely crazy.
+129:J:この仕事を三日で終らせるので(a)難しいのに、(b)半日で終らせろなんて気違い沙汰です。
+129:R:この\ruby{仕事}{しごと}を\ruby{三日}{みっか}で\ruby{終}{おわ}らせるので(a)\ruby{難}{むずか}しいのに、(b)\ruby{半日}{はんにち}で\ruby{終}{おわ}らせろなんて\ruby{気違}{きちが}い\ruby{沙汰}{ざた}です。
+129:A:a:さえ:さえ
+129:A:b:ましてや:ましてや
+130:E:That person has such a look on his face, but it's not by any means because he's angry.  He always looks as if he's in a bad temper.
+130:J:あの人はあんな顔をしていますが、(a)怒っているのではありません。(b)ああいう怒った顔をしているのです。
+130:R:あの\ruby{人}{ひと}はあんな\ruby{顔}{かお}をしていますが、(a)\ruby{怒}{おこ}っているのではありません。(b)ああいう\ruby{怒}{おこ}った\ruby{顔}{かお}をしているのです。
+130:A:a:けっして:けっして
+130:A:b:もともと:もともと
+131:E:Believe it or not, this boy can read a book with more than three hundred pages in three minutes and then explain its contents!
+131:J:驚いた(a)に、この少年は300 ページ以上の本を３分で読み、その内容を解説するではありませんか。
+131:R:\ruby{驚}{おどろ}いた(a)に、この\ruby{少年}{しょうねん}は300ページ\ruby{以上}{いじょう}の\ruby{本}{ほん}を３\ruby{分}{ぷん}で\ruby{読}{よ}み、その\ruby{内容}{ないよう}を\ruby{解説}{かいせつ}するではありませんか。
+131:A:a:こと:こと
+132:E:After I was so kind to him/her, he/she could at least have said thank you.
+132:J:あれだけ、親切にしたのだから、御礼ぐらい言っても(a)ものだ。
+132:R:あれだけ、\ruby{親切}{しんせつ}にしたのだから、\ruby{御礼}{おれい}ぐらい\ruby{言}{い}っても(a)ものだ。
+132:A:a:よさそうな:よさそうな
+133:E:Wouldn't it be a bit difficult to polish off three steaks and three plates of rice in an hour?
+133:J:一時間で、ステーキ３枚とライス３皿を食べ(a)のはちょっと無理じゃないか。
+133:R:\ruby{一時間}{いちじかん}で、ステーキ３\ruby{枚}{まい}とライス３\ruby{皿}{さら}を\ruby{食}{た}べ(a)のはちょっと\ruby{無理}{むり}じゃないか。
+133:A:a:きる:きる
+134:E:He is an idiot who can't be helped.
+134:J:彼は救い(a)のないバカである。
+134:R:\ruby{彼}{かれ}は\ruby{救}{すくい}い(a)のないバカである。
+134:A:a:よう:よう
+135:E:A ``You saved my daughter's life(=My daughter owe you her life.). I wouldn't feel right if I didn't do something to thank you.''\\B ``Oh, no, please don't bother.''
+135:J:Ａ「あなたは娘の命の恩人。何か御礼をしなければ、私の気が(a)ません」Ｂ「いや、それには(b)」
+135:R:Ａ「あなたは\ruby{娘}{むすめ}の\ruby{命}{いのち}の\ruby{恩人}{おんじん}。\ruby{何}{なに}か\ruby{御礼}{おれい}をしなければ、\ruby{私}{わたし}の\ruby{気}{き}が(a)ません」Ｂ「いや、それには(b)」
+135:A:a:おさまり:おさまり
+135:A:b:およびません:およびません
+136:E:In your everyday life, you should refrain from behaviour that might invite misunderstanding.
+136:J:常日頃から誤解を(a)ような行動は慎むべきだ。
+136:R:\ruby{常日頃}{つねひごろ}から\ruby{誤解}{ごかい}を(a)ような\ruby{行動}{こうどう}は\ruby{慎}{つづし}むべきだ。
+136:A:a:まねく:まねく
+137:E:The brothers' unseemly dispute over the inheritance continues.
+137:J:遺産を(a)、兄弟の醜い争いが続いている。
+137:R:\ruby{遺産}{いさん}を(a)、\ruby{兄弟}{きょうだい}の\ruby{醜}{みにく}い\ruby{争}{あらそ}いが\ruby{続}{つづ}いている。
+137:A:a:めぐって:めぐって
+138:E:Even if what you're saying is true, violence is wrong.
+138:J:あなたの言い分が正しいに(a)、暴力はいけない。
+138:R:あなたの\ruby{言}{い}い\ruby{分}{ぶん}が\ruby{正}{ただ}しいに(a)、\ruby{暴力}{ぼうりょく}はいけない。
+138:A:a:せよ:せよ
+139:E:I hear that his illness is already past the point of curability, but let's pretend we don't know.
+139:J:彼の病はもう治らないそうだが、我々は(a)風を装っておこう。
+139:R:\ruby{彼}{かれ}の\ruby{病}{やまい}はもう\ruby{治}{なお}らないそうだが、\ruby{我々}{われわれ}は(a)\ruby{風}{ふう}を\ruby{装}{よそお}っておこう。
+139:A:a:しらない:しらない
+140:E:It isn't good for parents to butt in on children's quarrels.
+140:J:子供のけんかに親が(a)をはさむのはよくない。
+140:R:\ruby{子供}{こども}のけんかに\ruby{親}{おや}が(a)をはさむのはよくない。
+140:A:a:くち:くち
+141:E:It seems that autumn typhoons are frequently accompanied by heavy rain.
+141:J:秋の台風は大雨を(a)ことが多いようだ。
+141:R:\ruby{秋}{あき}の\ruby{台風}{たいふう}は\ruby{大雨}{おおあめ}を(a)ことが\ruby{多}{おお}いようだ。
+141:A:a:ともなう:ともなう
+142:E:If he wants to cry, just let him cry.  He'll probably cry himself out in a little while.
+142:J:泣きたければ、(a)ておけばいい。そのうち泣き(b)でしょう。
+142:R:\ruby{泣}{な}きたければ、(a)ておけばいい。そのうち\ruby{泣}{な}き(b)でしょう。
+142:A:a:なかせて:なかせて
+142:A:b:やむ:やむ
+143:E:For now, I'll just pay you 3,000 yen.  Please wait until the end of the month for the rest.
+143:J:(a)、3000 円だけお支払いします。残りは月末まで待ってください。
+143:R:(a)、3000 \ruby{円}{えん}だけお\ruby{支払}{しはら}いします。\ruby{残}{のこ}りは\ruby{月末}{げつまつ}まで\ruby{待}{ま}ってください。
+143:A:a:とりあえず:とりあえず
+144:E:Some shops are friendly to customers, while others treat them coldly.
+144:J:客を暖かく(a)店もあれば、冷たく(b)店もある。
+144:R:\ruby{客}{きゃく}を\ruby{暖}{あたた}かく(a)\ruby{店}{みせ}もあれば、\ruby{冷}{つめ}たく(b)\ruby{店}{みせ}もある。
+144:A:a:もてなす:もてなす
+144:A:b:あしらう:あしらう
+145:E:You know, if you scold a crying child thoughtlessly and excessively, it's not effective.
+145:J:泣いている子供は(a)に叱っても、効果がありませんよ。
+145:R:\ruby{泣}{な}いている\ruby{子供}{こども}は(a)に\ruby{叱}{しか}っても、\ruby{効果}{こうか}がありませんよ。
+145:A:a:むやみ:むやみ
+146:E:We'd rather buy a house than have to pay such high rent.
+146:J:こんな高い家賃を払うのなら、(a)、家を買った方がいい。
+146:R:こんな\ruby{高}{たか}い\ruby{家賃}{やちん}を\ruby{払}{はら}うのなら、(a)、\ruby{家}{いえ}を\ruby{買}{か}った\ruby{方}{ほう}がいい。
+146:A:a:いっそ:いっそ
+147:E:With the [signal] ``Ready, go!'' all of the competitors started off at once.
+147:J:「よーい、ドン」で、全選手が(a)にスタートした。
+147:R:「よーい、ドン」で、\ruby{全選手}{ぜんせんしゅ}が(a)にスタートした。
+147:A:a:いっせい:いっせい
+148:E:It is also conceivable that he stole it, but I don't want to think so.
+148:J:彼が盗んだということも考え(a)もするが、そうは思いたくないのだ。
+148:R:\ruby{彼}{かれ}が\ruby{盗}{ぬす}んだということも\ruby{考}{かんが}え(a)もするが、そうは\ruby{思}{おも}いたくないのだ。
+148:A:a:られ:られ
+149:E:Sorry to trouble you (=This may be a rather abrupt question), but could you tell me whether there is a public lavatory near here?
+149:J:(a)ことをお聞きしますが、近くに公衆便所はございます？
+149:R:(a)ことをお\ruby{聞}{き}きしますが、\ruby{近}{ちか}くに\ruby{公衆便所}{こうしゅうべんじょ}はございます？
+149:A:a:つかぬ:つかぬ
+150:E:Examinations will be given class by class.
+150:J:クラス(a)にわかれて、試験を実施いたします。
+150:R:クラス(a)にわかれて、\ruby{試験}{しけん}を\ruby{実施}{じっし}いたします。
+150:A:a:ごと:ごと
+151:E:A child suddenly dashed out into the road, and I almost ran over and killed him/her.
+151:J:子供が急に道路に飛び出してきて、(a)ひき殺すところだった。
+151:R:\ruby{子供}{こども}が\ruby{急}{きゅう}に\ruby{道路}{どうろ}に\ruby{飛}{と}び\ruby{出}{だ}してきて、(a)ひき\ruby{殺}{ころ}すところだった。
+151:A:a:あやうく:あやうく
+152:E:It's not worth doing, at such a high risk.
+152:J:そんなに危険なことをして(a)、やるほどの価値はない。
+152:R:そんなに\ruby{危険}{きけん}なことをして(a)、やるほどの\ruby{価値}{かち}はない。
+152:A:a:まで:まで
+153:E:Stop [your] dawdling, and hurry up and go to school.
+153:J:いつまでも(a)していないで、早く学校へ行きなさい。
+153:R:いつまでも(a)していないで、\ruby{早}{はや}く\ruby{学校}{がっこう}へ\ruby{行}{い}きなさい。
+153:A:a:ぐずぐず:ぐずぐず
+154:E:Who do you want to tell this wonderful news to, first of all?
+154:J:この喜ばしいニュースを(a)に誰に伝えたいですか。
+154:R:この\ruby{喜}{よろこ}ばしいニュースを(a)に\ruby{誰}{だれ}に\ruby{伝}{つた}えたいですか。
+154:A:a:まっさき:まっさき
+154:A:a:いの一番:いの\ruby{一番}{いちばん}
+155:E:I'd like to continue with this work, even if it results in a big loss.
+155:J:大きな赤字を出して(a)、私はこの仕事を続けたい
+155:R:\ruby{大}{おお}きな\ruby{赤字}{あかじ}を\ruby{出}{だ}して(a)、\ruby{私}{わたし}はこの\ruby{仕事}{しごと}を\ruby{続}{つづ}けたい
+155:A:a:でも:でも
+156:E:Whether you go on a trip or start a business of your own, spend this money on whatever you like.
+156:J:旅行に行く(a)商売する(b)、好きなことにこのお金を使いなさい。
+156:R:\ruby{旅行}{りょこう}に\ruby{行}{い}く(a)\ruby{商売}{しょうばい}する(b)、\ruby{好}{す}きなことにこのお\ruby{金}{かね}を\ruby{使}{つか}いなさい。
+156:A:a:なり:なり
+156:A:b:なり:なり
+157:E:Since I've already done this much to prepare, now I have no choice but to carry it out.
+157:J:ここまで準備したのだから、後はもうやる(a)ない。
+157:R:ここまで\ruby{準備}{じゅんび}したのだから、\ruby{後}{あと}はもうやる(a)ない。
+157:A:a:しか:しか
+158:E:I've been very kind to him, but on top of that he even has the nerve to ask me for money...I'm at a loss for words.
+158:J:親切にしてやった上にお金までよこせなんて、あきれて(a)ない。
+158:R:\ruby{親切}{しんせつ}にしてやった\ruby{上}{うえ}にお\ruby{金}{かね}までよこせなんて、あきれて(a)ない。
+158:A:a:ものがいえ:ものがいえ
+159:E:Even though he/she is always borrowing money from me, he/she says, "Mum, what would you like for a present?"--which of course he/she doesn't really mean. 
+159:J:いつも、私にお金を借りるくせに「お母さん、プレゼントは何がいい」なんて(a)ないことを言っている。
+159:R:いつも、\ruby{私}{わたし}にお\ruby{金}{かね}を\ruby{借}{か}りるくせに「お\ruby{母}{かあ}さん、プレゼントは\ruby{何}{なに}がいい」なんて(a)ないことを\ruby{言}{い}っている。
+159:A:a:こころにも:こころにも
+160:E:I had thought that person was respected by everyone, but now I know I misjudged him/her completely.  What an awful thing he/she did!
+160:J:あの人は誰からも尊敬される人と思っていたのに、あんなひどいことをするなんて、まるで(a)しまったよ。
+160:R:あの\ruby{人}{ひと}は\ruby{誰}{だれ}からも\ruby{尊敬}{そんけい}される\ruby{人}{ひと}と\ruby{思}{おも}っていたのに、あんなひどいことをするなんて、まるで(a)しまったよ。
+160:A:a:みそこなって:みそこなって
+161:E:This product is on offer at a bargain price, made possible only by direct delivery from the producer.
+161:J:この品物は、産地直送(a)のご奉仕価格です。
+161:R:この\ruby{品物}{しなもの}は、\ruby{産地直送}{さんちちょくそう}(a)のご\ruby{奉仕価格}{ほうしかかく}です。
+161:A:a:ならでは:ならでは
+162:E:This is an ideal reference book for exam preparation.
+162:J:これは試験勉強に(a)の参考書だ。
+162:R:これは\ruby{試験勉強}{しけんべんきょう}に(a)の\ruby{参考書}{さんこうしょ}だ。
+162:A:a:うってつけ:うってつけ
+162:A:a:もってこい:もってこい
+163:E:Since he is trying so desperately to tell his story, it can't all be a pack of lies.
+163:J:彼がこんなに必死に言うのだから、これは(a)うそではあるまい。
+163:R:\ruby{彼}{かれ}がこんなに\ruby{必死}{ひっし}に\ruby{言}{い}うのだから、これは(a)うそではあるまい。
+163:A:a:まんざら:まんざら
+164:E:You've worked so hard up till now, and now you're going to quit?  Don't be silly!
+164:J:今までがんばってきたのに、(a)やめるなんて何を言っているんだ。
+164:R:\ruby{今}{いま}までがんばってきたのに、(a)やめるなんて\ruby{何}{なに}を\ruby{言}{い}っているんだ。
+164:A:a:いまさら:いまさら
+165:E:Even if it's "all-you-can-eat," you'll probably only be able to finish up three plates at the very most, no matter how much you eat.
+165:J:食べ放題だといっても、どんなにたくさん食べても、食べて(a)３杯ぐらいだろう。
+165:R:\ruby{食}{た}べ\ruby{放題}{ほうだい}だといっても、どんなにたくさん\ruby{食}{た}べても、\ruby{食}{た}べて(a)３\ruby{杯}{ばい}ぐらいだろう。
+165:A:a:せいぜい:せいぜい
+166:E:If goods are priced too highly, they won't sell well.
+166:J:あまり高い値段をつけると商品の(a)が悪くなる。
+166:R:あまり\ruby{高}{たか}い\ruby{値段}{ねだん}をつけると\ruby{商品}{しょうひん}の(a)が\ruby{悪}{わる}くなる。
+166:A:a:売れ行き:\ruby{売}{う}れ\ruby{行}{ゆ}き
+167:E:There's such a big difference of opinion between us that it's not even worth mentioning.
+167:J:相手との考えの違いが大きくて(a)にならない。
+167:R:\ruby{相手}{あいて}との\ruby{考}{かんが}えの\ruby{違}{ちが}いが\ruby{大}{おお}きくて(a)にならない。
+167:A:a:お話し:お\ruby{話}{はな}し
+168:E:No matter how hard I try, I'll end up being called names.
+168:J:どんなにがんばっても、悪口を言われるのが(a)だ。
+168:R:どんなにがんばっても、\ruby{悪口}{わるくち}を\ruby{言}{い}われるのが(a)だ。
+168:A:a:おち:おち
+169:E:Because nobody was kind enough to do it for me, I had no choice but to do it myself.
+169:J:誰もやってくれないので、(a)自分でやった。
+169:R:\ruby{誰}{だれ}もやってくれないので、(a)\ruby{自分}{じぶん}でやった。
+169:A:a:仕方なく:\ruby{仕方}{しかた}なく
+170:E:It seems that the project isn't proceeding according to plan because of insufficient funds, and because of outside interference as well.
+170:J:事業が計画通り進まないのは、資金が不足している(a)、他からの妨害があったからだと思われる。
+170:R:\ruby{事業}{じぎょう}が\ruby{計画通}{けいかくどお}り\ruby{進}{すす}まないのは、\ruby{資金}{しきん}が\ruby{不足}{ふそく}している(a)、\ruby{他}{ほか}からの\ruby{妨害}{ぼうがい}があったからだと\ruby{思}{おも}われる。
+170:A:a:上に:\ruby{上}{うえ}に
+171:E:When all is said and done, in the end you can trust only yourself.
+171:J:なんとか(a)いっても、やっぱり自分しか信用できませんね。
+171:R:なんとか(a)いっても、やっぱり\ruby{自分}{じぶん}しか\ruby{信用}{しんよう}できませんね。
+171:A:a:かんとか:かんとか
+172:E:I'm not really sure, but I think the conversation was something about the question of pensions...
+172:J:よくわからないんですが、年金問題が(a)っていう話題だったと思うんですが...。
+172:R:よくわからないんですが、\ruby{年金問題}{ねんきんもんだい}が(a)っていう\ruby{話題}{わだい}だったと\ruby{思}{おも}うんですが...。
+172:A:a:どうのこうの:どうのこうの
+173:E:I can tell you, it was so hugely amusing that I almost died laughing.
+173:J:そりゃー、面白いのって(a)って、腹がはちきれんばかりでしたよ。
+173:R:そりゃー、\ruby{面白}{おもしろ}いのって(a)って、\ruby{腹}{はら}がはちきれんばかりでしたよ。
+173:A:a:なんの:なんの
+174:E:I hear they were discussing so important a matter alone together, in whispers!
+174:J:こんな大切な話を二人(a)で、(b)話し合っていたんだってよ。
+174:R:こんな\ruby{大切}{たいせつ}な\ruby{話}{はなし}を\ruby{二人}{ふたり}(a)で、(b)\ruby{話}{はな}し\ruby{合}{あ}っていたんだってよ。
+174:A:a:きり:きり
+174:A:b:ひそひそ:ひそひそ
+175:E:This politician's scheme met with the criticism of the opposition parties and, furthermore, provoked the antipathy of the entire nation.
+175:J:この政治家の企みは、野党の非難を浴びたに(a)、全国民の反感までをも(a)てしまった。
+175:R:この\ruby{政治家}{せいじか}の\ruby{企}{たくら}みは、\ruby{野党}{やとう}の\ruby{非難}{ひなん}を\ruby{浴}{あ}びたに(a)、\ruby{全国民}{ぜんこくみん}の\ruby{反感}{はんかん}までをも(a)てしまった。
+175:A:a:とどまらず:とどまらず
+175:A:b:かって:かって
+176:E:Cancer is not the sort of illness which people catch all of a sudden; it's a complicated and incurable disease which gnaws away day by day at the health of the patient.
+176:J:癌というのは、急に発病するという種類の疾病ではなく、日一日と、患者の健康を(a)、やっかいな(b)の病である。
+176:R:\ruby{癌}{がん}というのは、\ruby{急}{きゅう}に\ruby{発病}{はつびょう}するという\ruby{種類}{しゅるい}の\ruby{疾病}{しっぺい}ではなく、\ruby{日一日}{ひいちにち}と、\ruby{患者}{かんじゃ}の\ruby{健康}{けんこう}を(a)、やっかいな(b)の\ruby{病}{やまい}である。
+176:A:a:むしばむ:むしばむ
+176:A:b:ふじ:ふじ
+177:E:In winter, this place is a lonesome and deserted town, but in the summer, when the swimming season opens, it livens up with young people in colourful swimsuits.
+177:J:この辺は冬はひとけのないさびしい町だが、夏は海水浴シーズンになると派手な水着の若者たちで(a)。
+177:R:この\ruby{辺}{へん}は\ruby{冬}{ふゆ}はひとけのないさびしい\ruby{町}{まち}だが、\ruby{夏}{なつ}は\ruby{海水浴}{かいすいよく}シーズンになると\ruby{派手}{はで}な\ruby{水着}{みずぎ}の\ruby{若者}{わかもの}たちで(a)。
+177:A:a:にぎわう:にぎわう
+178:E:At Hyde Park in England, strangers engage each other in lively discussions every day.
+178:J:イギリスのハイド・パークでは、毎日見知らぬもの同士が議論に(a)ている。
+178:R:イギリスのハイド・パークでは、\ruby{毎日}{まいにち}\ruby{見知}{みし}らぬもの\ruby{同士}{どうし}が\ruby{議論}{ぎろん}に(a)ている。
+178:A:a:花を咲かせ:\ruby{花}{はな}を\ruby{咲}{さ}かせ
+179:E:The whole mountain turned into a sea of fire, all because of the tiny flame of a cigarette.
+179:J:小さなタバコの火が原因で山一帯が火の(a)になった。
+179:R:\ruby{小}{ちい}さなタバコの\ruby{火}{ひ}が\ruby{原因}{げんいん}で\ruby{山一帯}{やまいったい}が\ruby{火}{ひ}の(a)になった。
+179:A:a:海:\ruby{海}{うみ}
+180:E:A wooden house, for instance, is reduced to ashes in an instant once it catches fire.
+180:J:木造の家などは一度火がつくと(a)うちに灰となっていく。
+180:R:\ruby{木造}{もくぞう}の\ruby{家}{いえ}などは\ruby{一度}{いちど}\ruby{火}{ひ}がつくと(a)うちに\ruby{灰}{はい}となっていく。
+180:A:a:みるみる:みるみる
+181:E:Certainly I'd heard it was awful, but I really didn't expect it to be this horrendous.
+181:J:ものすごいとは(a)には(b)が、こんなにすごいとは思わなかったよ。
+181:R:ものすごいとは(a)には(b)が、こんなにすごいとは\ruby{思}{おも}わなかったよ。
+181:A:a:聞く:\ruby{聞}{き}く
+181:A:b:聞いていた:\ruby{聞}{き}いていた
+182:E:Although I did it because I thought it was a good thing to do, it ended up making that person all the more unhappy.
+182:J:(a)と思ってしたことがかえって、あの人を不幸にしてしまった。
+182:R:(a)と\ruby{思}{おも}ってしたことがかえって、あの\ruby{人}{ひと}を\ruby{不幸}{ふこう}にしてしまった。
+182:A:a:よかれ:よかれ
+183:E:For the next test, I'm just going to write down whatever any old book says and fake my way through.
+183:J:この次のテストは、その辺の本に書いてあったことをいいかげんに書いて(a)にごそう。
+183:R:この\ruby{次}{つぎ}のテストは、その\ruby{辺}{へん}の\ruby{本}{ほん}に\ruby{書}{か}いてあったことをいいかげんに\ruby{書}{か}いて(a)にごそう。
+183:A:a:お茶を:お\ruby{茶}{ちゃ}を
+184:E:There are more and more suicides among the children of parents who expect too much of them.
+184:J:親に実力以上の期待を(a)た子供達の自殺が増えている。
+184:R:\ruby{親}{おや}に\ruby{実力}{じつりょく}\ruby{以上}{いじょう}の\ruby{期待}{きたい}を(a)た\ruby{子供達}{こどもたち}の\ruby{自殺}{じさつ}が\ruby{増}{ふ}えている。
+184:A:a:かけられ:かけられ
+185:E:This cafe has many customers who come to savour not only the smell of its coffee but also the atmosphere of the place.
+185:J:この喫茶店にはコーヒーのかおりだけでなく店の雰囲気も(a)に来ている客が多い。
+185:R:この\ruby{喫茶店}{きっさてん}にはコーヒーのかおりだけでなく\ruby{店}{みせ}の\ruby{雰囲気}{ふんいき}も(a)に\ruby{来}{き}ている\ruby{客}{きゃく}が\ruby{多}{おお}い。
+185:A:a:味わい:\ruby{味}{あじ}わい
+186:E:It was not until our baby was born that I actually started to feel like a father (=that the actual feeling of being a father welled up in me).
+186:J:あかちゃんが産まれて初めて、父親としての実感が(a)てきた。
+186:R:あかちゃんが\ruby{産}{う}まれて\ruby{初}{はじ}めて、\ruby{父親}{ちちおや}としての\ruby{実感}{じっかん}が(a)てきた。
+186:A:a:わいて:わいて
+187:E:It's not that I don't cook at all, but when I'm alone it's a nuisance so I usually eat out.
+187:J:私は料理はしない(a)ないが、一人のときは面倒なのでたいてい外で食べる。
+187:R:\ruby{私}{わたし}は\ruby{料理}{りょうり}はしない(a)ないが、\ruby{一人}{ひとり}のときは\ruby{面倒}{めんどう}なのでたいてい\ruby{外}{そと}で\ruby{食}{た}べる。
+187:A:a:ことも:ことも
+187:A:a:でも:でも
+188:E:I hear that person has gone to Tokyo and doesn't live here any more.
+188:J:あの人は東京へ行った(a)で、もうここにいないそうだ。
+188:R:あの\ruby{人}{ひと}は\ruby{東京}{とうきょう}へ\ruby{行}{い}った(a)で、もうここにいないそうだ。
+188:A:a:とのこと:とのこと
+189:E:He came into my room silently, without even being invited.
+189:J:彼は呼ばれ(a)しない(b)、黙って私の部屋に入ってきた。
+189:R:\ruby{彼}{かれ}は\ruby{呼}{よ}ばれ(a)しない(b)、\ruby{黙}{だま}って\ruby{私}{わたし}の\ruby{部屋}{へや}に\ruby{入}{はい}ってきた。
+189:A:a:も:も
+189:A:b:のに:のに
+190:E:Purely and simply because I studied very hard, I was able to get a good grade.
+190:J:本当によく勉強した(a)、よい成績がとれたのだ。
+190:R:\ruby{本当}{ほんとう}によく\ruby{勉強}{べんきょう}した(a)、よい\ruby{成績}{せいせき}がとれたのだ。
+190:A:a:からこそ:からこそ
+191:E:What with all the surprise and rejoicing, the place was in an uproar.
+191:J:驚く(a)、よろこぶ(b)、会場は大騒ぎだった。
+191:R:\ruby{驚}{おどろ}く(a)、よろこぶ(b)、\ruby{会場}{かいじょう}は\ruby{大騒}{おおさわ}ぎだった。
+191:A:a:やら:やら
+191:A:b:やら:やら
+192:E:I can't get things sorted out unless I deal with them one at a time.
+192:J:一つ一つ片付けていかない(a)には、収まらない。
+192:R:一つ一つ\ruby{片付}{かたづ}けていかない(a)には、\ruby{収}{おさ}まらない。
+192:A:a:こと:こと
+193:E:I can't figure out what's going on.  That person turned up with a year-end gift ("oseibo")!
+193:J:どういう(a)の吹き回しなんでしょう。あの人が御歳暮を持ってくるなんて、...。
+193:R:どういう(a)の\ruby{吹}{ふ}き\ruby{回}{まわ}しなんでしょう。あの\ruby{人}{ひと}が\ruby{御歳暮}{おせいぼ}を\ruby{持}{も}ってくるなんて、...。
+193:A:a:風:\ruby{風}{かぜ}
+194:E:When you grow up, you must not become the kind of person who causes nuisance to others, even by mistake.
+194:J:大きくなったら、(a)ても人様のご迷惑になるような人になってはなりませんよ。
+194:R:\ruby{大}{おお}きくなったら、(a)ても\ruby{人様}{ひとさま}のご\ruby{迷惑}{めいわく}になるような人になってはなりませんよ。
+194:A:a:まちがっ:まちがっ
+195:E:That person is no prime minister, after he/she went so far as to embezzle public money.
+195:J:国のお金を使い込むなんて、あの人は(a)総理大臣なんかではない。
+195:R:\ruby{国}{くに}のお\ruby{金}{かね}を\ruby{使}{つか}い\ruby{込}{こ}むなんて、あの\ruby{人}{ひと}は(a)\ruby{総理大臣}{そうりだいじん}なんかではない。
+195:A:a:とうてい:とうてい
+196:E:Carried away by her sorrow, she couldn't even cry; she just squatted down without any expression on her face.
+196:J:悲しみの(a)、泣くこともできず、無表情で座り込んでしまった。
+196:R:\ruby{悲}{かな}しみの(a)、\ruby{泣}{な}くこともできず、\ruby{無表情}{むひょうじょう}で\ruby{座}{すわ}り\ruby{込}{こ}んでしまった。
+196:A:a:あまり:あまり
+197:E:[The government] lowered income taxes, but meanwhile it raised the consumption tax, in order to guarantee its financial resources.
+197:J:所得税の減税をする(a)で、その財源確保のために消費税を増税した。
+197:R:\ruby{所得税}{しょとくぜい}の\ruby{減税}{げんぜい}をする(a)で、その\ruby{財源確保}{ざいげんかくほ}のために\ruby{消費税}{しょうひぜい}を\ruby{増税}{ぞうぜい}した。
+197:A:a:一方:\ruby{一方}{いっぽう}
+198:E:Now that things have come to this, we have no choice but to do a drastic restructuring and reorganize management.
+198:J:こうなった(a)は、思い切ったリストラをして、経営を立て直すしかない。
+198:R:こうなった(a)は、\ruby{思}{おも}い\ruby{切}{き}ったリストラをして、\ruby{経営}{けいえい}を\ruby{立}{た}て\ruby{直}{なお}すしかない。
+198:A:a:からに:からに
+199:E:I put a half-finished cup of coffee beside the computer while I was working, but I accidentally spilled it.
+199:J:飲み(a)のコーヒーをコンピュータの横に置いて仕事をしていたら、こぼしてしまった。
+199:R:\ruby{飲}{の}み(a)のコーヒーをコンピュータの\ruby{横}{よこ}に\ruby{置}{お}いて\ruby{仕事}{しごと}をしていたら、こぼしてしまった。
+199:A:a:かけ:かけ
+200:E:It's hard to believe that they can hunt down criminals by means of extrasensory perception.
+200:J:超能力で犯人を捜し出せるなどというのは、信じ(a)。
+200:R:\ruby{超能力}{ちょうのうりょく}で\ruby{犯人}{はんにん}を\ruby{捜}{さが}し\ruby{出}{だ}せるなどというのは、\ruby{信}{しん}じ(a)。
+200:A:a:られない:られない
+200:A:a:がたい:がたい
+#
+201:E:Making nothing of the cold, he went out in thin clothes.
+201:J:寒さを(a)ともせず、彼は薄着で出かけていった。
+201:R:\ruby{寒}{さむ}さを(a)ともせず、\ruby{彼}{かれ}は\ruby{薄着}{うすぎ}で\ruby{出}{で}かけていった。
+201:A:a:もの:もの
+#
+202:D:20070723
+202:E:The record of hundred wins would be merely a passing point for the player(pitcher).
+202:F:angela.kim@ic.keio.ac.jp
+202:J:その選手にとって、１００勝という数字は(a)通過点にすぎないだろう。
+202:R:その\ruby{選手}{せんしゅ}にとって、１００\ruby{勝}{しょう}という\ruby{数字}{すうじ}は(a)\ruby{通過点}{つうかてん}にすぎないだろう。
+202:A:a:単なる:\ruby{単}{たん}なる
+202:N:1:◎1 単なる...にすぎない、単なる...のようなもの、単なる...だけのもの、
+202:N:2:単なる時間稼ぎ(「単に」との使い分けが難しそうです)
+#
+203:D:20070724
+203:E:It is a prejudice of the old to think that the language of the young is poor, and vogue-words are insignificant.
+203:F:angela.kim@ic.keio.ac.jp
+203:J:若者言葉は貧弱だ、流行語など取るに(a)と考えるのは老化した大人の偏見だ。
+203:R:\ruby{若者言葉}{わかものことば}は\ruby{貧弱}{ひんじゃく}だ、\ruby{流行語}{りゅうこうご}など\ruby{取}{と}るに(a)と\ruby{考}{かんが}えるのは\ruby{老化}{ろうか}した\ruby{大人}{おとな}の\ruby{偏見}{へんけん}だ。
+203:A:a:足らない:\ruby{足}{た}らない
+203:A:a:足らぬ:\ruby{足}{た}らぬ
+203:N:1:「取るに足らない」（文末）と「取るに足らぬ」こと　の両方をやりますか
+#
+204:D:20070725
+204:E:There is an opinion which we can always make a better product if we spend more money, but we don't agree with this.
+204:F:angela.kim@ic.keio.ac.jp
+204:J:金をかければ、必ずよいものができるという意見があるが、私たちはこれには賛成し(a)。
+204:R:\ruby{金}{かね}をかければ、\ruby{必}{かなら}ずよいものができるという\ruby{意見}{いけん}があるが、\ruby{私}{わたし}たちはこれには\ruby{賛成}{さんせい}し(a)。
+204:A:a:かねる:かねる
+204:N:1:かねる...遺憾ながら、ご依頼に応じかねます  「賛成しかねる」
+#
+205:D:20070726
+205:E:The sculptor said that he had never had any perfect works which could satisfy him.
+205:F:angela.kim@ic.keio.ac.jp
+205:J:その彫刻家は、何(a)として今までに完璧だと実感できる作品はなかったという。
+205:R:その\ruby{彫刻家}{ちょうこくか}は、\ruby{何}{なに}(a)として\ruby{今}{いま}までに\ruby{完璧}{かんぺき}だと\ruby{実感}{じっかん}できる\ruby{作品}{さくひん}はなかったという。
+205:A:a:一つ:一つ
+205:N:1:ひとつ/ひとり 何一つとして、誰一人として（覚えたら便利な表現）
+#
+206:D:20070727
+206:E:The shop is so tiny that it becomes impossible to move with only five people inside the shop.
+206:F:angela.kim@ic.keio.ac.jp
+206:J:その店は猫の額ほどの店で、客が五人も入れば身動きが(a)なる。
+206:R:その\ruby{店}{みせ}は\ruby{猫}{ねこ}の\ruby{額}{ひたい}ほどの\ruby{店}{みせ}で、\ruby{客}{きゃく}が\ruby{五人}{ごにん}も\ruby{入}{はい}れば\ruby{身動}{みうご}きが(a)なる。
+206:A:a:取れなく:\ruby{取}{と}れなく
+206:N:1:1) 体を動かすこと。身じろぎ。「満員で—もできない車内」
+206:N:2:2) 自由に行動すること。「借金で—できない」
+#
+207:D:20070728
+207:E:His death was a tragedy happened just as he was about to take action after saying, ``who else would do it, if I don't.''
+207:F:angela.kim@ic.keio.ac.jp
+207:J:彼の死は「私が(a)、誰がやる」といって、立ち上がった矢先の不幸であった。
+207:R:\ruby{彼}{かれ}の\ruby{死}{し}は「\ruby{私}{わたし}が(a)、\ruby{誰}{だれ}がやる」といって、\ruby{立}{た}ち\ruby{上}{あが}がった\ruby{矢先}{やさき}の\ruby{不幸}{ふこう}であった。
+207:A:やらねば:やらねば
+#
+208:D:20070729
+208:E:The player believed that he knew everything about the world of professional baseball, but he didn't realise the existence of the people supporting players behind the scenes.
+208:F:angela.kim@ic.keio.ac.jp
+208:J:その選手は、プロ野球界の表も裏も知り(a)いるつもりだったが、裏方で自分たちを支えている人々の存在にはまったく気がつかないでいた。
+208:R:その\ruby{選手}{せんしゅ}は、プロ\ruby{野球界}{やきゅうかい}の\ruby{表}{おもて}も\ruby{裏}{うら}も\ruby{知}{し}り(a)いるつもりだったが、\ruby{裏方}{うらかた}で\ruby{自分}{じぶん}たちを\ruby{支}{ささ}えている\ruby{人々}{ひとびと}の\ruby{存在}{そんざい}にはまったく\ruby{気}{き}がつかないでいた。
+208:A:a:つくして:つくして
+208:N:1:〜つくす...現状を知りつくしている
+#
+209:D:20070730
+209:E:Many people disposed garbage that contains dangerous and unacceptable goods taking advantage of black garbage bags that do not show their contents.
+209:F:angela.kim@ic.keio.ac.jp
+209:J:黒い袋で中身が見えないのを(a)ことに、危険物や非常識な汚物を平気で捨てる人が後をたたなかった。
+209:R:\ruby{黒}{くろ}い\ruby{袋}{ふくろ}で\ruby{中身}{なかみ}が\ruby{見}{み}えないのを(a)ことに、\ruby{危険物}{きけんぶつ}や\ruby{非常識}{ひじょうしき}な\ruby{汚物}{おぶつ}を\ruby{平気}{へいき}で\ruby{捨}{す}てる\ruby{人}{ひと}が\ruby{後}{あと}をたたなかった。
+209:A:a:いい:いい
+209:N:1:◎18 〜をいいことに
+209:N:2:あとをたたない
+#
+210:D:20070731
+210:E:In spite of the voices appealing for the preservation of Hiroshima Peace Memorial as a world heritage, the landmark conveying the history of Hiroshima was about to be vanished.
+210:F:angela.kim@ic.keio.ac.jp
+210:J:世界遺産としての保存を訴える被爆者の声を(a)に、ヒロシマを伝えるものが消えてゆくところであった。
+210:R:\ruby{世界遺産}{せかいいさん}としての\ruby{保存}{ほぞん}を\ruby{訴}{うった}える\ruby{被爆者}{ひばくしゃ}の\ruby{声}{こえ}を(a)に、ヒロシマを\ruby{伝}{つた}えるものが\ruby{消}{き}えてゆくところであった。
+210:A:a:よそ:よそ
+#
+211:D:20070801
+211:E:It was a heavy rain but not a serious one. However we judge that it caused floods in the various places due to its short duration.
+211:F:angela.kim@ic.keio.ac.jp
+211:J:中程度の豪雨であったが、短時間であったために各地で川が氾濫したと(a)。
+211:R:\ruby{中程度}{ちゅうていど}の\ruby{豪雨}{ごうう}であったが、\ruby{短時間}{たんじかん}であったために\ruby{各地}{かくち}で\ruby{川}{かわ}が\ruby{氾濫}{はんらん}したと(a)。
+211:A:a:見られる:\ruby{見}{み}られる
+#
+212:D:20070802
+212:E:S/he finished a work up by drawing and erasing it again and again. After many repeats of writing and deleting, s/he completed the work.
+212:F:angela.kim@ic.keio.ac.jp
+212:J:書い(a)消し、書い(a)消しして、作品を仕上げていった。
+212:R:\ruby{書}{か}い(a)\ruby{消}{け}し、\ruby{書}{か}い(a)\ruby{消}{け}しして、\ruby{作品}{さくひん}を\ruby{仕上}{しあ}げていった。
+212:A:a:ては:ては
+212:N:1:・気が散っていては、書けない。
+212:N:2:・こう暑くては仕事にならない。
+#
+213:D:20070803
+213:E:I feel abandoned and try to drink up a 1.8-litter-bottle of sake, but I have had a lot of it yet even if I keep drinking since I don't usually drink.
+213:F:angela.kim@ic.keio.ac.jp
+213:J:焼け酒で一升ビンの酒を飲み干そうと思っても、日頃飲まぬ私では、飲ん(a)飲ん(a)なくならない。
+213:R:\ruby{焼}{や}け\ruby{酒}{ざけ}で\ruby{一升}{いっしょう}ビンの\ruby{酒}{さけ}を\ruby{飲}{の}み\ruby{干}{ほ}そうと\ruby{思}{おも}っても、\ruby{日頃}{ひごろ}\ruby{飲}{の}まぬ\ruby{私}{わたし}では、\ruby{飲}{の}ん(a)\ruby{飲}{の}ん(a)なくならない。
+213:A:a:でも:でも
+#
+214:D:20070909
+214:E:Even though he should speak his mind, he is still hesitating about doing so.
+214:F:angela.kim@ic.keio.ac.jp
+214:J:早く打ち明ければ(a)のに、まだ言えないでいる。
+214:R:\ruby{早}{はや}く\ruby{打}{う}ち\ruby{明}{あ}ければ(a)のに、まだ\ruby{言}{い}えないでいる。
+214:A:いい:いい
+#
+215:D:20070910
+215:E:He became angry since someone woke him up while he was sound asleep, exhausted.
+215:F:angela.kim@ic.keio.ac.jp
+215:J:疲れきって、ぐっすり寝込んでいる(a)を起こされ、機嫌が悪くなった。
+215:R:\ruby{疲}{つか}れきって、ぐっすり\ruby{寝込}{ねこ}んでいる(a)を\ruby{起}{お}こされ、\ruby{機嫌}{きげん}が\ruby{悪}{わる}くなった。
+215:A:ところ:ところ
+215:N:1:お忙しいところをお邪魔しました。
+215:N:2:困っていたところ、助けてくれた。
+#
+216:D:20070911
+216:E:These two writers are the novelists unmistakably appropriate to call the competent and influential. 
+216:F:angela.kim@ic.keio.ac.jp
+216:J:この二人の作家は、(a)もなく中堅の実力派の名に恥じない小説家であった。
+216:R:この\ruby{二人}{ふたり}の\ruby{作家}{さっか}は、(a)もなく\ruby{中堅}{ちゅうけん}の\ruby{実力派}{じつりょくは}の\ruby{名}{な}に\ruby{恥}{は}じない\ruby{小説家}{しょうせつか}であった。
+216:A:a:まぎれ:まぎれ
+216:N:「まぎれもなく」は「まちがいなく」「誰も疑うことのない」という意味。
+#
+217:D:20070912
+217:E:The three children wrote the pleasant memories of the year one by one in their diaries.
+217:F:angela.kim@ic.keio.ac.jp
+217:J:三人の子供たちは、思い(a)にこの一年の楽しかった想い出を日記に綴った。
+217:R:\ruby{三人}{さんにん}の\ruby{子供}{こども}たちは、\ruby{思}{おも}い(a)にこの\ruby{一年}{いちねん}の\ruby{楽}{たの}しかった\ruby{想}{おも}い\ruby{出}{で}を\ruby{日記}{にっき}に\ruby{綴}{つづ}った。
+217:A:a:思い:\ruby{思}{おも}い
+#
+218:D:20070913
+218:E:This sumo tournament has started with eventful episodes such as both of two Yokozunas being defeated one after the other on the first day.
+218:F:angela.kim@ic.keio.ac.jp
+218:J:今場所は初日から二横綱が(a)、やぶれるという波乱続きの幕開けであった。
+218:R:\ruby{今場所}{こんばしょ}は\ruby{初日}{しょにち}から\ruby{二横綱}{によこづな}が(a)、やぶれるという\ruby{波乱続}{はらんつづ}きの\ruby{幕開}{まくあ}けであった。
+218:A:a:相次いで:\ruby{相次}{あいつ}いで
+#
+219:D:20070914
+219:E:After having conducted the experiments several times, it was found that although it could be ignited, the flame would  go out immediately.
+219:F:angela.kim@ic.keio.ac.jp
+219:J:実験を数回繰り返したところ、着火はする(a)すぐに火は消えることが分かった。
+219:R:\ruby{実験}{じっけん}を\ruby{数回}{すうかい}\ruby{繰}{く}り\ruby{返}{かえ}したところ、\ruby{着火}{ちゃっか}はする(a)すぐに\ruby{火}{ひ}は\ruby{消}{き}えることが\ruby{分}{わ}かった。
+219:A:a:ものの:ものの
+#
+220:D:20070917
+220:E:What we should do in future will be discussed based on the bill which was legislated recently.
+220:F:angela.kim@ic.keio.ac.jp
+220:J:この先どのようにするかは、(a)に決定した法案を元に検討するとのことであった。
+220:R:この\ruby{先}{さき}どのようにするかは、(a)に\ruby{決定}{けってい}した\ruby{法案}{ほうあん}を\ruby{元}{もと}に\ruby{検討}{けんとう}するとのことであった。
+220:A:a:先:\ruby{先}{さき}
+220:N:1:つい、さきほど cf.さっき、先に決定した、先に延ばしましょう。この先、
+#
+221:D:20070708
+221:E:I was just drinking beer at home without realising that such a terrible thing happened.
+221:F:angela.kim@ic.keio.ac.jp
+221:J:そんな大変なことになっているとは(a)知らず、家でゆっくりビールでも飲んでいました。
+221:R:そんな\ruby{大変}{たいへん}なことになっているとは(a)\ruby{知}{し}らず、\ruby{家}{うち}でゆっくりビールでも\ruby{飲}{の}んでいました。
+221:A:a:露:\ruby{露}{つゆ}
+221:N:「つゆ」は副詞だが、漢字で「露」と書く。
+#
+222:D:20070709
+222:E:I went onto a flight right away, feeling restless, when I heard of my father's accident.
+#222:E:I couldn't wait to jump onto a flight when I heard of my father's traffic accident.
+221:F:angela.kim@ic.keio.ac.jp
+222:J:父が事故にあったと聞いて、(a)立ってもいられず、すぐに飛行機に飛び乗った。
+222:R:\ruby{父}{ちち}が\ruby{事故}{じこ}にあったと\ruby{聞}{き}いて、(a)\ruby{立}{た}ってもいられず、すぐに\ruby{飛行機}{ひこうき}に\ruby{飛}{と}び\ruby{乗}{の}った。
+222:A:a:いても:いても
+222:N:安心できない、落ち着かない様子、気持。
+#
+223:D:20070710
+223:E:I think that it is very difficult, but don't give up and go for it! You have nothing to lose.
+223:F:angela.kim@ic.keio.ac.jp
+223:J:とても難しいとは思いますが、あきらめずに、(a)でやってみましょう。
+223:R:とても\ruby{難}{むずか}しいとは\ruby{思}{おも}いますが、あきらめずに、(a)でやってみましょう。
+223:A:a:だめもと:だめもと
+223:N:漢字で「駄目元」とも書く。「駄目で元々」の略。「元から駄目なのだから、失敗しても惜しくはないはず。少ない可能性でも成功すれば得だから、チャレンジした方がよい」の意味。
+#
+224:D:20070711
+224:E:I think it is quite good but because it is an expensive item, I'd better ask my wife whether it is okay for me to buy it.
+#224:E:It seems a nice, but it's an expensive good, so in advance I have to ask my wife if I can buy it. 
+224:F:angela.kim@ic.keio.ac.jp
+224:J:いいとは思うけれど、高い品物なので買ってもいいかどうか、かみさんに聞いてみない(a)。
+224:R:いいとは\ruby{思}{おも}うけれど、\ruby{高}{たか}い\ruby{品物}{しなもの}なので\ruby{買}{か}ってもいいかどうか、かみさんに\ruby{聞}{き}いてみない(a)。
+224:A:a:とね:とね
+224:N:「聞いてみないとね」は「聞いてみないとわからない」「聞いてみないといけない」のように（わからない／いけない）という言葉が省略されている。1999年に所ジョージが作曲した「明石家さんまさんに聞いてみないとね」（明石家さんま＆所ジョージ）はこの言葉を有名にした。
+#
+225:D:20070712
+225:E:I won't be easily cheated by such a childish trick.
+225:F:angela.kim@ic.keio.ac.jp
+225:J:そんなにやすやすと子供(a)の手には乗るもんか。
+225:R:そんなにやすやすと\ruby{子供}{こども}(a)の\ruby{手}{て}には\ruby{乗}{の}るもんか。
+225:A:だまし:だまし
+225:N:子供騙し cheap trick
+#
+226:D:20070713
+226:E:I was watching the historic moment on TV with bated breath.
+226:F:angela.kim@ic.keio.ac.jp
+226:J:その歴史的瞬間をじっと息を(a)テレビで見ていました。
+226:R:その\ruby{歴史的瞬間}{れきしてきしゅんかん}をじっと\ruby{息}{いき}を(a)テレビで\ruby{見}{み}ていました。
+226:A:a:のんで:のんで
+226:N:「思わず、ハッと、じっと」などの言葉につづけて、驚いて息をとめること。「この紅葉の美しさに思わず息を飲んでしまった。」◆「息を殺して」「息を凝らして」「かたずをのんで」ともいう。
+#
+227:D:20070714
+227:E:It may have been impolite, but I could not help laughing because the design of her swimwear was very old-fashioned.
+227:F:angela.kim@ic.keio.ac.jp
+227:J:水着のデザインが古くさかったので、失礼だったかもしれないが、笑わずには(a)。
+227:R:\ruby{水着}{みずぎ}のデザインが\ruby{古}{ふる}くさかったので、\ruby{失礼}{しつれい}だったかもしれないが、\ruby{笑}{わら}わずには(a)。
+227:A:(a)いられなかった:いられなかった
+227:N:「〜ずにはいられない」は「自然と〜してしまう」「〜したくなってしまって困る」「〜したくてがまんできない」という意味。
+#
+228:D:20070715
+228:E:I have too much on my plate already.I can't do anything else for others.
+228:F:angela.kim@ic.keio.ac.jp
+228:J:自分のことで(a)一杯なのに、これ以上、他の人の世話なんてできません。
+228:R:\ruby{自分}{じぶん}のことで(a)\ruby{一杯}{いっぱい}なのに、これ\ruby{以上}{いじょう}、\ruby{他}{ほか}の\ruby{人}{ひと}の\ruby{世話}{せわ}なんてできません。
+228:A:精:\ruby{精}{せい}
+228:N:「精一杯やる」は、「一所懸命にやる」と文脈的には同じ意味もあるが、「これ以上できないほどの」という意味もあって、否定的に使われることもある。□今はこれが精一杯、これで気に入らなければ、他の店に行って。□精一杯やって、それでだめだったら諦めるしかない。□これでももういっぱいいっぱい。これ以上もう何も車に積み込めませんよ。
+#
+229:D:20070716
+229:E:It is good that children are delighted, but they frolic too much that makes you wonder.
+229:F:angela.kim@ic.keio.ac.jp
+229:J:子供が喜ぶのはいいことだが、こんなにはしゃぎすぎるも考え(a)だね。
+229:R:\ruby{子供}{こども}が\ruby{喜}{よろこぶ}ぶのはいいことだが、こんなにはしゃぎすぎるも\ruby{考}{かんが}え(a)だね。
+229:A:a:物:\ruby{物}{もの}
+229:N:□裏側のデザインだけが派手になるのは考えものだ。□安いことはいいことだが、故障が少なからずあるのは考え(a)だね。□人を使うことばかり覚えて、自分から何もしようとしなくなるのは考え物だ。
+#
+230:D:20070717
+230:E:Tonight there will be a long waited game of IAAF(International Association of Athletics Federations), for the first time in Japan, and I am very excited about it.
+230:F:angela.kim@ic.keio.ac.jp
+230:J:今晩(a)に待った初の世界陸上日本開催にわくわくドキドキしている。
+230:R:\ruby{今晩}{こんばん}(a)に\ruby{待}{ま}った\ruby{初}{はつ}の\ruby{世界}{せかい}\ruby{陸上}{りくじょう}\ruby{日本}{にほん}\ruby{開催}{かいさい}にわくわくドキドキしている。
+230:A:a:待ち:\ruby{待}{ま}ち:
+230:N:「待ちに待った」は「いよいよ」とも言い替えられる。「長い間待って、もうすぐその瞬間を迎える」という意味。□遅咲きの白いコブシの花が咲いた。樹齢250年のこの木はなぜか三年に一度しか花が開かず、今年が待ちに待った満開の年だった。□待ちに待った手紙がが今日届きました。□今日は待ちに待った海外旅行だったが、テロ対策のため空港のセキュリティチェックでちょっとうんざりした。
+#
+231:D:20070719
+231:E:It depends on circumstances whether it is proper or not.
+231:F:angela.kim@ic.keio.ac.jp
+231:J:それがいいかどうかは、時と場合に(a)。
+231:R:それがいいかどうかは、\ruby{時}{とき}と\ruby{場合}{ばあい}に(a)。
+231:A:a:よりけり
+231:N:「けり」は古語では過去や詠嘆を意味するが、この場合、強調の意味。□冗談をいうのは、時と場合、それに相手によりけりですよ。□TPOというのは、Time、Place、Occasionの頭文字から作られた和製英語で、場合によりけり、という意味であったが、そのうち、条件に応じた正しい服装をする（Occasional Dressing）という意味になった。
+#
+232:D:20070722
+232:E:He has a good eye for arts.
+232:F:angela.kim@ic.keio.ac.jp
+232:J:彼には絵を見る(a)がありますね。
+232:R:\ruby{彼}{かれ}には\ruby{絵}{え}を\ruby{見}{み}る(a)がありますね。
+232:A:a:目:\ruby{目}{め}
+232:N:「目がある」は「人、芸術、価値の選択・判断する力がある」という意味。「選択眼がある」ともいう。□人を見る目がある。□料理人の第一歩は、まず材料を見る目を養うことから始まる。
+#
+233:D:20070919
+233:E:What physicists have been trying to unveil is, to tell the truth,  nothing else but something about this natural world where we live as a matter of course.
+233:F:angela.kim@ic.keio.ac.jp 
+233:J:物理学者が明らかにしようとしているものは、何を隠そうわれわれが当然のごとく生きているこの自然界に(a)ならない。
+233:R:\ruby{物理学者}{ぶつりがくしゃ}が\ruby{明}{あき}らかにしようとしているものは、\ruby{何}{なに}を\ruby{隠}{かく}そうわれわれが\ruby{日常的}{にちじょうてき}に\ruby{生}{い}きているこの\ruby{自然界}{しぜんかい}に(a)ならない。
+233:A:他:\ruby{他}{ほか}
+233:N:「〜に他ならない」は「〜そのものだ」に言い替えられる。「何を隠そう」は「本当のことをいえば」の意味。「当然のごとく」は「あたりまえのように」「日常何の不思議もなく」の意味。
+#  
+234:D:20070920
+234:E:A politician who said last week ``I will make the politics of Japan better'' has been arrested today due to a corruption case.
+234:F:angela.kim@ic.keio.ac.jp
+234:J:先週「私の仕事で日本の政治をきっとよくして(a)ます」と言っていた政治家が、今日、汚職事件で逮捕された。
+234:R:\ruby{先週}{せんしゅう}「\ruby{私}{わたし}の\ruby{仕事}{しごと}で\ruby{日本}{にほん}の\ruby{政治}{せいじ}をきっとよくして(a)ます」と\ruby{言}{い}っていた\ruby{政治家}{せいじか}が、\ruby{今日}{きょう}、\ruby{汚職事件}{おしょくじけん}で\ruby{逮捕}{たいほ}された。
+234:A:見せ:\ruby{見}{み}せ
+234:N:「〜てみせる」は強い決意を意味する。「やってみせる」「合格してみせる」など。
+#
+#約１名いろいろうるさいことをいう人がいます。
+235:D:20070923
+235:E:``About one person is so demanding that I did what she requested unwillingly.'' ``Do yo mean it's me?''
+235:F:angela.kim@ic.keio.ac.jp
+235:J:「(a)１名いろいろうるさいことをいう人がいますので、あまりやりたくはないけれどもやりました。」「それ、わたしのこと？」
+235:R:「(a)１\ruby{名}{めい}いろいろうるさいことをいう\ruby{人}{ひと}がいますので、あまりやりたくはないけれどもやりました。」「それって、わたしのこと？」
+235:A:約:\ruby{約}{やく}
+235:N:普通「１名」に「約」をつける必要はないが、わざとつけると皮肉(sarcasm; satire; irony)の意味になる。このようにわざと不要なものをつけると多くの場合皮肉を現わす。たとえば、明らかに敬語で言わなくても言い場面で敬語を使う、など。
+#  
+#端から見て
+236:D:20070924
+236:E:Looking at a wedding as an outsider, it seems a full of happiness, but for the couple themselves it is indeed a very troublesome event.
+236:F:angela.kim@ic.keio.ac.jp
+236:J:結婚って(a)から見ている分には、幸せいっぱいに見えるけど、実際に結婚する人の立場になってみると、結構めんどうなことばかりだ。
+236:R:\ruby{結婚}{けっこん}って(a)から\ruby{見}{み}ている\ruby{分}{ぶん}には、\ruby{幸}{しあわ}せいっぱいに\ruby{見}{み}えるけど、\ruby{実際}{じっさい}に\ruby{結婚}{けっこん}する\ruby{人}{ひと}の\ruby{立場}{たちば}になってみると、\ruby{結構}{けっこう}めんどうなことばかりだ。
+236:A:端:\ruby{端}{はた}
+236:N:「端」は「はし」つまり「中心でない部分」「外側」の意味。「端から見て」は「第３者として見て」「他人事と考えて」の意味。「分」にはいろいろな意味があるが、ここでは「立場」「身分」の意味。
+#  
+#泣き言を言う
+237:D:20070927
+237:E:He is not at all such a weak person who would whinge in the presence of other people.
+237:F:angela.kim@ic.keio.ac.jp
+237:J:彼は決して人前で泣き(a)を漏らすような人ではない。
+237:R:\ruby{彼}{かれ}は\ruby{決}{けっ}して\ruby{人前}{ひとまえ}で\ruby{泣}{な}き(a)を\ruby{漏}{も}らすような\ruby{人}{ひと}ではない。
+237:A:言:\ruby{言}{ごと}
+237:N:「泣き言」はcomplaining, slobber, whinge, wingeという意味であるが、「精神的に弱い」ことを広く示す時にも用いられる。
+#  
+#あわせる顔がない
+#顔を立てる
+238:D:20070928
+238:E:Saving the face of their Prime Minister cannot be the purpose of the politics of any country.
+238:F:angela.kim@ic.keio.ac.jp
+238:J:国の政治の目的は首相の(a)を立てることではないはずだ。
+238:R:\ruby{国}{くに}の\ruby{政治}{せいじ}の\ruby{目的}{もくてき}は\ruby{首相}{しゅしょう}の(a)を\ruby{立}{た}てることではないはずだ。
+238:A:顔:\ruby{顔}{かお}
+238:N:「顔を立てる」は人のプライドを傷つけないようにすること。「面子（めんつ）を立てる」ともいう。「顔を立てる」の反対は「顔をつぶす」。
+# 
+239:D:20071003
+239:E:We feel a little awkward because we have just had our wedding ceremony but let us inform you that yesterday we found out that my wife is pregnant.
+239:F:angela.kim@ic.keio.ac.jp
+239:J:結婚式が終ったばかりで(a)なんですけれど、実は、昨日、私たちに赤ちゃんができたことがわかりましたので、ご報告させていただきます。
+239:R:\ruby{結婚式}{けっこんしき}が\ruby{終}{おわ}ったばかりで(a)なんですけれど、\ruby{実}{じつ}は、きのう、\ruby{私}{わたし}たちに\ruby{赤}{あか}ちゃんができたことがわかりましたので、ご\ruby{報告}{ほうこく}させていただきます。
+239:A:何:\ruby{何}{なん}
+239:N:「何なんですけど」は言いにくい状況のときに「言わなければならないことがありますが」という意味。本当に言いにくいから、「何」という「何を意味するかわからない言葉」でごまかしているようだ。「〜たばかりで何なんですが、」「〜の途中（最中）で何なんですが、」のように使うことが多い。
+#  
+240:D:20071004
+240:E:Yesterday, I ran into my dear friend at a most unexpected place.
+240:F:angela.kim@ic.keio.ac.jp
+240:J:昨日、思いも(a)ところで、なつかしい人に出会った。
+240:R:\ruby{昨日}{きのう}、\ruby{思}{おも}いも(a)ところで、なつかしい\ruby{人}{ひと}に\ruby{出会}{であ}った。
+240:A:よらない:よらない
+240:N:「思いもよらない」は「想像／予想できない」「意外な」の意味。
+#  
+241:D:20071005
+241:E:My company went bankrupt, I got into a large debt, I got a divorce, I did't know what I to do, and I was at a loss.
+241:F:angela.kim@ic.keio.ac.jp
+241:J:会社は倒産し、大きな借金を抱えて、妻には離婚され、何をどうすればいいのか(a)に暮れてしまった。
+241:R:\ruby{会社}{かいしゃ}は\ruby{倒産}{とうさん}し、\ruby{大}{おお}きな\ruby{借金}{しゃっきん}を\ruby{抱}{かか}えて、\ruby{妻}{つま}には\ruby{離婚}{りこん}され、\ruby{何}{なに}をどうすればいいのか(a)に\ruby{暮}{く}れてしまった。
+241:A:途方:\ruby{途方}{とほう}
+241:N:「途方」は「手段、方法」の意味。「途方に暮れる」で「解決方法が難し過ぎる、目標が遠過ぎるなどの理由で、どうしてよいのかわからなくなる」状態。「途方もない」は「考えられないほどかなり」の意味で、「途方もなく大きい彫刻」のように使う。
+#  
+242:D:20071006
+242:E:I am so unlucky because, of all days, it rained just as I wore my new pair of boots. I might as well have bought a pair of rubber boots.
+242:F:angela.kim@ic.keio.ac.jp
+242:J:新しく買ったブーツを(a)もあろうに、雨の日に覆くことになるなんて、まったくついていない。これなら、ゴムの長靴でもよかった。
+242:R:\ruby{新}{あたら}しく\ruby{買}{か}ったブーツを(a)もあろうに、\ruby{雨}{あめ}の\ruby{日}{ひ}に\ruby{覆}{は}くことになるなんて、まったくついていない。これなら、ゴムの\ruby{長靴}{ながぐつ}でもよかった。
+242:A:事:\ruby{事}{こと}
+242:N:「事もあろうに」の形で英語では``of all days/of all things''の意味であるが、「もっとよい方法／状況／ものがあるはずなのに、わざわざ、よくない事をやってしまって、よくない結果になってしまって残念だ」という気持ちを表す。「ついて(い)ない」はunluckyの意味。
+#  }{}
+243:D:20071007
+243:E:When I was a child,  I was a contrary, twisted, and mischievous boy, who was out of control.
+243:F:angela.kim@ic.keio.ac.jp
+243:J:私は子供の時、あまのじゃくで、ひねくれるていて、(a)のつけられないいたずらっ子だった。
+243:R:\ruby{私}{わたし}は\ruby{子供}{こども}の\ruby{時}{とき}、あまのじゃくで、ひねくれていて、(a)のつけられないいたずらっ\ruby{子}{こ}だった。
+243:A:手:\ruby{手}{て}
+243:N:「あまのじゃく」は「いつも人の反対のことをやったり、いったりする人」のこと。「ひねくれている」は「曲っている」の意味で、人の性格についていう時は「素直でない性格」の意味。「手がつけられない」は「おとなしくさせる方法がない」の意味。
+# 
+244:D:20071012
+244:E:If you want to say it, you should say it straightforwardly rather than always saying something as if you were hiding something.
+244:F:angela.kim@ic.keio.ac.jp
+244:J:言いたいならば、はっきり言えばいいのに、いつも(a)に物のはさまったような言い方をする人だ。
+244:R:\ruby{言}{い}いたいならば、はっきり\ruby{言}{い}えばいいのに、いつも(a)に\ruby{物}{もの}のはさまったような\ruby{言}{い}い\ruby{方}{かた}をする\ruby{人}{ひと}だ。
+244:A:奥歯:\ruby{奥歯
+244:N:「奥歯に物のはさまったような言い方」は「はっきり物事を言わずに皮肉のように言う言い方」の意味。
+# 
+245:D:20071015
+245:E:Before the matter gets worse, it is necessary to take measures as soon as possible.
+245:F:angela.kim@ic.keio.ac.jp
+245:J:事態が深刻にならないうちに、早急に次の(a)を打つ必要がある。
+245:R:\ruby{事態}{じたい}が\ruby{深刻}{しんこく}にならないうちに、\ruby{早急}{さっきゅう}に\ruby{次}{つぎ}の(a)を\ruby{打}{う}つ\ruby{必要}{ひつよう}がある。
+245:A:手:\ruby{手}{て}
+245:N:「手」は「方法／手段／対策」の意味。「手を打つ」で「問題を解決／回避するための方法をとる」「対処する」の意味になる。「早急」は最近は「そうきゅう」と読む人も多いが、正しくは「さっきゅう」。「次の手」は囲碁や将棋でよく使われる。「手を打つ」は他にも、「手を打って喜ぶ」のように「拍手」をするの意味や、英語でいう``Deal!''のように契約や取り引きで「双方の条件が一致した」の意味でも用いられる。
+#
+246:D:20071016
+246:E:A critic who gets angry about what mere stand-up comedians say is more stupid than those comedians.
+246:F:angela.kim@ic.keio.ac.jp::ok
+246:J:(a)が漫才師の言ったことに腹を立てる評論家の方がばかである。
+246:R:(a)が\ruby{漫才師}{まんざいし}の\ruby{言}{い}ったことに\ruby{腹}{はら}を\ruby{立}{た}てる\ruby{評論家}{ひょうろんか}の\ruby{方}{ほう}がばかである。
+246:A:たか:たか
+246:N:「たかが〜」は〜をばかにした気持を加えるときに使う。「地位や立場の高くない〜」という意味。ビートたけし（北野武）がデビュー当時、かなり強烈な弱いものいじめのギャグを自分の漫才ツービートで使っていたときに、評論家がツービートを批判した。その時、ビートたけしが評論家に対して言った言葉が「たかが漫才師の言ったことにいちいち腹を立てるバカ」である。
+#
+247:D:20071017
+247:E:I underestimated the workload, thinking that one night would be sufficient to complete this work. However, that was a big mistake. 
+247:F:angela.kim@ic.keio.ac.jp:ok
+247:J:仕事はもう一晩もあれば、完成だろうと(a)を括っていたのが、大失敗だった。
+247:R:\ruby{仕事}{しごと}はもう\ruby{一晩}{ひとばん}もあれば、\ruby{完成}{かんせい}だろうと(a)を\ruby{括}{くく}っていたのが、\ruby{大失敗}{だいしっぱい}だった。
+247:A:高:\ruby{高}{たか}
+247:N:「高を括る」は「多くても問題にはならない程度だろう」と物事を軽く考えること。
+#
+248:D:20071019
+248:E:My father said that ``I can't allow the guy nobody knows where he comes from to marry my daughter''. However, he was the one who cried heavily in public at my wedding ceremony.
+248:F:angela.kim@ic.keio.ac.jp:ok
+248:J:「どこの(a)の骨かわからん奴に、うちの娘は嫁にやらんぞ」と言っていた父が結婚式では、大泣きだった。
+248:R:「どこの(a)の\ruby{骨}{ほね}かわからん\ruby{奴}{やつ}に、うちの\ruby{娘}{むすめ}は\ruby{嫁}{よめ}にやらんぞ」と\ruby{言}{い}っていた\ruby{父}{ちち}が\ruby{結婚式}{けっこんしき}では、\ruby{大泣}{おおな}きだった。
+248:A:馬:\ruby{馬}{うま}
+248:N:「馬の骨」は「出身や立場、身分の分からない人」という意味。。多少見下している意味がある。
+#
+249:D:20071022
+249:E:I cleaned up my desk and my room and so everything is ready. Now the only thing left is to study for tomorrow's exam.
+249:F:angela.kim@ic.keio.ac.jp:ok
+249:J:机の上も部屋もきれいになって、準備(a)、さあ、あとは明日の試験勉強をするだけだ。
+249:R:\ruby{机}{つくえ}の\ruby{上}{うえ}も\ruby{部屋}{へや}もきれいになって、\ruby{準備}{じゅんび}(a)、さあ、あとは\ruby{明日}{あす}の\ruby{試験}{しけん}\ruby{勉強}{べんきょう}をするだけだ。
+249:A:万端:\ruby{万端}{ばんたん}
+249:N:「万端」は「あらゆる事がらがすべてそろう」の意味だが、「準備万端」の形で用いられる。「準備万端」は「すべて準備は完了した」の意味。
+#
+250:D:20071025
+250:E:He called himself a genius of overnight cramming when he was a student. However he had just expressed so to be modest. In fact, he had been studying until late every night according to his mother.
+250:F:angela.kim@ic.keio.ac.jp:ok
+250:J:彼は学生時代、自分自身を一夜漬けの天才と呼んでいたが、それは謙遜で、彼の母親によると本当は毎晩遅くまで勉強していたそうだ。
+250:R:\ruby{彼}{かれ}は\ruby{学生時代}{がくせい}、\ruby{自分自身}{じぶんじしん}を(a)\ruby{漬}{づ}けの\ruby{天才}{てんさい}と\ruby{呼}{よ}んでいたが、それは\ruby{謙遜}{けんそん}で、\ruby{彼}{かれ}の\ruby{母親}{ははおや}によると\ruby{本当}{ほんとう}は\ruby{毎晩}{まいばん}\ruby{遅}{おそ}くまで\ruby{勉強}{べんきょう}していたそうだ。
+250:A:一夜:\ruby{一夜}{いちや}
+250:N:「一夜漬け」は漬物の作り方であるが、そこから作られた比喩で、「試験の前日一晩だけの試験勉強」という意味がある。試験だけでなく「簡単に、あまり熱心でなく物事を作り上げる」という意味にも使われる。
+#
+251:D:20071029
+251:E:I have to complete this work at any cost!
+251:F:angela.kim@ic.keio.ac.jp:ok
+251:J:何が(a)でもこの仕事はやり遂げなければならない。
+251:R:\ruby{何}{なに}が(a)でもこの\ruby{仕事}{しごと}はやり\ruby{遂}{と}げなければならない。
+251:A:何:\ruby{何}{なに}
+251:N:「何が何だか」は「よくわからない」時に使うが、「何が何でも」は「どうしても、どんなことがあっても、必ずやりたい」時に使う副詞句。
+#
+252:D:20071104
+252:E:Since luxuary items are used for a long time, it is safer to avoid flamboyant colours and novel designs and to select those which will not soon pall.
+252:F:angela.kim@ic.keio.ac.jp:ok
+252:J:高級品は長く使うものですから、派手な色や奇抜なデザインを避けて、(a)が来ない色やデザインを選んだ方が無難ですね。
+252:R:\ruby{高級品}{こうきゅうひん}は\ruby{長}{なが}く\ruby{使}{つか}うものですから、\ruby{派手}{はで}な\ruby{色}{いろ}や\ruby{奇抜}{きばつ}なデザインを\ruby{避}{さ}けて、(a)が\ruby{来}{こ}ない\ruby{色}{いろ}やデザインを\ruby{選}{えら}んだ\ruby{方}{ほう}が\ruby{無難}{ぶなん}ですね。
+252:A:飽き:\ruby{飽}{あ}き
+252:N:「奇抜な」は「奇抜な色／デザイン」の形でよく使われ、「今までにない、新しい、人を多少驚かせる」という意味がある。「飽きが来る」は「だんだんつまらなくなって、使いたくなくなる、目立たなくなる」という意味。「無難な」は「とてもよいのでもないが、悪くもない、安全な」という意味。
+#
+#\ruby{}{}
+253:D:20131120
+253:E:
+253:F:angela.kim@ic.keio.ac.jp
+253:J:熱が冷める
+253:R:
+253:A:
+253:N:
+#
+#\ruby{}{}
+#254:D:20071109
+#254:E:
+#254:F:angela.kim@ic.keio.ac.jp
+#254:J:
+#254:R:
+#254:A:
+#254:N:
+#1      2 3
+#number:D:日付
+#number:E:英訳
+#number:F:英訳校正
+#number:J:日本語例文。(a)..(z)は補充箇所
+#number:R:上記のルビつき文
+#1      2 3                4    5
+#number:A:解答箇所(a)ならa:解答:解答ルビつき
+#number:N:ノート
+#
+#  「選りに選って」もほぼ同じような意味で使われる。他にもっと相応（ふさわ）しいものがあるのに、敢えてそれを選ぶことはないのに。多く、選択した行為を非難する、前置きの言葉として用いる。
+# かけひき
+# だろ？
+#ADD \ruby{}{}
+#
+#△10 事...事実も把握していないうちに、そんなに急いで事を進めるべきではない。
+#　　（難しそう）	
+#寝相が悪い
+#縁起でもないことをいう。
+#△3 悪しからず
+#（学習者がそれほど使う機会もないのではと思う。）
+# 
+#△5 高々
+#  1)...「たかだかと」の形で
+#  ア) 目立って高いさま。「—と抱きあげる」→鼻高々
+#  イ) 声高（こわだか）に言うさま。「声—と朗読する」
+#  2)...どうみても。せいぜい。たかが。「—百人が関の山だ」
+#　（「せいぜい」の方がよく使うような気がする）
+#
+#△9 いかない...そこまでいかなくても
+#　　　（私の頭にすぐ例文が浮かばないだけなんですけど）　　　　　
+#
+#△13 たたく...「隠居した」なんて陰口もたたかれた。
+#　　　（「陰口をたたく」他にも言いますか？悪口を言う。ほらをふく。）
+#目もくれない(give no regards to●pay no attention to●show no regard for●take no)
+#脇目も振らず(with the most concentrated attention)
+#きれい事をいう
+#あきれるほどいい女
+#やっちゃいました。
+#あわせる顔がない
+#生きた心地がしない。
+#及びもつかない
+#他人の褌で相撲をとる
+#もてあそぶ／もてあます
+#順調といえば順調です。
+#とおもいきや
+#早い話が
+#何から何まで
+#〜としては上出来だ。
+
+#見た目や印象はアレですが、これがなかなかどうして確かにうまい。シーフードの塩味があんこのあまみとうまいことからまっていて、もっと強烈に合わないかと思っていたら割と相性よく食べられました。
