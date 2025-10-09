@@ -1,0 +1,1802 @@
+\documentclass[
+uplatex,
+b5paper,
+10pt,
+%english,
+dvipdfmx
+]{jsbook}
+\usepackage{nruby}
+\usepackage{type1cm} % 任意サイズの拡大縮小を可能にする
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+\hypersetup{% hyperrefオプションリスト
+ setpagesize=false,
+ bookmarksnumbered=true,%
+ bookmarksopen=true,%
+ colorlinks=true,%
+ linkcolor=black,
+ urlcolor=black,
+ citecolor=red,
+}
+
+\usepackage{framed}
+\usepackage{wrapfig}
+\usepackage{scalefnt}
+\usepackage{version,url,here}	% required for `\comment' (yatex added)
+\usepackage[dvipdfmx]{graphicx}	% required for `\includegraphics' (yatex added)
+\usepackage{natbib,url}
+\usepackage{pdfpages}
+%\usepackage[varg]{txfonts}
+\usepackage{makeidx}
+%\usepackage{listings,jlisting}
+\usepackage{listings,plistings}
+\usepackage{color}
+%\usepackage{xcolor}
+\lstloadlanguages{[LaTeX]TeX, sh}
+\colorlet{lstcolTeX}{green!50!black}
+\colorlet{lstcoltext}{black}
+\colorlet{lstcolshell}{blue!50!black}
+
+\newcounter{marginparcntbw}[chapter]
+\newcommand{\theMarginparcntbw}{$\dagger$\arabic{marginparcntbw}}
+\newcommand{\Marginparbw}[2][−10pt]{%
+  \stepcounter{marginparcntbw}%
+  \textsuperscript{\theMarginparcntbw}%
+  \protect\marginpar{\vskip#1\footnotesize%
+    \textsuperscript{\theMarginparcntbw}
+    {#2}\par}}
+
+
+\setlength{\fboxsep}{.5zw}
+\setlength{\fboxrule}{.6pt}
+
+\begin{comment}
+\lstset{basicstyle=\small\ttfamily, keywordstyle={}, commentstyle={},
+  columns=flexible, showspaces=false, showstringspaces=false,
+  aboveskip=12pt, belowskip=12pt, frame=tb,
+  framesep=8pt, framerule=2pt, xleftmargin=10pt,
+  xrightmargin=10pt, framexleftmargin=10pt, framexrightmargin=10pt
+}
+\end{comment}
+
+\lstdefinestyle{shell}{language=sh, rulecolor=\color{lstcolshell!25}}
+\lstdefinestyle{TeX}{language=TeX, rulecolor=\color{lstcolTeX!25}}
+\lstdefinestyle{text}{language=TeX, rulecolor=\color{lstcoltext!25}}
+\begin{comment}
+\lstnewenvironment{listing}[1][]
+{\lstset{#1}}
+{}
+\end{comment}
+
+
+\lstset{% 
+language={C++}, 
+% backgroundcolor={\color[gray]{.85}},% 
+basicstyle={\small},% 
+identifierstyle={\small},% 
+%commentstyle={\small\ttfamily \color[rgb]{0,0.5,0}},% 
+%keywordstyle={\small\bfseries \color[rgb]{0,0,1}},% 
+ndkeywordstyle={\small},% 
+stringstyle={\small\ttfamily}, 
+frame={tb}, 
+breaklines=true, 
+columns=[l]{fullflexible},% 
+numbers=left,% 
+xrightmargin=0zw,% 
+xleftmargin=3zw,% 
+numberstyle={\scriptsize},% 
+stepnumber=1, 
+numbersep=1zw,% 
+morecomment=[l]{//}% 
+} 
+
+\begin{comment}
+\lstset{
+    basicstyle={\ttfamily\footnotesize}, %書体の指定
+    keywordstyle={\footnotesize\ttfamily},%
+%    frame=tRBl, %フレームの指定
+    frame={t}, %フレームの指定
+    framerule=1.2pt, %フレームの指定     
+%    frame=leftbar, %フレームの指定
+    framesep=0pt, %フレームと中身（コード）の間隔
+    breaklines=true, %行が長くなった場合の改行
+    linewidth=1\textwidth, %フレームの横幅
+    xrightmargin=3zw,%
+    xleftmargin=3zw,%
+    numbers=left,%
+    numberstyle={\ttfamily\scriptsize},%
+    lineskip=0\baselineskip, %行間の調整
+    tabsize=2 %Tabを何文字幅にするかの指定
+}
+\end{comment}
+
+%\usepackage[format=hang,labelsep=colon,margin=10pt,sc,small]{caption}
+\bibpunct[:\,]{(}{)}{,}{a}{}{,}
+\definecolor{royalblue}{rgb}{0.0, 0.14, 0.4}
+\newcommand{\colorrule}[1]{%
+\begingroup\color{#1}\hrule\endgroup%
+}%
+\newcommand{\Colorrule}[1]{%
+\begingroup\color{#1}\rule{1\textwidth}{2.4pt}\endgroup%
+}%
+\newcommand{\TColorrule}[1]{%
+\begingroup\color{#1}\rule[2pt]{1\textwidth}{.6pt}\endgroup%
+}%
+
+\usepackage{framed}
+\usepackage{color}
+\usepackage{dcolumn}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\usepackage{multicol}
+
+\definecolor{lightgray}{rgb}{0.75,0.75,0.75}
+
+\newtheorem{theo}{定理}[section]
+\newtheorem{defi}{定義}[section]
+\newtheorem{lemm}{補題}[section]
+
+\makeatletter
+\renewenvironment{leftbar}{%
+%  \def\FrameCommand{\vrule width 3pt \hspace{10pt}}%  デフォルトの線の太さは3pt
+  \def\FrameCommand{\vrule width 1pt \hspace{10pt}}% 
+  \MakeFramed {\advance\hsize-\width \FrameRestore}}%
+ {\endMakeFramed}
+\makeatother
+
+\newenvironment{redleftbar}{%
+  \def\FrameCommand{\textcolor{red}{\vrule width 1pt} \hspace{10pt}}% 
+  \MakeFramed {\advance\hsize-\width \FrameRestore}}%
+ {\endMakeFramed}
+
+\newenvironment{lightgrayleftbar}{%
+  \def\FrameCommand{\textcolor{lightgray}{\vrule width .5zw} \hspace{10pt}}% 
+  \MakeFramed {\advance\hsize-\width \FrameRestore}}%
+{\endMakeFramed}
+
+
+\AtBeginDvi{\special{papersize=\the\paperwidth,\the\paperheight}}
+
+\newcommand{\mini}[2]{%
+\setbox0=\hbox{\tt#1}\dp0=4pt%
+\setbox1=\hbox{\tiny#2}\ht1=4pt\dp1=7pt%
+\leavevmode\vtop{\offinterlineskip\box0\box1}}
+
+\newif\ifVOLONE
+\newif\ifVOLTWO
+\newif\ifVOLTHREE
+
+\VOLONEfalse
+\VOLTWOfalse
+\VOLTHREEtrue
+
+
+% Japanese用の条件マクロ
+\newif\ifJapanese
+\newif\ifEnglish
+%\Japanesefalse
+\Japanesetrue   
+
+% English用の条件マクロ
+\ifJapanese
+\renewcommand{\lstlistlistingname}{プログラム一覧}
+\Englishfalse
+\else
+\Englishtrue
+\fi
+
+\newif\ifBLANK
+%\BLANKtrue
+\BLANKfalse
+
+\newif\ifBIB
+%\BIBtrue
+\BIBfalse
+
+\newif\ifINDEX
+\INDEXtrue
+%\INDEXfalse
+
+\newif\ifOUT
+%\OUTtrue
+\OUTfalse
+
+\newif\ifSHADOW
+%\SHADOWtrue
+\SHADOWfalse
+
+\newif\ifSchedule
+%\Scheduletrue
+\Schedulefalse
+
+\newif\ifBook
+%\Booktrue
+\Bookfalse
+
+\newif\ifPreface
+\Prefacetrue
+%\Prefacefalse
+
+
+\newif\ifCHSummary
+%\CHSummarytrue
+\CHSummaryfalse
+
+\newif\ifPOSTSCRIPT
+%\POSTSCRIPTtrue
+\POSTSCRIPTfalse
+
+\newif\ifWORKBOOK
+\WORKBOOKtrue
+%\WORKBOOKfalse
+
+
+\newif\ifPLAYGAME
+%\PLAYGAMEtrue
+\PLAYGAMEfalse
+
+\newif\ifVOCAB
+%\VOCABtrue
+\VOCABfalse
+
+\newif\ifDEVELOPPER
+%\DEVELOPPERtrue
+\DEVELOPPERfalse
+
+\ifWORKBOOK
+\DEVELOPPERfalse
+\Prefacetrue
+\Booktrue
+\CHSummaryfalse
+\fi
+
+
+
+\newcounter{excount}
+\setcounter{excount}{0}
+\newcounter{kdcount}
+\setcounter{kdcount}{0}
+\newcounter{ancount}
+\setcounter{ancount}{0}
+\newcounter{columncnt}
+\setcounter{columncnt}{0}
+
+
+\ifBook
+\newenvironment{toiquestion}{%
+\vspace{-1\baselineskip}
+\noindent
+\refstepcounter{excount}
+\begin{quote}%
+ \bfseries 
+ \hspace{-2zw}問\theexcount\hspace{.7zw}%
+}{%
+\end{quote}
+%\vspace{1.5\baselineskip}
+%\vspace{-.5\baselineskip}
+}
+\else
+\newenvironment{toiquestion}{%
+\vspace{-1\baselineskip}
+\noindent
+\refstepcounter{excount}
+\begin{quote}%
+ \hspace{-2zw}問\theexcount\hspace{.7zw}%
+}{%
+\end{quote}
+%\vspace{1\baselineskip}
+%\vspace{-.5\baselineskip}
+}
+\fi
+
+\newenvironment{toianswer}{%
+%\vspace{-2\baselineskip}%
+ \begin{quote}
+  \parindent=1zw
+  \hspace{.6zw}%
+}{%
+ \end{quote}
+}
+
+\setlength\unitlength{1pt}
+
+
+\ifEnglish
+\title{{\LARGE Linguistics}\\\protect\Colorrule{red}\\{\normalsize In very common daily life}}
+\author{Hilofumi Yamamoto\\{\small\sc Ph.\,D. in Linguistics}}
+\date{Tokyo Institute of Technology}
+\else
+\title{言語学\\
+\vspace{-.5\baselineskip}
+\Colorrule{red}\\\normalsize ことば研究史}
+\author{山 元 啓 史\\{\small Ph.\,D.\,in Linguistics}}
+\date{東京工業大学}
+\fi
+
+\makeindex
+\begin{document}
+\frontmatter
+%\maketitle
+\thispagestyle{empty}
+\setlength\unitlength{1pt}
+\begin{picture}(150,70)(70,565)  
+% \put(172,182){\fbox{\includegraphics[trim=0 0 0 0,clip,width=0.465\hsize]{Sewing1898Edit.jpg}}}
+% \put(162,182){\fbox{\includegraphics[trim=0 0 0 0,clip,width=0.52\hsize]{TheDifficultLesson1884.eps}}}
+ \put( 0,475){\linethickness{0.4mm}\line(1,0){600}}
+ \put( 0,173){\linethickness{0.4mm}\line(1,0){600}}
+\ifEnglish
+ \put(170,578){\scalefont{2.0}\bfseries Idiomatic Japanese}
+ \put(145,555){\scalefont{1.5}\bfseries The Secret of Advanced Japanese}
+ \put(230,530){\scalefont{1.8}\bfseries Volume 3}
+ \put(210,500){\includegraphics[trim=10 45 10 45, clip, width=12mm]{./edx-logo.eps}}
+ \put(245,502){\scalefont{1.5}\itshape\bfseries Tokyo\,Tech\,X}
+ \put(100,484){\scalefont{1.5}\bfseries Let's learn Idiomatic Expressions of Japanese}
+% \put(210,450){\scalefont{3.0} Workbook}
+ \put(160,145){\scalefont{2.0}\bfseries Hilofumi Yamamoto}
+ \put(215,130){\itshape\bfseries Ph.\,D.\,in Linguistics}
+ \else
+ \put(170,578){\scalefont{2.0}\bfseries Idiomatic Japanese}
+ \put(145,555){\scalefont{1.5}\bfseries The Secret of Advanced Japanese}
+ \put(230,530){\scalefont{1.8}\bfseries Volume 3}
+% \put(210,500){\includegraphics[trim=10 45 10 45, clip, width=12mm]{./edx-logo.eps}}
+% \put(245,502){\scalefont{1.5}\itshape\bfseries Tokyo\,Tech\,X}
+ \put(100,484){\scalefont{1.5}\bfseries Let's learn Idiomatic Expressions of Japanese}
+% \put(202,162){\scalefont{0.8}\bfseries やま}
+% \put(239,162){\scalefont{0.8}\bfseries もと}
+% \put(275,162){\scalefont{0.8}\bfseries ひろ}
+% \put(312,162){\scalefont{0.8}\bfseries ふみ}
+% \put(200,145){\scalefont{2.0}\bfseries 山　元　啓　史}
+
+ \put(160,145){\scalefont{2.0}\bfseries Hilofumi Yamamoto} 
+ \put(215,130){\itshape\bfseries Ph.\,D.\,in Linguistics}
+\fi
+\end{picture}
+\newpage
+
+\ifEnglish
+Idiomatic Japanese, Volume 3
+\else
+日本語らしい日本語: 上級への道 Volume 3
+\fi
+
+\setlength\unitlength{1pt}
+ \begin{picture}(0,130)(60,100)
+
+%  \put(63,40){\fbox{\includegraphics[trim=0 0 0 0,clip,width=0.3\hsize]{TheDifficultLesson1884.eps}}}
+%  \put(63,40){\fbox{\includegraphics[trim=0 0 0 0,clip,width=0.3\hsize]{Sewing1898Edit.jpg}}}  
+%  \put(190,37){\includegraphics[width=5mm]{./Cc-public_domain_mark_white.eps}}
+  
+\ifEnglish
+%  \put(55,20){\scalefont{1.0} Sewing}
+%  \put(65,06){\scalefont{1.0} 1898 by William-Adolphe Bouguereau  (1825--1905)}
+  
+  %File:William-Adolphe Bouguereau (1825-1905) - Sewing (1898) Edit.jpg  
+\else
+%  \put(55,20){\scalefont{1.0} Sewing}
+%  \put(65,06){\scalefont{1.0} 1898 by William-Adolphe Bouguereau  (1825–1905)}
+  
+\fi
+ \end{picture}
+% https://commons.wikimedia.org/wiki/File:Mary_Lemon_Waller_-_Spring_Voices_royalacademyillu1896roya_0070.jpg
+\vfill
+
+Hilofumi Yamamoto, Ph.\,D. in Linguistics, Tokyo Institute of Technology
+
+\textcopyright\,Hilofumi Yamamoto, 2019
+
+
+\ifPreface
+\ifEnglish
+\chapter*{Preface}
+\else
+\chapter*{はじめに}
+\fi
+
+\ifEnglish
+This is one of the Japanese textbooks by edX MOOCs Tokyo Institute of Technology Online Education Development Room.
+There is a knack to studying languages.
+You should not stick to the details of it.
+It is also necessary to get used to thinking that it does not matter.
+No matter how much the structure of the bicycle you study, you will not be able to ride a bicycle.
+There are many people who are riding a bicycle with no knowledge of the structure of the bicycle.
+Just watching a bicycle will not allow you to ride a bicycle.
+Anyway, if you do not ride a bicycle, you will not be able to ride.
+Let's try it.
+
+\else
+
+本書はedX MOOCs 東京工業大学オンライン教育開発室による日本語の教科書である。
+言語の勉強にはコツがあります。
+詳細なところにこだわらないことである。
+どうでも良いと考えることに慣れることも必要である。
+自転車の構造をいくら勉強しても、自転車には乗れない。
+自転車の構造を知らないで自転車に乗っている人はたくさんいる。
+自転車を見ているだけでは、自転車に乗れない。
+とにかく自転車に乗らなければ、乗れるようにはなれない。
+やってみよう。
+\fi
+
+\vspace*{1\baselineskip}
+\begin{flushright}
+ \includegraphics[width=.2\hsize]{bicycle201801.pdf}
+
+ \ifEnglish
+ Hilofumi Yamamoto, Ph.\,D.\\
+ Professor of Linguistics\\
+ Tokyo Institute of Technology\\
+ \else
+ {\large 山 元 啓 史}\hspace*{3zw}
+ 
+ {\small 東京工業大学教授\hspace*{2zw}}
+\fi
+\end{flushright}
+
+%\end{document} % for checking the first page.
+
+
+\mainmatter
+
+\ifEnglish
+\chapter{Getting Started}
+\else
+\chapter{さあ、はじめよう}
+\fi
+
+\includepdf[pages=32-36, scale=.84, trim=70 80 70 80, clip, offset=0mm -7mm, pagecommand={\thispagestyle{plain}}]{./idiom_compact.pdf}
+\label{113010_11Dec18} % U2S1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Presession  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Dictation   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifEnglish
+\chapter{Commentary}
+
+\else
+\chapter{解説編}
+
+\fi
+
+例文、解説、小練習、関連事項を掲載した解説編である。
+練習編と同様、10の表現が１回分として使えるようになっている。
+
+%\section*{日本語のイディオムと文型： 201 -- 210}
+\begin{enumerate}
+\setcounter{enumi}{200}
+
+%201
+\index{ものともせず@ものともせず}
+\index{ものともしない@ものともしない}
+\index{もの@もの}
+\index{ず@ず}
+\item 寒さを\underline{   }ともせず、彼は薄着で出かけていった。 
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] もの
+\item[◆] 「ものともせず」、「ものともしない」... ``問題としない''、``恐
+	  れない''という意味。「もの」の表現は、いろいろなイディオムがあ
+	  るので、辞書を見ておくとよい。
+
+\item[◆] 「もの」は物事、事物、者（人）、などなんでも対象となる。「もの
+	  ともせず」は「対象物としないで」ということから、「全然問題にし
+	  ないで」という意味になる。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 世の批判を物ともせずに信念を貫き通した。
+      (Undaunted by criticism, he held fast to his opinions.)
+       研究社『新英和・和英中辞典』より
+\item MF中田\footnote{中田英寿(なかだひでとし): 日本の若手、天才的MF。サッ
+      カーセリエAローマのMFで優勝。元全日本代表。2006年ワールドカップド
+      イツ大会を機に引退。}は、昨晩帰国し、時差などものともせず、序盤か
+      ら２アシスト２ゴールの大活躍で、セリエAの貫禄\footnote{かんろく
+      (=presence, dignity)} を見せつけた。
+\item 人間が耐えられない厳しい寒さや暑さをものともせず、真空中でも生き
+       延びる ``スーパー生物''がいる。クマムシ\footnote{日本国内はもとよ
+       り、北極に近いグリーンランドから南極大陸、ヒマラヤ山中や深さ百五
+       十メートルの海底にまで生息している。}がそれである。
+\end{itemize}
+
+%202
+\index{たんなる@単なる}
+\index{すぎない@すぎない}
+\item その選手にとって、１００勝という数字は\underline{   }通過点にすぎないだろう。 
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] 単なる
+\item[◆] 単なる〜にすぎない、単なる〜のようなもの、単なる〜だけのもの
+	  「単なる」特別のことではない。「ただの、ふつうの、一般的な」と
+	  言い換えられる。名詞にかかる。「単なる(N)にすぎない」「単に(V)
+	  したにすぎない」
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item 彼は単なる「あほ」です。彼のいったことを気にする方がおかしいです。
+\item それは単なる状況証拠にすぎない
+\item 若者のおしゃれ感覚は抜群で、単に『まね』をするだけでなく、ファッショ
+      ン的にも優れたものを見ることができる。
+\item さて、サイトウという名字、この仕事を始めるまで私は「斎藤」も「斉藤」
+      も同じで、単に斉は斎の略字だと思っていた。しかし、「斉」は「一斉に」
+      と使うように、「ととのう」「ひとしい」という意味で、音はセイ。齊の
+      略字。斎は「潔斎」と使うように、「つつしみ」「ものいみ」という意味
+      で、音はサイ。齊と示を組み合わせた齋の略字。つまり斎と斉は別の字だっ
+      た。『毎日新聞』より
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[☆] 比べましょう
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item バスの乗降の新システムを単に試みているだけではない。
+\item バスの乗降の新システムは単なる試みではない。(実験ではない)
+\item その重要な問題をただ単に先送りしたにすぎない。
+\item その重要な問題を単なる先送りにしたにすぎない。
+\end{itemize}
+
+
+%203
+\index{など@など}
+\index{とりたて@取り立て}
+\index{とるにたらぬ@取るに足らぬ}
+\index{とるにたりない@取るに足りない}
+\item 若者言葉は貧弱だ、流行語など取るに\underline{   }と考えるのは老化した大人
+      の偏見だ。
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] 足らない, 足らぬ
+\item[◆] 取るに足らない[文末] / 取るに足らぬ N という形が多いが、「ぬ/
+	  ない」どちらでも可能。「重要じゃない、どうでもいい、つまらない
+	  こと」という意味。「足らない」の古語「足らぬ」は「取るに足らぬ
+	  こと」のように現代語でも使われる。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item 誰がかいた絵かということは、取るに足りない問題と言ってよい。
+\item ほとんど取るに足らない理由を口実に、連続リンチ殺人を繰り返していた。
+\item 円に対してのドル安によるアメリカ国内の物価上昇などは、取るに足らな
+      いものである。
+\item 私自身のわずかな戦争体験を述べても、年上の人にはとるに足りないもの
+      と受け取られ、若い世代には、はるかな過去の話でしかない。
+\end{itemize}
+
+
+%204
+\index{かねをかける@金をかける}
+\index{かける@かける}
+\index{という@という}
+\index{かねる@かねる}
+\index{かねない@かねない}
+\item 金をかければ、必ずよいものができるという意見があるが、私たちはこれ
+      には賛成し\underline{   }。
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] かねる
+\item[◆] V-masu かねる...''〜できない''、``しにくい''という意味。できな
+	  い、という意味の間接的な表現。否定文ではないけれども否定の意味
+	  があるので注意すること。否定型 V-masu かねない...否定形にする
+	  と ``〜する危険がある''という意味になる。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item[○] V-masu かねる
+\end{itemize}
+\begin{itemize}
+% \itemsep=-4pt
+ \item 遺憾ながら、ご依頼に応じかねます。
+ \item お調べになりたい電話番号は、お名前だけでは、分かりかねます。
+ \item レストランで子供の行儀があまりに悪いのを見るに見かねてしかってしまった。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item[○] V-masu かねない
+\end{itemize}
+\begin{itemize}
+% \itemsep=-4pt
+\item 名産だからといって、たったひとつの果物ばかりを作り続けていたのでは、
+      地元経済のアキレスけん\footnote{アキレス腱はギリシア神話の英雄アキ
+      レスの名前に由来している。母親のテティスはアキレスを不死身にしよう
+      と、不死身の水、ステュクス河に、彼をひたしたが、母は彼の踵をつかん
+      でいたので、そこを水にひたすことを忘れてしまった。そのせいで、踵だ
+      けが不死身にならなかった。アキレスはトロイ戦争に参加して活躍したが、
+      矢が、アキレスの唯一の弱点であった踵に当って、死んでしまった。}に
+      なりかねないということだ。
+ \index{ばかり@ばかり}
+\item 具体的な経済的基盤が確実でなければ、欧州通貨統合は絵に描いたモチに
+      なりかねない
+\item 子供がウェートレスにぶつかりかねない。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[◆] 「〜をかねる」(兼ねる / 兼用 / 兼任 )
+\end{itemize}
+\begin{itemize}
+% \itemsep=-4pt
+ \item 小さい家なので、食事をするところと応接間を兼ねている。
+ \item 急死のため、当分の間、首相が外相を兼ねることとなった。
+\end{itemize}
+
+%205
+\index{という@という}
+\index{でんぶんのひょうげん@伝聞の表現}
+\index{なにひとつとして@何一つとして}
+\index{だれひとりとして@誰一人として}
+\item その彫刻家は、何\underline{   }として今までに完璧だと実感できる作品はなかっ
+      たという。
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] 一つ
+\item[◆] 何一つとして、誰一人として...ない→後ろに否定が来て、全然〜な
+	  い、という意味になる。
+\end{itemize}
+\begin{itemize}
+% \itemsep=-4pt
+\item とにかく闇夜は何一つ物が見えない。
+\item 容疑者のアリバイから判断して、犯罪らしい具体的な行動は何一つ浮かん
+      でこない。
+\item 遺伝子分析から、これらの結果を支持するような証拠は何一つ得られなかった。
+\item 試合には勝ったものの、リーグ落ちが決定した\footnote{1999年、サッカー
+      Jリーグで、浦和レッズは最終戦、延長戦で試合に勝ったが、その試合途
+      中に他の試合で、ジェフ市原が先に90分で勝利を決めたため、得点差でJ1
+      リーグからJ2リーグに降格することが決定した。}のでは、何一つとして
+      勝利したと実感できず、涙を飲む結果となってしまった。
+\item 「政治蚊共は巨悪を働いても誰一人ム所へ行かぬ」(原文のまま)『毎日新
+      聞』より
+\end{itemize}
+
+%206
+\index{みうごきがとれない@身動きが取れない}
+\index{とれない@とれない}
+\index{かのうのひょうげん@可能の表現}
+
+
+\item その店は猫の額ほどの店で、客が五人も入れば身動きが\underline{   }なる。 
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□]  取れなく / できなく
+\item[◆] 「身動きが取れない」体が自由にならない、という意味だが、自分の
+	  体に問題があるのではなく、部屋がせまい、人が多い、お金がない、
+	  スケジュールがいっぱい、など周囲に原因がある場合に言う。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item 体を動かすこと→「満員で身動きもとれない(できない)車内」
+\item 自由に行動すること→「借金で身動きとれない(できない)」
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[☆] 意味を考えましょう
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item 議会や業界の圧力で身動きがとれない結果なのだ。
+\item 山手線の上野—御徒町駅間は274％、身動きがまったく取れない状態だ。
+\item 今や若者にとっては、携帯は、これなくして身動き一つとれない必需品なのだ。
+\item 小渕首相は国民世論の渦のなかで身動きが取れない。
+\item 通産省からの働き掛けが強力で、身動きが取れないことを認める。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[◆] 「A が取れない」：A...時間、連絡、責任、場所、予約、対策
+\end{itemize}
+\begin{itemize}
+% \itemsep=-4pt
+\item 勉強の時間がとれないのではなく、勉強がやりたくないのです。
+\item どうやってこの失敗の責任をとるのでしょう。
+\item ここで花見をしたいという人が多く、春になると場所を取るのがたいへん
+      だ。
+\item 一度工場の中に入ったら、昼の休憩時間になるまで、連絡はとれませんと
+      いわれた。
+\end{itemize}
+
+\index{ねこのひたいほど@猫の額ほど}
+\index{ほど@ほど}
+\begin{itemize}
+% \itemsep=-4pt
+\item[◆] 「猫の額ほど」..とてもせまいこと。なぜ「犬」ではなく「猫」なの
+	  かわからない。「猫の額ほどの部屋」とはあまりいわない。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item 東京では、一生、汗して働いても猫の額ほどの土地も手に入らない。
+\item うちの庭は猫の額ほどだが、誰にも売れない大切な理由がある。
+\item その地主は、ゴミ消却炉の建設の噂が流れるとすぐ、猫の額ほどの広さで
+      できるだけ多くの反対派の人に売り飛ばした。
+\end{itemize}
+
+
+%207
+\index{やらねば@やらねば}
+\index{やさき@矢先}
+\index{たちあがる@立ち上がる}
+\index{ふくごうどうし@複合動詞}
+\index{ぎもんし@疑問詞}
+\index{はんごのひょうげん@反語の表現}
+\item 彼の死は「私が\underline{   }、誰がやる」といって、立ち上がった矢先の不幸
+      であった。
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] やらねば
+\item[◆] 〜ねば、誰がやる(反語：他には誰もいない)。「ねば」は「なければ」
+	  と同じ。「ねば」は「ぬ」(203)の ``ば'' 形。もとは古語で、現代
+	  語に残った形なので、引用句や改まった話、文中で使われることが多
+	  い。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item 間にあわせねばと、必死でレポートを書いた。
+\item 病気を早く治すためにも、食べたくなくても食べねば、とは思うが、舌の
+      感覚が失われた人間には、気の遠くなるような努力であった。
+\item モーニングコールを友人に頼んでおかねば、と考える私だった。
+\item 「やらねば」という思いとは裏腹に身体が思うように動かない。
+\end{itemize}
+
+%208
+\index{おもてもうらも@表も裏も}
+\index{つくす@つくす}
+\index{しりつくす@知り尽くす}
+\index{つもり@つもり}
+\index{つもりだった@つもりだった}
+\index{まったく@まったく}
+\index{きがつく@気がつく}
+\item その選手は、プロ野球界の表も裏も知り\underline{   }いるつもりだったが、裏
+      方で自分たちを支えている人々の存在にはまったく気がつかないでいた。
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] つくして
+\item[◆] 〜つくす... ``すっかり〜てしまう''という意味。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item その研究は1960年代にすべてやり尽くされている。
+\item 現代オリンピックの商業的問題点をすべて知りつくしている。
+\item その店のメニューはすべて食べ尽くしてしまった。
+\item 言うべきことはすべて言いつくした。
+\item 彼は、銀行業界を知りつくしている。
+\item 閉店のため値下げして商品を売りつくした。
+\item 連休のために借りてきたビデオを全部見つくした。
+\end{itemize}
+
+%209
+\index{いいことに@いいことに}
+\index{こと@こと}
+\index{あとをたたない@後をたたない}
+\index{へいきで@平気で}
+\item 黒い袋で中身が見えないのを\underline{   }ことに、危険物や非常識な汚物を平
+      気で捨てる人が後をたたなかった。
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] いい
+\item[◆] 〜をいいことに
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item その学生は、先生が見ていないのをいいことに、毎回カンニングを繰り返
+      していたそうだ。
+\item 親がいないのをいいことに、子供はいつまでもテレビゲームに夢中だ。
+\item 台風で電車が止まったのをいいことに、会社を休んでしまった。
+\item 法で規制されていないのをいいことに40％もマージンをとって平気で商売
+      をしている店がある。
+\item 日本語が分からないのをいいことに、店の悪口を言いたいだけ言っていた
+      ら、「そうですか。そんなにこの店、趣味がわるいですか？」と流暢な日
+      本語で話しかけられてびっくりした経験がある。
+\end{itemize}
+
+%210
+\index{として@として}
+\index{よそ@よそ}
+\index{をよそに@をよそに}
+\index{ところ@ところ}
+\item 世界遺産\footnote{世界遺産(せかいいさん)条約に基づく文化遺産として
+      登録する制度。世界遺産委員会の本部はパリ。日本では、奈良・法隆寺、
+      姫路城、西本願寺、広島原爆ドームが世界遺産条約のリストに登録されて
+      いる。}としての保存を訴える被爆者の声を\underline{   }に、ヒロシマ
+      \footnote{当時(1993年)、原爆ドームをユネスコの「世界遺産」に、との
+      署名運動が広島で広がっていた。しかし、申請の権限を持つ文化庁は「原
+      爆ドームは文化財ではない」と否定した。後世に伝える遺産と位置づける
+      広島市と市民は「同じ戦争の遺産であるポーランド・アウシュビッツの強
+      制収容所が登録されているのになぜ」、「国には原爆を投下した米国への
+      配慮があるのではないか」との批判がマスコミに流れた。}を伝えるもの
+      が消えてゆくところであった。
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] よそ
+\item[◆] 〜をよそに...〜に全然関心を払わないで、〜に関係なく、という意味
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item 外の雨天をよそに一回戦３試合の熱戦を行った。
+\item 長引く不況をよそに、家庭用テレビゲームは、好調に売行きを伸ばした。
+\item その国では、不況、凶作、災害などの国民の苦しみをよそに、民意を切り
+      捨てる政治が長い間続いた。
+\item 親の心配をよそに、娘たちは夜の渋谷で遊んでいる。
+\item その俳優は、夫人の心配をよそに、「別宅持とうがアタシの勝手でしょ」
+      と答えていた。
+\item 湖畔では、氷点下の厳しい寒さをよそに露天ぶろがにぎわっている。
+\item 両親の反対をよそに、一人エルサレムに来て宗教学校に通って、哲学を学
+      んだ。
+\end{itemize}
+\end{enumerate}
+
+%\section*{日本語のイディオムと文型： 211 -- 220}
+\begin{enumerate}
+\setcounter{enumi}{210}
+\setcounter{footnote}{0}
+
+%211
+\index{ために@ために}
+\index{みられる@みられる}
+\index{みて@みて}
+\index{かのうのひょうげん@可能の表現}
+
+\item 中程度の豪雨であったが、短時間であったために各地で川が氾濫したと
+      \underline{   }。
+
+\begin{itemize}
+% \itemsep=-4pt
+\item[□] 見られる
+\item[◆] 「〜と見られる」、「〜と見て」という表現は、``〜と考えられる''、
+	  ``〜と考えて、予想して、''という意味で実際に見ているのではない。
+	  助詞「と」を使う点に注意。
+\item[◆] 類似の表現に「〜と見て、...」がある。意味はほぼ同じであるが、
+	  文中で使われる。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+\item 就職活動にかかる費用が増えたのは、不況で会社訪問に交通費を支給する
+      企業が減ったことなどが、主な原因と見られる。
+\item その監督はチームをワールドシリーズ優勝に導くなどの活躍をしたが、自
+      ら引退の理由は述べなかったが、一部では、健康上の問題が引退の主な理
+      由と見られている。
+\item アメリカン航空123便(ボーイング737)の機長から「米軍機と見られる戦闘
+      機と異常接近（ニアミス）した」 との報告があった。
+\item ウエストは年代が高くなるほど太っている。一般に63センチが標準と見ら
+      れているが、30代では3割、40代では4人に1人で66センチの人数と同数、
+      50、60代では69センチが最も多かった(4人に1人)。
+\item 私の見るところでは = in my view.
+\end{itemize}
+
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item[◆] 「氾濫」の意味は、川の水がいっぱいになって出てきて、被害が出
+	    ること。この意味から、いっぱいに出てきて、迷惑でよくないもの
+	    が出回ることの意味がある。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 利根川が氾濫した。
+ \item 日本の本屋では、子どもに見せられないような雑誌が氾濫している。
+ \item 日常の日本語の中には、外来語が氾濫している。
+\end{itemize}
+
+
+%212
+\index{ては〜、〜ては〜@ては〜、〜ては〜}
+\index{ていく@ていく}
+\index{ては@ては}
+\item  書い\underline{ A }消し、書い\underline{ B }消しして、作品を仕上げていった。
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] A ては; B ては
+  \item[◆] 「A ては、B、A ては、B して、」...動作を繰り返す様子、対比し
+	    て述べる表現。
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 喰っては、寝、喰っては、寝してさえいれば、すぐ太りますよ。
+ \item 雪国の子どもでも、何回でも、滑べっては、転び、滑べっては、転びして、
+       みんな滑べれるようになるんです。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+  \item[◆] 次の文は「ては」が一度しか出てこないが、繰り返しや対比の意味
+	    がある。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item その後もよく親の家を訪ねては小遣いなどをもらっていたという。
+ \item 岩肌に爪（つめ）をたてては一歩ずつよじのぼるような確かさ。
+ \item 高層ビル建築用超巨大ロボット(縦52メートル、横73メートル)。
+       3日で1階分を組み立てては、油圧ジャッキで上昇を続け、まるでキノ
+       コが成長しているよう。雨にぬれずに作業も出来る。
+ \item イチロー\footnote{プロ野球選手。本名、鈴木一郎、オリックスブルー
+       ウェイブの外野手。2000年より大リーグ、シアトルマリナーズに移籍し
+       た。2007年のオールスターゲームでは日本人初のMVPに選ばれた。イチロー
+       は日本だけでなくアメリカでも何度か首位打者のタイトルを手にしてい
+       る。} は、守っては、ベストナインに選ばれるし、打っては、7年連続の
+       首位打者のタイトルをとっており、現代野球の天才といわれている。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+  \item[☆] 比べてみましょう。
+\end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item こう気が散っていては、書けない。
+ \item こう暑くては、仕事にならない。
+\end{itemize}
+
+%213
+\index{ても、〜ても@ても、〜ても}
+\index{よう@よう}
+\index{ようとおもう@ようと思う}
+\index{のみほす@飲み干す}
+\index{ふくごうどうし@複合動詞}
+\index{ぬ@ぬ}
+ \item 焼け酒で一升ビン\footnote{現在では、紙パックやペットボトルが使用
+       されているが、昔は、酒や油の約1.8リットル入る大きなビンや缶が使わ
+       れていた。}の酒を飲み干そうと思っても、日頃飲まぬ私では、飲ん
+       \underline{   }飲ん\underline{   }なくならない。
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] でも
+  \item[◆] 〜でも(ても)、〜でも(ても)、｛おわらない｜なくならない｝...
+	    繰り返しても終わらない状態を述べる表現。
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item ベルトをするのをわすれてしまっために、上げても上げてもスボンがず
+       り落ちてきて、ステージではみんなの笑いものになってしまった。
+ \item 行っても行っても終わりのない道。
+ \item テーブルをふいてもふいても、汚されるので、いやになった。
+ \item たくさんあるので、使っても使ってもなくならない。
+ \item むしってもむしっても生えてくる草をむしることは、むなしい努力。
+ \item 打たれても打たれても、なお耐え続けて勝利を手にしたボクサー。
+\end{itemize}
+
+%214
+\index{ば@ば}
+\index{ばいいのに@ばいいのに}
+\index{たらいいのに@たらいいのに}
+\index{たら@たら}
+\index{うちあける@うちあける}
+\index{ふくごうどうし@複合動詞}
+ \item 早く打ち明ければ\underline{   }のに、まだ言えないでいる。
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□]  いい
+  \item[◆]  〜ば、いいのに／〜たら、いいのに
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 映画の内容を批判するなら堂々とやればいいのに。
+ \item ちゃんと講義のノートを覚えればいいのに。
+ \item 後ろから、ずっと白バイがついてきていて、気になって仕方がない。私
+       は違反を犯していない自信はあるが、早く抜けばいいのについてくる。
+ \item 「そんなに合格したいのなら、死ぬ気になってやればいいのに」とは言っ
+       たが、本当に死んでしまうとは思わなかった。
+ \item 「鬼のように」という表現も好きではない。「鬼のように勉強した」
+       「鬼のように風邪を引いた」などと使われるので「すごく、とても」を
+       表すらしい。それならはじめから「とても」や「すごく」を使えばいいのに。
+\end{itemize}
+
+%215
+\index{ふくごうどうし@複合動詞}
+\index{きる@きる}
+\index{こむ@こむ}
+\index{ところ@ところ}
+\index{ところを@ところを}
+\index{たところ、@たところ、}
+ \item  疲れきって、ぐっすり寝込んでいる\underline{   }を起こされ、機嫌が悪くなった。
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] ところ
+  \item[◆] 〜ているところを...、〜たところを...。「〜ところ\underline
+	    {を}」のように助詞が「を」であることに注意。「ところ」は基本
+	    的に「場所」という意味だが、「場面」という意味にもなって、
+	    「ちょうど〜する/した/している/していた時」という意味になる。
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item お忙しいところをお邪魔しました。
+ \item 婚約者以外の女性といっしょにいるところを誰かに見られはしないかと
+       心配していた。
+ \item この生徒は、タバコを吸っているところを学校の担任の教師に見つかっ
+       て、停学処分となっていた。
+ \item １ページですむところを４ページも５ページも書くから、難しい文章に
+       なるのだ。
+ \item その犯人は自宅に戻ったところを、張り込んでいた刑事に逮捕された。
+\end{itemize}
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[◆] 〜たところ、...「〜たら」の意味。
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 困っていたところ、助けてくれた。
+ \item 間に合わないと思って急いで行ったところ、まだ電車はきていませんで
+       した。
+ \item カレーを作ったところ、みんなから、おいしいと喜んでもらえた。
+\end{itemize}
+
+
+%216
+\index{のなにはじない@の名に恥じない}
+\index{まぎれもなく@まぎれもなく}
+ \item この二人の作家は、\underline{   }もなく中堅の実力派の名に恥じない小説家であっ
+       た。 
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] まぎれ
+  \item[◆] まぎれもなく...「まちがいなく」「疑いなく」「絶対に」という
+	    意味。「まぎれる」という動詞があり、その意味は、「まちがえる」
+	    という意味なので、「まぎれもなく」というのは「まちがいなく／
+	    絶対に」という意味になる。その他、「気がまぎれる」という言葉
+	    もあるが、これは「いやなことを忘れることができる」という意味。
+	    「まぎれ\underline{が}なく」のような言い方はない。
+ \end{itemize}
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item 冠婚葬祭はまぎれもなく政治の場である。
+  \item キリスト教との出合いは、まぎれもなく田中さんの人生を変えたのだ。
+  \item ソウルの街頭でよく売っている、三十円くらいで中にはアンがいっぱい
+	入っているたべもの。韓国語の名称は、タイ焼きではなく「ブンオ・パ
+	ン」。「フナの形をしたパン」という意味。形や色はまぎれもなく、日
+	本のタイ焼きと同じだが、韓国人は、タイよりフナに形が似ていると主
+	張する。
+ \end{itemize}
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[◆] 〜の名に恥じない...「〜といわれるくらい立派な」
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 横綱の名に恥じないよう、充実した毎日を送れるよう考えていきたいと
+       思っています。
+ \item 幸運に恵まれて伝統あるタイトルを獲得できました。今後はその名に恥
+       じぬよう練習を続けたいと思います。
+ \item 昨年１２月出版された「就職バカ本（ぼん）」（青英舎、９８０円）は
+       編集部が学生の失敗談ばかり集めて、投稿とそれを題材にした４コママ
+       ンガで構成したもので、題名に恥じない（？）「バカ話」が、いっぱい
+       詰まっている。
+ \index{ばかり@ばかり}
+\end{itemize}
+
+%217
+\index{おもいおもいに@思い思いに}
+ \item 三人の子供たちは、思い\underline{   }にこの一年の楽しかった想い出を日記に綴っ
+       た。 
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] 思い
+  \item[◆] 思い思いに、...「それぞれが、個人の好きなように」という意味。
+ \end{itemize}
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item 冬休み明けの月曜日。校内は、授業を終え、休暇の興奮を残した学生た
+	ちが思い思いにくつろいだり、かたまって話し込んでいた。
+  \item 仮に「公園体験」と名付けよう。ヨーロッパに旅行して、彼の地の公園
+	で市民たちが思い思いにくつろぎ、遊んでいる光景に接して「うーん、
+	いいなあ」と思う。
+  \item 親子連れやカップルがウキワで沖合に出たり、砂浜で日光浴をするなど
+	思い思いに浜辺の夏を楽しんでいた。
+ \end{itemize}
+
+
+%218
+\index{あいついで@相次いで}
+\index{という@という}
+ \item 今場所は初日から二横綱が\underline{   }、やぶれるという波乱続きの幕開け
+       であった。 
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] 相次いで
+  \item[◆] 相次いで、〜という...続き。よくないことが続くことを書く場合
+	    が多い。「次々に」とほぼ同じ意味。
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 相次いで、殺人事件が起こった。
+ \item 相次いで、両親がこの世を去った。
+ \item 英政府は八日夜、シェットランド諸島南部沿岸一帯を禁漁区としたが
+       \footnote{1993年英スコットランド北部のシェットランド諸島沿岸でリ
+       ベリア船籍タンカー「ブレイア」(89,700t)が座礁し、原油が流出し海上
+       汚染事件がおこった。}、同諸島産のサーモンなどの契約キャンセルが相
+       次いでいるという。
+ \item 昨晩、名神高速道路下り線で、乗用車１台とトラック３台が相次いで追
+       突、最後尾のトラックは横転した。
+\end{itemize}
+
+\begin{itemize}
+ \item[比較] 次々と／に
+\end{itemize}
+\vspace{5mm}
+
+
+%219
+\index{ものの@ものの}
+\index{たところ@たところ}
+\index{ところ@ところ}
+ \item 実験を数回繰り返したところ、着火はする\underline{   }すぐに火は消えることが分
+       かった。 
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] ものの
+  \item[◆] 「〜はするものの」→``〜するけれども、''という意味。
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 飛行機に乗って、日本に来たものの、言葉はわからないし、友達もいな
+       いし、 自分の夢とはほど遠いスタートだった。
+ \item 50代ではじめたハーフマラソン\footnote{普通のマラソン(フルマラソ
+       ン)の42.195kmに対して、その半分の21.0975kmを走る。}では、アキレス
+       けんが痛みだすハプニングがあったものの、夫婦２人そろって完走を果
+       たした。
+ \item 消費税の値上げはしないとは約束したものの、いつまでこの言葉を信じ
+       ていいものか。
+ \item マイケル・ジョーダン\footnote{Michael Jordan:元アメリカ、シカゴ、
+       ブルズのバスケットプレーヤー。}という名前こそでていないものの、
+       NBA\footnote{全米プロバスケットボール協会}の大物となれば、自ずと
+       ジョーダン氏と誰もが考えてしまう。
+\end{itemize}
+
+%220 
+\index{さき@先}
+\index{さきほど@さきほど}
+\index{さっき@さっき}
+ \item この先どのようにするかは、\underline{   }に決定した法案を元に
+      検討するとのことであった。 
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] 先
+  \item[◆] つい、さきほど
+ \end{itemize}
+
+\begin{itemize}
+% \itemsep=-4pt
+ \item 先にゆでておいた卵をつぶして、今度はマヨネーズといっしょにソース
+       を作ります。
+ \item 雨なので、遠足は先に延ばしましょう。
+ \item アインシュタイン\footnote{Einstein, Albert; 1879--1955; ドイツ生
+       まれの米国の物理学者; 相対性理論の創始者}は、この先、相対性理論
+       \footnote{そうたいせいりろん; the theory of relativity}を発表し、
+       世界的な科学者になるのだが、当時、そんなことを想像する人は誰もい
+       なかった\footnote{アインシュタインやエジソンは子どもの時、学校嫌
+       いだったことが伝えられている。若林実著『アインシュタインも学校嫌
+       いだった』『エジソンも不登校児だった』(筑摩書房)。}。
+ \item[注] さっき、町で見た人は、ここの市長さんなんだよ。
+\end{itemize}
+
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[【練習】] 「先」の意味は、\underline{過去のこと}、\underline{未
+		  来のこと}、\underline{はじめに}の意味、\underline {場
+		  所}の意味のうちのどれかを考えなさい。
+ \end{itemize}
+
+\begin{enumerate}\itemsep=-4pt
+ \item 先に行ってください。
+ \item 先に乗った人から、後ろに座ってください。
+ \item 先に手順について説明しましょう。
+ \item この先にきれいな喫茶店がありますから、行きましょう。
+ \item 先のことは、誰にも分からないよ。
+ \item 先日、お会いしたはずですが、名前を覚えていないんですよ。
+\end{enumerate}
+\end{enumerate}
+
+%\section*{日本語のイディオムと文型： 221 -- 230}
+\begin{enumerate}
+\setcounter{enumi}{220}
+\setcounter{footnote}{0}
+
+%221
+\index{つゆしらず@露知らず}
+\index{ず@ず}
+\index{ても@ても}
+\index{かのうのひょうげん@可能の表現}
+ \item そんな大変なことになっているとは\underline{   }知らず、家でゆっ
+       くりビールでも飲んでいました。
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] 露
+  \item[◆] 「…とは露しらず」の形で覚えるとよい。全く気がつかなかった、
+       知らなかったという意味。
+ \end{itemize}
+
+       「露」は昔から和歌でよく詠まれる（使用される）言葉（和歌でよく詠
+       まれる言葉を歌語または歌ことばと呼ぶ）である。
+
+       夜中に気温が下がって、早朝、草木についている小さな水玉のことを露
+       という。気温が上がってしまうと、消えてなくなってしまうことから、
+       「命のはかなさ(short-lived/ephemeral life)」をしばしば意味する。
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item 
+ \end{itemize}
+
+%222
+\index{いてもたっても@いてもたっても}
+\index{ず@ず}
+\index{ても@ても}
+\index{かのうのひょうげん@可能の表現}
+ \item \underline{   }立ってもいられず。 
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] いても
+  \item[◆] 安心できない、落ち着かない様子、気持。
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item 中学生の時、広島カープの初優勝に感動、それ以来、野球少年となった。
+	大学でも野球を続けたが、ごく普通の会社に就職した。しかし、ある時、
+	いても立ってもいられなくなり、安定した生活を捨て、プロ野球の入団
+	テストを受けた。
+%  \item 勝っても負けても一生懸命。
+%  \item やせても枯れても一部上場企業。
+%  \item 第二に勝っても負けても表情に出さない禁欲的なドラマ。
+%  \item 家庭にいても外にいても、僕はいつも同じなんです。
+%  \item 季語があってもなくても、17文字音であればよいのだ。
+%  \item 競走馬は、重すぎても軽すぎても出世は難しいようだ。
+ \end{itemize}
+
+%223
+\index{だめもと@だめもと}
+ \item とても難しいとは思いますが、あきらめずに、
+       \underline{   }でやってみましょう。
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] だめもと
+  \item[◆] 漢字で「駄目元」とも書く。「駄目で元々」の略。「元から駄目な
+	    のだから、失敗しても惜しくはないはず。少ない可能性でも成功す
+	    れば得だから、チャレンジした方がよい」の意味。
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item 裕福に育った現代っ子は、何事も打算的で、だめでもともと、だめもと
+	で、チャレンジするという姿勢が欠けていると言われている。
+ \end{itemize}
+
+%224
+\index{とね@とね}
+\index{みないとね@みないとね}
+ \item いいとは思うけれど、高い品物なので買ってもいいかどうか、
+       かみさんに聞いてみない\underline{   }。
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] とね
+  \item[◆] 「聞いてみないとね」は「聞いてみないとわからない」「聞いてみ
+	    ないといけない」のように（わからない／いけない）という言葉が
+	    省略されている。\footnote{1999年に所ジョージが作曲した「明石
+	    家さんまさんに聞いてみないとね」（明石家さんま＆所ジョージ）
+	    はこの言葉を有名にした。}
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item 被災地が今どういう状況なのかわからないので、実際に行って
+	みないとね、わかりませんね。
+ \end{itemize}
+
+
+%225
+\index{こどもだまし@子供だまし}
+\index{やすやすと@やすやすと}
+\index{てにのる@手に乗る}
+ \item そんなにやすやすと子供\underline{   }の手には乗るもんか。
+
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] だまし
+  \item[◆] 「子供だまし」簡単な人をだます手段。
+       「やすやすと」簡単に。
+       「手に乗る」相手の思うように動かされること。
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item そもそもロックンロールそのものが「子供だまし」だからだ。誰でも弾
+	けるような曲を弾いて、下手な声でがなる。変な格好で踊る。俺は強い
+	ぜーと言ってみる。子供だまし以外の何者でもない。
+       (\url{http://d.hatena.ne.jp/Maktab/20070501}より引用)
+ \end{itemize}
+
+
+%226
+\index{いきをのむ@息をのむ}
+\index{いきをこらす@息を凝らす}
+\index{おもわず@思わず}
+\index{じっと@じっと}
+\index{かたずをのむ@固唾をのむ}
+ \item その歴史的瞬間をじっと息を\underline{   }テレビで見ていました。
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] のんで
+  \item[◆] 「思わず、ハッと、じっと」などの言葉につづけて、驚いて息をと
+	    めること。「息を殺して」「息を凝らして」「かたずをのんで」と
+	    もいう。
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item この紅葉の美しさに思わず息を飲んでしまった。
+ \end{itemize}
+
+%227
+\index{いられない@いられない}
+\index{ずにはいられない@〜ずにはいられない}
+\index{にはいられない@〜（ず）にはいられない}
+\index{ず@ず}
+\index{かのうのひょうげん@可能の表現}
+\index{くさい@〜くさい}
+ \item 水着のデザインが古くさかったので、失礼だったかもしれな
+       いが、笑わずには\underline{   }。
+
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] いられなかった
+  \item[◆] 「〜ずにはいられない」は「自然と〜してしまう」「〜したくなっ
+	    てしまって困る」「〜したくてがまんできない」という意味。
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item その漫才師のあまりのばかばかしさに、吹き出さずにはいられなかった。
+  \item 愛さずにはいられない。
+ \end{itemize}
+
+
+%228
+\index{せいいっぱい@精一杯}
+\index{いっぱいいっぱい@いっぱいっぱい}
+\index{なんて@〜なんて}
+\index{こと@こと}
+ \item 自分のことだけで\underline{   }一杯なのに、これ以上、他の人の
+       世話なんてできません。
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] 精
+  \item[◆] 「精一杯やる」は、「一所懸命にやる」と文脈的には同じ意味もあ
+	    るが、「これ以上できないほどの」という意味もあって、否定的に
+	    使われることもある。
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item 今はこれが精一杯、これで気に入らなければ、他の店に行って。
+  \item 精一杯やって、それでだめだったら諦めるしかない。
+  \item これでももういっぱいいっぱい。これ以上もう何も車に積み込めませんよ。
+ \end{itemize}
+
+%229
+\index{もの@もの}
+\index{すぎる@すぎる}
+\index{かんがえもの@考え物}
+ \item 子供が喜ぶのはいいことだが、こんなにはしゃぎすぎるも考え
+       \underline{   }だね。
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] 物
+  \item[◆] 「考え物」は、「表面はよさそうだけれども、実は問題点」という
+       意味。
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item 裏側のデザインだけが派手になるのは考え物だ。
+  \item 安いことはいいことだが、故障が少なからずあるのは考物だね。
+  \item 人を使うことばかり覚えて、自分から何もしようとしなくなるのは考え物だ。
+ \end{itemize}
+
+%230
+\index{まちにまった@待ちに待った}
+\index{わくわく@わくわく}
+\index{どきどき@ドキドキ}
+ \item 今晩\underline{   }に待った初の世界陸上日本開催にわくわくドキ
+       ドキしている。
+       
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item[□] 待ち
+  \item[◆] 「待ちに待った」は「いよいよ」とも言い替えられる。「長い間待っ
+	    て、もうすぐその瞬間を迎える」という意味。
+
+ \end{itemize}
+
+ \begin{itemize}
+ % \itemsep=-4pt
+  \item 遅咲きの白いコブシの花が咲いた。樹齢250年のこの木はなぜか三年に
+       一度しか花が開かず、今年が待ちに待った満開の年だった。
+  \item 待ちに待った手紙がが今日届きました。
+  \item 今日は待ちに待った海外旅行だったが、テロ対策のため空港のセキュリ
+	ティチェックでちょ{}っとうんざりした。
+ \end{itemize}
+
+% 新しいアイテムはここに追加。
+
+\end{enumerate}
+
+%\section*{日本語のイディオムと文型： 231 -- 240}
+\begin{enumerate}
+\setcounter{enumi}{230}
+\setcounter{footnote}{0}
+
+%231
+\index{よりけり@よりけり}
+\index{ばあい@場合}
+ \item それがいいかどうかは、時と場合に\underline{   }。 
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] よりけり
+  \item[◆] 「けり」は古語では過去や詠嘆を意味するが、この場合は強調の意味。
+
+ \end{itemize}
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item 冗談をいうのは、時と場合、それに相手によりけりですよ。
+  \item TPOというのは、Time、Place、Occasionの頭文字から作られた和製英語
+	で、場合によりけり、という意味であったが、そのうち、条件に応じた
+	正しい服装をする（Occasional Dressing）という意味になった。
+ \end{itemize}
+
+%232
+\index{め@目}
+ \item 彼には絵を見る\underline{   }がありますね。
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] 目
+  \item[◆] 「目がある」は「人、芸術、価値の選択・判断する力がある」とい
+      う意味。「選択眼がある」ともいう。
+ \end{itemize}
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item 人を見る目がある。
+  \item 料理人の第一歩は、まず材料を見る目を養うことから始まる。
+ \end{itemize}
+
+%233
+\index{ほかならない@〜に他ならない}
+\index{なにをかくそう@何を隠そう}
+\index{なに@何}
+\index{とうぜんのごとく@当然のごとく}
+\index{ごとし@ごとし}
+ \item 物理学者が明らかにしようとしているものは、何を隠そうわれわれが当
+       然のごとく生きているこの自然界に\underline{   }ならない。
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item[□] 他
+  \item[◆] 「〜に他ならない」は「〜そのものだ」に言い替えられる。「何を
+      隠そう」は「本当のことをいえば」の意味。「当然のごとく」は「あたり
+      まえのように」「日常何の不思議もなく」の意味。
+ \end{itemize}
+
+ \begin{itemize}
+% \itemsep=-4pt
+  \item なんでこんなにめんどうなことが毎日できるのかというとそれは楽しい
+	からに他ならない。
+  \item この選手の退場はチームにとって事実上の敗北宣言に他ならない。
+ \end{itemize}
+
+%ここにいれる。
+
+\end{enumerate}
+
+%\section*{日本語のイディオムと文型： 241 -- 250}
+
+%\begin{enumerate}
+%\setcounter{enumi}{240}
+%\setcounter{footnote}{0}
+
+%222
+%\index{いてもたっても@いてもたっても}
+%\index{ず@ず}
+%\index{ても@ても}
+%\index{かのう@可能}
+% \item \underline{   }立っても居られず。 
+%
+% \begin{itemize}
+%% \itemsep=-4pt
+%  \item[□] いても
+%  \item[◆] 
+% \end{itemize}
+%
+% \begin{itemize}
+%% \itemsep=-4pt
+%  \item 今が大事なトマトの収穫期。しかし、「いても立ってもいられなくて」と
+%	祖国での息子の晴
+%  \item 勝っても負けても一生懸命。
+%  \item やせても枯れても一部上場企業。
+%  \item 第二に勝っても負けても表情に出さない禁欲的なドラマ。
+%  \item 家庭にいても外にいても、僕はいつも同じなんです。
+%  \item 季語があってもなくても、17文字音であればよいのだ。
+%  \item 競走馬は、重すぎても軽すぎても出世は難しいようだ。
+% \end{itemize}
+%\end{enumerate}
+
+%\chapter{基礎データ編}
+
+%\input{kanji.txt}
+
+
+\begin{comment}
+\begin{enumerate}
+ \item Unit 2 Section 1 p.\,\pageref{113010_11Dec18} %01
+\end{enumerate}
+\includepdf[pages=-, scale=.84, trim=70 50 70 34, clip, offset=0mm -7mm, pagecommand={\thispagestyle{plain}}]{./DICTEE01-20181009.pdf}
+\label{113010_11Dec18} % U2S1
+\end{comment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Summary   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifCHSummary
+\ifEnglish
+\chapter{Summary}
+\else
+\chapter{まとめ}
+\fi
+\fi
+
+\appendix
+%\def\thechapter{Appendix \Alph{chapter}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Appendix   %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\chapter{推薦するもの}
+
+\chapter{英訳}
+
+\begin{itemize}\small
+%\itemsep=-4pt
+\input{./idiom_english1}
+\end{itemize}
+
+%\chapter{プログラム編}
+
+%\input{idiom.pl}
+
+
+
+\backmatter
+\ifPOSTSCRIPT
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Postscript   %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifEnglish
+\chapter*{Postscript}
+\else
+\chapter*{あとがき}
+\fi
+
+\section*{読むということ}
+
+\vspace*{1\baselineskip}
+
+\begin{flushright}
+ {\large 山 元 啓 史}\hspace*{3zw}
+ 
+ {\small 東京工業大学教授\hspace*{2zw}}
+\end{flushright}
+
+\begin{comment}
+\begin{enumerate}
+ \begin{comment}
+
+ \item 授業は隣の人とのおしゃべりが中心、
+ \item 毎回振り返りのレポート、
+ \item 試験問題を学生自らが作り、
+ \item 鉛筆を転がすような試験ではなく、
+ \item 本質が議論できるよう口述試験を受け、
+ \item テーマを自分で選び、
+ \item 決められた作法で書くことを学び、
+ \item 自分で何かを明らかにする、
+ \item 徹底的に能動的でなければ参加できない形式にした。
+ \end{comment}
+\end{enumerate}
+
+\end{comment}
+\fi
+
+\ifBIB
+\bibliographystyle{jecon}
+\bibliography{koten}
+\fi
+
+\ifINDEX
+\newpage
+\ifBook
+\printindex
+\else
+\printindex
+\fi
+\fi
+
+\cleardoublepage
+\thispagestyle{empty}
+\noindent
+\ifEnglish
+{\Large \underline{Back cover:}}
+\else
+{\Large \underline{裏表紙について}}
+\fi
+\setlength\unitlength{1mm}
+
+\ifBook
+ \begin{picture}(50,180)(0,0)
+\else
+ \begin{picture}(50,180)(0,0)
+\fi   
+% \put(80,117){\includegraphics[width=30mm]{../phd/p20/Quintus_Horatius_Flaccus.eps}}
+
+\ifEnglish
+% \put(80,110) {
+% \begin{minipage}[c]{70mm}\scriptsize
+%  Quintus Horatius Flaccus\\
+%  BC.65.12.8--BC.8.11.27\\
+%  Roman poet from Southern Italy
+% \end{minipage}}
+\else
+%  \put(80,106) {
+% \begin{minipage}[c]{70mm}\scriptsize
+%  クィントゥス・ホラティウス・フラックス\\
+%  Quintus Horatius Flaccus\\  
+%  BC.65.12.8--BC.8.11.27\\
+%  古代ローマ時代の南イタリアの詩人
+% \end{minipage}}
+\fi  
+% \put(10,130){\fbox{\includegraphics[width=60mm]{../phd/p20/Carpe_Diem.eps}}} 
+
+\ifEnglish
+ \put(10,108){
+% \begin{minipage}[c]{60mm}\small
+%  In the sundial of the photograph, it is engraved with ``Carpe Diem'' in Latin, ``Seize the day'' in English.
+%  It means that you will enjoy the day and living the best.
+%  It is a phrase that appears in the poetry of ancient Roman poet Horatius in the 1st century BC.
+%  The phrase also appears in the movie ``Dead Poets Society'', 1989 played by Robin William.
+% \end{minipage}}
+\else
+% \put(10,100){
+% \begin{minipage}[c]{60mm}\small
+%   写真の日時計にはラテン語で``Carpe Diem''（カルペ・ディアム）と彫ってあります。
+%  英語では``Seize the day''、
+%  日本語では「その日を摘め」と訳されています。
+%  そこには「その日を楽しみ、精一杯いきること」という意味があります。
+%  紀元前1世紀の古代ローマの詩人ホラティウスの詩に登場する句で、
+%  映画``Dead Poets Society''（1989年、邦題「いまを生きる」ロビン・ウィリアムズ主演）にも出てきます。
+% \end{minipage}}
+\fi  
+  \put(20,0){
+  \begin{minipage}[c]{100mm}\small
+    \begin{center}
+\ifBook
+     Ten Sentences A Day for Eight Weeks\\Dictation Everyday\\Volume 3\\
+\else
+     Workbook\\    
+\fi
+\ifEnglish
+     \textcopyright\ First edition\\
+     
+%     Author: Hilofumi Yamamoto\\
+\else
+     \today\  第1版\\
+     
+     著者: 山元啓史\\
+\fi     
+    \textcopyright 2018, Hilofumi Yamamoto
+    \end{center}
+  \end{minipage}}
+  \end{picture}
+
+\newpage
+\thispagestyle{empty}
+\ifBook
+\begin{picture}(50,160)(0,0)\centering
+\else
+\begin{picture}(50,160)(0,0)\centering
+\fi  
+% \put(04,127){\includegraphics[bb=0 0 870 129,clip,width=106mm]{../hiratoki.sub_header.jpg}}
+% \put(07, 51){\fbox{\includegraphics[width=100mm]{../phd/p20/Carpe_Diem.eps}}}
+ \put(42, 41){\Large\sc Carpe Diem}
+% \put(38, 30){\fcolorbox{white}{royalblue}{\includegraphics[width=35mm]{../phd/logo02.png}}}
+% \put(50, 20){\includegraphics[trim=0 0 0 0, clip, width=10mm]{./edx.eps}}
+% \put(100, 20){\includegraphics[trim=0 0 0 0, clip, width=10mm]{./oedo2.eps}}
+% \put(36, 10){\includegraphics[trim=0 0 0 0, clip, width=40mm]{./maxresdefault.eps}}
+% \put(33, 13){\includegraphics[trim=10 10 10 10, clip, width=23mm]{./edx-logo.eps}}
+% \put(56, 10){\includegraphics[trim=10 100 10 150, clip, width=28mm]{./oedofblogo.eps}}
+% \put(27, 15){\includegraphics[trim=185 250 185 250, clip, width=60mm]{../phd/hisaotakibanner2.pdf}}
+% \put(37,-05){\includegraphics[width=40mm]{../phd/p20/guru_logo1.eps}} 
+% \put(45.5, 3.5){\includegraphics[bb=0 0 421 178,clip,width=23mm]{../phd/KAKENHIlogo_M.jpg}}
+% \put(38, -6){\includegraphics[trim=0 0 0 0, clip, width=38.5mm]{../phd/p20/KAKENHIlogo_M.eps}} 
+\begin{comment}
+ % \put(04,127){\includegraphics[bb=0 0 870 129,clip,width=106mm]{../hiratoki.sub_header.jpg}}
+% \put(07, 51){\fbox{\includegraphics[width=100mm]{../phd/p20/Carpe_Diem.eps}}}
+ \put(42, 41){\Large\sc Carpe Diem}
+% \put(38, 30){\fcolorbox{white}{royalblue}{\includegraphics[width=35mm]{../phd/logo02.png}}}
+% \put(42, 15){\includegraphics[bb=0 0 421 178,clip,width=30mm]{../phd/KAKENHIlogo_M.jpg}} 
+% \put(37,-05){\includegraphics[width=40mm]{../phd/p20/guru_logo1.eps}}
+\end{comment} 
+\end{picture}
+\end{document}
+
+\begin{comment}
+\section{ポスター発表とコメント（必修）}
+
+\begin{enumerate}
+
+ \item ポスター発表のタイトルの申し込みをGoogle Formから、7月20日の
+       23:59:59（厳守: これを守らないと単位喪失）までにお願いします。
+ \item ポスター発表のタイトルの申し込みは{\Huge こちら$\downarrow$}
+
+       \begin{center}
+       \includegraphics[trim=0 0 0 0, width=.3\textwidth, clip]{../phd/p20/LinguisticsB_PosterPresentation.eps}	
+       \end{center}
+\end{enumerate}
+
+\end{comment}
