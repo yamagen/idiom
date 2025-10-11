@@ -9,7 +9,7 @@
     ],
     "description": "Fill in the blanks with appropriate idiomatic expressions.",
     "version": "2.0",
-    "date": "Last change: 2025/10/09-22:18:12."
+    "date": "Last change: 2025/10/11-22:04:09."
   },
   {
     "id": 1,
@@ -859,5 +859,1259 @@
       "b": ["さえ"],
       "c": ["(返:かえ}せ"]
     }
+  },
+  {
+    "id": 101,
+    "expression-en": "It would be impossible to go out in such a fierce snowstorm, even if I tried.(=Even if I tried, it would be impossible to go out in such a fierce snowstorm.)",
+    "expression-ja": "こんなに(雪:ゆき)では、(出:で)かけようにも(a)。",
+    "answers": {
+      "a": [
+        "(出:で)かけられない",
+        "(出:で)かけようがない",
+        "(出:で)かけることができない",
+        "(出:で)かけるわけにはいかない"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "expression-en": "Even if I complained to the likes of a company president such as him/her, he/she wouldn't listen.",
+    "expression-ja": "あんな(社長:しゃちょう)に(文句:もんく)をいった(a)で、(聞:き)いてくれるわけがない。",
+    "answers": {
+      "a": ["ところで"]
+    }
+  },
+  {
+    "id": 103,
+    "expression-en": "He/she sent us one letter, and we haven't heard a word from him/her since.",
+    "expression-ja": "(手紙:てがみ)を(一通:いっつう)よこした(a)、(何:なん)の(音沙汰:おとさた)もない。",
+    "answers": {
+      "a": ["きり"]
+    }
+  },
+  {
+    "id": 104,
+    "expression-en": "It's a waste to leave this room unused.",
+    "expression-ja": "この(部屋:へや)を(遊:あそ)ばせて(a)のはもったいない。",
+    "answers": {
+      "a": ["おく"]
+    }
+  },
+  {
+    "id": 105,
+    "expression-en": "His death will be mourned all the more deeply because he was the only painter born during the Meiji era.",
+    "expression-ja": "(明治:めいじ)(生:う)まれの(画家:がか)は、(彼一人:かれひとり)であった(a)に、(彼:かれ)の(死:し)は(大:おお)いに(悔:く)やまれる。",
+    "answers": {
+      "a": ["だけ"]
+    }
+  },
+  {
+    "id": 106,
+    "expression-en": "My carelessness caused a child to be seriously injured.  (My carelessness inflicted serious injury on a child.)",
+    "expression-ja": "(私:わたし)の(不注意:ふちゅうい)で、(子供:こども)に(大怪我:おおけが)を(a)しまった。",
+    "answers": {
+      "a": ["させて"]
+    }
+  },
+  {
+    "id": 107,
+    "expression-en": "Although he had caught a cold, he won the marathon.",
+    "expression-ja": "(彼:かれ)は(風邪:かぜ)をひいたにも(a)、(マラソン大会:まらそんたいかい)で(優勝:ゆうしょう)した。",
+    "answers": {
+      "a": ["かかわらず"]
+    }
+  },
+  {
+    "id": 108,
+    "expression-en": "If you're going to visit him/her in the hospital, wait until he/she is a little better.",
+    "expression-ja": "(病院:びょういん)に(見舞:みま)いに(a)、もう(少:すこ)し(元気:げんき)になってからにしなさい。",
+    "answers": {
+      "a": ["なら"]
+    }
+  },
+  {
+    "id": 109,
+    "expression-en": "Since then, nuclear power has come to be noticed as a new form of energy.",
+    "expression-ja": "(原子力:げんしりょく)はそれ(以後:いご)(新:あたら)しい(エネルギー:えねるぎー)として(注目:ちゅうもく)を(a)ようになった。",
+    "answers": {
+      "a": ["あびる"]
+    }
+  },
+  {
+    "id": 110,
+    "expression-en": "I almost left my umbrella on the train, you know.",
+    "expression-ja": "もうちょっとで、(傘:かさ)を(電車:でんしゃ)に(忘:わす)れる(a)でしたよ。",
+    "answers": {
+      "a": ["ところ"]
+    }
+  },
+  {
+    "id": 111,
+    "expression-en": "I had a terrible time making up my mind whether to have soba (buckwheat noodles) or udon (wheat noodles), and I finally ended up having curry and rice.",
+    "expression-ja": "そばかうどんか、さんざんまよった(a)(結局:けっきょく)(カレーライス:かれーらいす)を(食:た)べた。",
+    "answers": {
+      "a": ["あげく"]
+    }
+  },
+  {
+    "id": 112,
+    "expression-en": "On a hot summer day, nothing could be better than drinking cold beer in a beer garden.",
+    "expression-ja": "(夏:なつ)の(暑:あつ)い(日:ひ)には(ビアガーデン:びあがーでん)で(a)(冷:ひ)えた(ビール:びーる)をのむに(a)。",
+    "answers": {
+      "a": ["かぎる"]
+    }
+  },
+  {
+    "id": 113,
+    "expression-en": "Just what effect did these scientific-cultural phenomena have on human beings?",
+    "expression-ja": "こうした(科学:かがく)の(現象:げんしょう)はいったい、(人間:にんげん)にどんな(影響:えいきょう)を(a)であろうか。",
+    "answers": {
+      "a": ["(及:およ)ぼした", "(及:およ)ぼしたの"]
+    }
+  },
+  {
+    "id": 114,
+    "expression-en": "Whether you go or not, it doesn't matter to me.  (Whether you go or not has nothing to do with me.)",
+    "expression-ja": "あなたが(a)と、(b)まいと、(私:わたし)には(関係:かんけい)ないことだ。",
+    "answers": {
+      "a": ["(行:い)こう"],
+      "b": ["(行:い)く"]
+    }
+  },
+  {
+    "id": 115,
+    "expression-en": "The bus is ready and waiting to leave, except that Yamada-san isn't here yet.",
+    "expression-ja": "(来:き)ていないのは(山田:やまだ)さんだけで、(バス:ばす)は(出発:しゅっぱつ)する(a)になっている。",
+    "answers": {
+      "a": ["ばかり"]
+    }
+  },
+  {
+    "id": 116,
+    "expression-en": "He turned to me with an expression verging on anger and said, 'What brought you here?'",
+    "expression-ja": "(彼:かれ)は、(私:わたし)に(向:むか)って(怒:おこ)らん(a)の(表情:ひょうじょう)で「(何:なに)か(用事:ようじ)ですか」といった。",
+    "answers": {
+      "a": ["ばかり"]
+    }
+  },
+  {
+    "id": 117,
+    "expression-en": "Even if the sky is cloudy, it isn't [bad] enough for you to take an umbrella with you.",
+    "expression-ja": "(空:そら)が(曇:くも)っているとはいえ、(傘:かさ)を(持:も)っていく(a)のことはないですよ。",
+    "answers": {
+      "a": ["ほど"]
+    }
+  },
+  {
+    "id": 118,
+    "expression-en": "I didn't marry Kyoko because I wanted her inheritance or anything.",
+    "expression-ja": "(遺産:いさん)(a)がほしくて(今日子:きょうこ)と(結婚:けっこん)したのではありません。",
+    "answers": {
+      "a": ["なんか"]
+    }
+  },
+  {
+    "id": 119,
+    "expression-en": "A \"Thank you very much. This is a gift to show my appreciation...\" \"Such a gift isn't at all necessary.\" \"Then, could you at least tell me your name, please?\"",
+    "expression-ja": "A「どうもありがとうございました。これは(御礼:おれい)として、．．．」B「(御礼:おれい)(a)いりませんよ」A「じゃ、(b)(お名前:おなまえ)だけでも(教:おし)えてください」",
+    "answers": {
+      "a": ["なんか"],
+      "b": ["せめて"]
+    }
+  },
+  {
+    "id": 120,
+    "expression-en": "The lost boy burst into tears the instant he saw his mother, who had come to pick him up.",
+    "expression-ja": "迷子の(男の子:おとこのこ)は、(迎:むか)えに(来:き)た(母親:ははおや)を(a)、わっと(泣:な)き(出:だ)した。",
+    "answers": {
+      "a": ["なり"]
+    }
+  },
+  {
+    "id": 121,
+    "expression-en": "I ran as hard as I could so as not to miss the train, and I made it.",
+    "expression-ja": "(電車:でんしゃ)に(遅:おく)れまいとして、(a)に(走:はし)って、(間:ま)に(合:あ)った。",
+    "answers": {
+      "a": ["(走:はし)り"]
+    }
+  },
+  {
+    "id": 122,
+    "expression-en": "You're not a child [anymore], and you can't go on eating kiddie lunches forever.",
+    "expression-ja": "(子供:こども)じゃ(a)し、いつまでも、お(子様:こさま)(ランチ:らんち)を(食:た)べるんじゃない。",
+    "answers": {
+      "a": ["あるまい"]
+    }
+  },
+  {
+    "id": 123,
+    "expression-en": "Although I'm studying very hard, my grades aren't improving the way they should.",
+    "expression-ja": "(一生懸命:いっしょうけんめい)、(勉強:べんきょう)して(a)、なかなか(成績:せいせき)があがらない。",
+    "answers": {
+      "a": ["いながら", "いるのに"]
+    }
+  },
+  {
+    "id": 124,
+    "expression-en": "I have an entrance examination tomorrow, so I don't think I'll get much sleep tonight.",
+    "expression-ja": "(入学試験:にゅうがくしけん)をあしたに(a)いるので、(今日:きょう)は(眠:ねむ)れそうもない。",
+    "answers": {
+      "a": ["(控:ひか)えて"]
+    }
+  },
+  {
+    "id": 125,
+    "expression-en": "That person appears to have already finished his meal and is having a cigarette with his coffee.",
+    "expression-ja": "あの(人:ひと)はもう(食事:しょくじ)はすんだと(a)、(コーヒー:こーひー)を(飲:の)みながら(タバコ:たばこ)を(吸:す)っている。",
+    "answers": {
+      "a": ["(見:み)えて"]
+    }
+  },
+  {
+    "id": 126,
+    "expression-en": "The opinion of the minority should be valued, but in the real world it tends to get ignored.",
+    "expression-ja": "(少数:しょうすう)(意見:いけん)は(大切:たいせつ)にしなければならないが、(現実:げんじつ)(社会:しゃかい)では(a)(無視:むし)され(b)です。",
+    "answers": {
+      "a": ["とかく"],
+      "b": ["がち"]
+    }
+  },
+  {
+    "id": 127,
+    "expression-en": "Now, at that dealer's, you can buy a Benz for 360,000 yen.  Of course, though, it doesn't have an engine.",
+    "expression-ja": "(今:いま)、あの(店:みせ)で、(ベンツ:べんつ)が36(万円:まんえん)で(買:か)えます。(a)、(エンジン:えんじん)はありませんがね。",
+    "answers": {
+      "a": ["もっとも"]
+    }
+  },
+  {
+    "id": 128,
+    "expression-en": "Not only human societies but even monkey societies have a hierarchy of their own.",
+    "expression-ja": "(人間:にんげん)(a)ならず、(サル:さる)の(社会:しゃかい)にまで(階級制度:かいきゅうせいど)が(存在:そんざい)している。",
+    "answers": {
+      "a": ["のみ"]
+    }
+  },
+  {
+    "id": 129,
+    "expression-en": "It would be hard enough to finish this job in three days, so telling us to finish it in half a day is absolutely crazy.",
+    "expression-ja": "この(仕事:しごと)を(三日:みっか)で(終:おわ)らせるので(a)(難:むずか)しいのに、(b)(半日:はんにち)で(終:おわ)らせろなんて(気違:きちが)い(沙汰:ざた)です。",
+    "answers": {
+      "a": ["さえ"],
+      "b": ["ましてや"]
+    }
+  },
+  {
+    "id": 130,
+    "expression-en": "That person has such a look on his face, but it's not by any means because he's angry.  He always looks as if he's in a bad temper.",
+    "expression-ja": "あの(人:ひと)はあんな(顔:かお)をしていますが、(a)(怒:おこ)っているのではありません。(b)ああいう(怒:おこ)った(顔:かお)をしているのです。",
+    "answers": {
+      "a": ["けっして"],
+      "b": ["もともと"]
+    }
+  },
+  {
+    "id": 131,
+    "expression-en": "Believe it or not, this boy can read a book with more than three hundred pages in three minutes and then explain its contents!",
+    "expression-ja": "(驚:おどろ)いた(a)に、この(少年:しょうねん)は300 ページ(以上:いじょう)の(本:ほん)を３(分:ぷん)で(読:よ)み、その(内容:ないよう)を(解説:かいせつ)するではありませんか。",
+    "answers": {
+      "a": ["こと"]
+    }
+  },
+  {
+    "id": 132,
+    "expression-en": "After I was so kind to him/her, he/she could at least have said thank you.",
+    "expression-ja": "あれだけ、(親切:しんせつ)にしたのだから、(御礼:おれい)ぐらい(言:い)っても(a)ものだ。",
+    "answers": {
+      "a": ["(良:よ)さそうな"]
+    }
+  },
+  {
+    "id": 133,
+    "expression-en": "Wouldn't it be a bit difficult to polish off three steaks and three plates of rice in an hour?",
+    "expression-ja": "(一時間:いちじかん)で、(ステーキ:すてーき)３(枚:まい)と(ライス:らいす)３(皿:さら)を(食:た)べ(a)のはちょっと(無理:むり)じゃないか。",
+    "answers": {
+      "a": ["きる"]
+    }
+  },
+  {
+    "id": 134,
+    "expression-en": "He is an idiot who can't be helped.",
+    "expression-ja": "(彼:かれ)は(救:すく)い(a)のない(バカ:ばか)である。",
+    "answers": {
+      "a": ["よう"]
+    }
+  },
+  {
+    "id": 135,
+    "expression-en": "A: \"You saved my daughter's life. I wouldn't feel right if I didn't do something to thank you.\"\nB:\"Oh, no, please don't bother.\"",
+    "expression-ja": "Ａ「あなたは娘の命の恩人。何か御礼をしなければ、私の気が(a)ません」Ｂ「いや、それには(b)」",
+    "answers": {
+      "a": ["(収:おさ)まり"],
+      "b": ["(及:およ)びません"]
+    }
+  },
+  {
+    "id": 136,
+    "expression-en": "In your everyday life, you should refrain from behaviour that might invite misunderstanding.",
+    "expression-ja": "(常日頃:つねひごろ)から(誤解:ごかい)を(a)ような(行動:こうどう)は(慎:つづし)むべきだ。",
+    "answers": {
+      "a": ["(招:まね)く"]
+    }
+  },
+  {
+    "id": 137,
+    "expression-en": "The brothers' unseemly dispute over the inheritance continues.",
+    "expression-ja": "(遺産:いさん)を(a)、(兄弟:きょうだい)の(醜:みにく)い(争:あらそ)いが(続:つづ)いている。",
+    "answers": {
+      "a": ["(巡:めぐ)って"]
+    }
+  },
+  {
+    "id": 138,
+    "expression-en": "Even if what you're saying is true, violence is wrong.",
+    "expression-ja": "あなたの(言:い)い(分:ぶん)が(正:ただ)しいに(a)、(暴力:ぼうりょく)はいけない。",
+    "answers": {
+      "a": ["せよ"]
+    }
+  },
+  {
+    "id": 139,
+    "expression-en": "I hear that his illness is already past the point of curability, but let's pretend we don't know.",
+    "expression-ja": "(彼:かれ)の(病:やまい)はもう(治:なお)らないそうだが、(我々:われわれ)は(a)(風:ふう)を(装:よそお)っておこう。",
+    "answers": {
+      "a": ["(知:し)らない"]
+    }
+  },
+  {
+    "id": 140,
+    "expression-en": "It isn't good for parents to butt in on children's quarrels.",
+    "expression-ja": "(子供:こども)のけんかに(親:おや)が(a)をはさむのはよくない。",
+    "answers": {
+      "a": ["(口:くち)"]
+    }
+  },
+  {
+    "id": 141,
+    "expression-en": "It seems that autumn typhoons are frequently accompanied by heavy rain.",
+    "expression-ja": "(秋:あき)の(台風:たいふう)は(大雨:おおあめ)を(a)ことが(多:おお)いようだ。",
+    "answers": {
+      "a": ["(伴:ともな)う"]
+    }
+  },
+  {
+    "id": 142,
+    "expression-en": "If he wants to cry, just let him cry.  He'll probably cry himself out in a little while.",
+    "expression-ja": "(泣:な)きたければ、(a)おけばいい。そのうち(泣:な)き(b)でしょう。",
+    "answers": {
+      "a": ["(泣:な)かせて"],
+      "b": ["(止:や)む"]
+    }
+  },
+  {
+    "id": 143,
+    "expression-en": "For now, I'll just pay you 3,000 yen.  Please wait until the end of the month for the rest.",
+    "expression-ja": "(a)、3000 (円:えん)だけ(お支払:おしはら)いします。(残:のこ)りは(月末:げつまつ)まで(待:ま)ってください。",
+    "answers": {
+      "a": ["とりあえず"]
+    }
+  },
+  {
+    "id": 144,
+    "expression-en": "Some shops are friendly to customers, while others treat them coldly.",
+    "expression-ja": "(客:きゃく)を(暖:あたた)かく(a)(店:みせ)もあれば、(冷:つめ)たく(b)(店:みせ)もある。",
+    "answers": {
+      "a": ["もてなす"],
+      "b": ["あしらう"]
+    }
+  },
+  {
+    "id": 145,
+    "expression-en": "You know, if you scold a crying child thoughtlessly and excessively, it's not effective.",
+    "expression-ja": "(泣:な)いている(子供:こども)は(a)に(叱:しか)っても、(効果:こうか)がありませんよ。",
+    "answers": {
+      "a": ["(無闇:むやみ)"]
+    }
+  },
+  {
+    "id": 146,
+    "expression-en": "We'd rather buy a house than have to pay such high rent.",
+    "expression-ja": "こんな(高:たか)い(家賃:やちん)を(払:はら)うのなら、(a)、(家:いえ)を(買:か)った(方:ほう)がいい。",
+    "answers": {
+      "a": ["いっそ"]
+    }
+  },
+  {
+    "id": 147,
+    "expression-en": "With the signal 'Ready, go!' all of the competitors started off at once.",
+    "expression-ja": "「(よーい、ドン:よーい、どん)」で、(全選手:ぜんせんしゅ)が(a)に(スタート:すたーと)した。",
+    "answers": {
+      "a": ["(一斉:いっせい)"]
+    }
+  },
+  {
+    "id": 148,
+    "expression-en": "It is also conceivable that he stole it, but I don't want to think so.",
+    "expression-ja": "(彼:かれ)が(盗:ぬす)んだということも(考:かんが)え(a)もするが、そうは(思:おも)いたくないのだ。",
+    "answers": {
+      "a": ["られ"]
+    }
+  },
+  {
+    "id": 149,
+    "expression-en": "Sorry to trouble you (=This may be a rather abrupt question), but could you tell me whether there is a public lavatory near here?",
+    "expression-ja": "(a)ことをお(聞:き)きしますが、(近:ちか)くに(公衆便所:こうしゅうべんじょ)はございます？",
+    "answers": {
+      "a": ["つかぬ"]
+    }
+  },
+  {
+    "id": 150,
+    "expression-en": "Examinations will be given class by class.",
+    "expression-ja": "(クラス:くらす)(a)にわかれて、(試験:しけん)を(実施:じっし)いたします。",
+    "answers": {
+      "a": ["(毎:ごと)"]
+    }
+  },
+  {
+    "id": 151,
+    "expression-en": "A child suddenly dashed out into the road, and I almost ran over and killed him/her.",
+    "expression-ja": "(子供:こども)が(急:きゅう)に(道路:どうろ)に(飛:と)び(出:だ)してきて、(a)ひき(殺:ころ}すところだった。",
+    "answers": {
+      "a": ["あやうく"]
+    }
+  },
+  {
+    "id": 152,
+    "expression-en": "It's not worth doing, at such a high risk.",
+    "expression-ja": "そんなに(危険:きけん)なことをして(a)、やるほどの(価値:かち)はない。",
+    "answers": {
+      "a": ["まで"]
+    }
+  },
+  {
+    "id": 153,
+    "expression-en": "Stop dawdling, and hurry up and go to school.",
+    "expression-ja": "いつまでも(a)していないで、(早:はや)く(学校:がっこう)へ(行:い)きなさい。",
+    "answers": {
+      "a": ["ぐずぐず"]
+    }
+  },
+  {
+    "id": 154,
+    "expression-en": "Who do you want to tell this wonderful news to, first of all?",
+    "expression-ja": "この(喜:よろこ)ばしい(ニュース:にゅーす)を(a)に(誰:だれ)に(伝:つた)えたいですか。",
+    "answers": {
+      "a": ["まっ(先:さき)", "いの(一番:いちばん)"]
+    }
+  },
+  {
+    "id": 155,
+    "expression-en": "I'd like to continue with this work, even if it results in a big loss.",
+    "expression-ja": "(大:おお)きな(赤字:あかじ)を(出:だ)して(a)、(私:わたし)はこの(仕事:しごと)を(続:つづ)けたい",
+    "answers": {
+      "a": ["でも"]
+    }
+  },
+  {
+    "id": 156,
+    "expression-en": "Whether you go on a trip or start a business of your own, spend this money on whatever you like.",
+    "expression-ja": "(旅行:りょこう)に(行:い)く(a)(商売:しょうばい)する(b)、(好:す}きなことにこの(金:かね)を(使:つか)いなさい。",
+    "answers": {
+      "a": ["なり"],
+      "b": ["なり"]
+    }
+  },
+  {
+    "id": 157,
+    "expression-en": "Since I've already done this much to prepare, now I have no choice but to carry it out.",
+    "expression-ja": "ここまで(準備:じゅんび)したのだから、(後:あと)はもう(a)ない。",
+    "answers": {
+      "a": ["やるしか"]
+    }
+  },
+  {
+    "id": 158,
+    "expression-en": "I've been very kind to him/her, but on top of that he/she even has the nerve to ask me for money...I'm at a loss for words.",
+    "expression-ja": "(親切:しんせつ)にしてやった(a)に、(お金:おかね)までよこせなんて、あきれて(b)ない。",
+    "answers": {
+      "a": ["ものがいえ"]
+    }
+  },
+  {
+    "id": 159,
+    "expression-en": "Even though she is always borrowing money from me, she says, \"Mum, what would you like for a present?\"--which of course he/she doesn't really mean.",
+    "expression-ja": "いつも、(私:わたし)に(お金:おかね)を(借:か}りるくせに「お(母:かあ)さん、(プレゼント:ぷれぜんと)は(何:なに}がいい」なんて(a)ないことを(言:い)っている。",
+    "answers": {
+      "a": ["(心:こころ)にも"]
+    }
+  },
+  {
+    "id": 160,
+    "expression-en": "I had thought that person was respected by everyone, but now I know I misjudged him/her completely.  What an awful thing he/she did!",
+    "expression-ja": "あの(人:ひと)は(誰:だれ}からも(尊敬:そんけい)される(人:ひと)と思っていたのに、あんなひどいことをするなんて、まるで(a)しまったよ。",
+    "answers": {
+      "a": ["(見損:みそこ)なって"]
+    }
+  },
+  {
+    "id": 161,
+    "expression-en": "This product is on offer at a bargain price, made possible only by direct delivery from the producer.",
+    "expression-ja": "この(品物:しなもの)は、(産地直送:さんちちょくそう)(a)のご(奉仕価格:ほうしかかく)です。",
+    "answers": {
+      "a": ["ならでは"]
+    }
+  },
+  {
+    "id": 162,
+    "expression-en": "This is an ideal reference book for exam preparation.",
+    "expression-ja": "これは(試験:しけん)(勉強:べんきょう)に(a)の(参考書:さんこうしょ)だ。",
+    "answers": {
+      "a": ["うってつけ", "もってこい"]
+    }
+  },
+  {
+    "id": 163,
+    "expression-en": "Since he is trying so desperately to tell his story, it can't all be a pack of lies.",
+    "expression-ja": "(彼:かれ}がこんなに(必死:ひっし)に(言:い)うのだから、これは(a)うそではあるまい。",
+    "answers": {
+      "a": ["まんざら"]
+    }
+  },
+  {
+    "id": 164,
+    "expression-en": "You've worked so hard up till now, and now you're going to quit?  Don't be silly!",
+    "expression-ja": "(今まで:いままで)がんばってきたのに、(a)(止:や)めるなんて(何:なに)を(言:い)っているんだ。",
+    "answers": {
+      "a": ["(今更:いまさら)"]
+    }
+  },
+  {
+    "id": 165,
+    "expression-en": "Even if it's \"all-you-can-eat,\" you'll probably only be able to finish up three plates at the very most, no matter how much you eat.",
+    "expression-ja": "(食:た)べ(放題:ほうだい)だといっても、どんなにたくさん(食:た)べて、(a)３(杯:ばい)ぐらいだろう。",
+    "answers": {
+      "a": ["せいぜい"]
+    }
+  },
+  {
+    "id": 166,
+    "expression-en": "If goods are priced too highly, they won't sell well.",
+    "expression-ja": "あまり(高:たか)い(値段:ねだん)をつけると(商品の:しょうひんの)(a)が(悪:わる)くなる。",
+    "answers": {
+      "a": ["(売:う}れ(行:ゆ)き"]
+    }
+  },
+  {
+    "id": 167,
+    "expression-en": "There's such a big difference of opinion between us that it's not even worth mentioning.",
+    "expression-ja": "(相手:あいて)との(考:かんが)えの(違:ちが)いが(大:おお)きくて(a)にならない。",
+    "answers": {
+      "a": ["お(話:はな)し"]
+    }
+  },
+  {
+    "id": 168,
+    "expression-en": "No matter how hard I try, I'll end up being called names.",
+    "expression-ja": "どんなに(頑張:がんば)っても、(悪口:わるくち)を(a)だ。",
+    "answers": {
+      "a": ["おち"]
+    }
+  },
+  {
+    "id": 169,
+    "expression-en": "Because nobody was kind enough to do it for me, I had no choice but to do it myself.",
+    "expression-ja": "(誰:だれ)もやってくれないので、(a)(自分:じぶん)でやった。",
+    "answers": {
+      "a": ["(仕方:しかた}なく"]
+    }
+  },
+  {
+    "id": 170,
+    "expression-en": "It seems that the project isn't proceeding according to plan because of insufficient funds, and because of outside interference as well.",
+    "expression-ja": "(事業:じぎょう)が(計画通:けいかくどお}り(進:すす)まないのは、(資金:しきん)が(不足:ふそく)している(a)、(他:ほか)からの(妨害:ぼうがい)があったからだと(思:おも)われる。",
+    "answers": {
+      "a": ["(上:うえ)に"]
+    }
+  },
+
+  {
+    "id": 171,
+    "expression-en": "When all is said and done, in the end you can trust only yourself.",
+    "expression-ja": "なんとか(a)いっても、やっぱり(自分:じぶん)しか(信用:しんよう)できませんね。",
+    "answers": {
+      "a": ["かんとか"]
+    }
+  },
+  {
+    "id": 172,
+    "expression-en": "I'm not really sure, but I think the conversation was something about the question of pensions...",
+    "expression-ja": "よくわからないんですが、(年金問題:ねんきんもんだい)が(a)っていう(話題:わだい)だったと(思:おも)うんですが...",
+    "answers": {
+      "a": ["どうのこうの"]
+    }
+  },
+  {
+    "id": 173,
+    "expression-en": "I can tell you, it was so hugely amusing that I almost died laughing.",
+    "expression-ja": "そりゃー、(面白:おもしろ)いのって(a)って、(腹:はら)がはちきれんばかりでしたよ。",
+    "answers": {
+      "a": ["なんの", "(何:なん)の", "(面白:おもしろ)くないの"]
+    }
+  },
+  {
+    "id": 174,
+    "expression-en": "I hear they were discussing so important a matter alone together, in whispers!",
+    "expression-ja": "こんな(大切:たいせつ)(話:はなし)を(二人:ふたり)(a)で、(b)(話し合:はなしあ)っていたんだってよ。",
+    "answers": {
+      "a": ["きり"],
+      "b": ["ひそひそ"]
+    }
+  },
+  {
+    "id": 175,
+    "expression-en": "This politician's scheme met with the criticism of the opposition parties and, furthermore, provoked the antipathy of the entire nation.",
+    "expression-ja": "この(政治家:せいじか)の(企:たくら)みは、(野党:やとう)の(非難:ひなん)を(浴:あ}びたに(a)、(全国民:ぜんこくみん)の(反感:はんかん)までをも(a)てしまった。",
+    "answers": {
+      "a": ["(留:とど)まらず"],
+      "b": ["(買:か)って"]
+    }
+  },
+  {
+    "id": 176,
+    "expression-en": "Cancer is not the sort of illness which people catch all of a sudden; it's a complicated and incurable disease which gnaws away day by day at the health of the patient.",
+    "expression-ja": "(癌:がん)というのは、(急:きゅう)に(発病:はつびょう)するという(種類:しゅるい)の(疾病:しっぺい)ではなく、(日一日:ひいちにち)と、(患者:かんじゃ)の(健康:けんこう)を(a)、やっかいな(b)の(病:やまい)である。",
+    "answers": {
+      "a": ["(蝕:むしば)む"],
+      "b": ["(不治:ふじ)"]
+    }
+  },
+  {
+    "id": 177,
+    "expression-en": "In winter, this place is a lonesome and deserted town, but in the summer, when the swimming season opens, it livens up with young people in colourful swimsuits.",
+    "expression-ja": "この(辺:へん)は(冬:ふゆ)はひとけのないさびしい(町:まち)だが、(夏:なつ)は(海水浴:かいすいよく)(シーズン:しーずん)になると(派手:はで)な(水着:みずぎ)の(若者:わかもの)たちで(a)。",
+    "answers": {
+      "a": ["(賑:にぎ)わう"]
+    }
+  },
+  {
+    "id": 178,
+    "expression-en": "At Hyde Park in England, strangers engage each other in lively discussions every day.",
+    "expression-ja": "(イギリス:いぎりす)の(ハイド・パーク:はいど・ぱーく)では、(毎日:まいにち)(見知:みし}らぬもの(a)(同士:どうし)が(議論:ぎろん)に(a)ている。",
+    "answers": {
+      "a": ["(花:はな)を(咲:さ}かせ"]
+    }
+  },
+  {
+    "id": 179,
+    "expression-en": "The whole mountain turned into a sea of fire, all because of the tiny flame of a cigarette.",
+    "expression-ja": "(小:ちい)さな(タバコ:たばこ)の(火:ひ)が(原因:げんいん)で(山一帯:やまいったい)が(火:ひ)の(a)になった。",
+    "answers": {
+      "a": ["(海:うみ)"]
+    }
+  },
+  {
+    "id": 180,
+    "expression-en": "A wooden house, for instance, is reduced to ashes in an instant once it catches fire.",
+    "expression-ja": "(木造:もくぞう)の(家:いえ)などは(一度:いちど)(火:ひ)がつくと(a)うちに(灰:はい)となっていく。",
+    "answers": {
+      "a": ["みるみる"]
+    }
+  },
+  {
+    "id": 181,
+    "expression-en": "Certainly I'd heard it was awful, but I really didn't expect it to be this horrendous.",
+    "expression-ja": "(ものすご:ものすご)いとは(a)には(b)、こんなにすごいとは(思:おも)わなかったよ。",
+    "answers": {
+      "a": ["聞:き}く"],
+      "b": ["聞:き}いていた"]
+    }
+  },
+  {
+    "id": 182,
+    "expression-en": "Although I did it because I thought it was a good thing to do, it ended up making that person all the more unhappy.",
+    "expression-ja": "（a)と(思:おも)ってしたことがかえって、あの(人:ひと)を(不幸:ふこう)にしてしまった。",
+    "answers": {
+      "a": ["(良:よ)かれ"]
+    }
+  },
+  {
+    "id": 183,
+    "expression-en": "For the next test, I'm just going to write down whatever any old book says and fake my way through.",
+    "expression-ja": "この(次:つぎ)の(テスト:てすと)は、その(辺:へん)の(本:ほん)に(書:か}いてあったことをいいかげんに(書:か}いて(a)にごそう。",
+    "answers": {
+      "a": ["お(茶:ちゃ)を"]
+    }
+  },
+  {
+    "id": 184,
+    "expression-en": "There are more and more suicides among the children of parents who expect too much of them.",
+    "expression-ja": "(親:おや)に(実力:じつりょく)(以上:いじょう)の(期待:きたい)を(a)た(子供達:こどもたち)の(自殺:じさつ)が(増:ふ}えている。",
+    "answers": {
+      "a": ["かけられ"]
+    }
+  },
+  {
+    "id": 185,
+    "expression-en": "This cafe has many customers who come to savour not only the smell of its coffee but also the atmosphere of the place.",
+    "expression-ja": "この(喫茶店:きっさてん)には(コーヒー:こーひー)の(香:かお)りだけでなく(店:みせ)の(雰囲気:ふんいき)も(a)に(来:き)ている(客:きゃく)が(多:おお)い。",
+    "answers": {
+      "a": ["味わい"]
+    }
+  },
+  {
+    "id": 186,
+    "expression-en": "It was not until our baby was born that I actually started to feel like a father (=that the actual feeling of being a father welled up in me).",
+    "expression-ja": "(赤:あか)ちゃんが(産:う)まれて(初:はじ)めて、(父親:ちちおや)としての(実感:じっかん)が(a)てきた。",
+    "answers": {
+      "a": ["(湧:わ)い"]
+    }
+  },
+  {
+    "id": 187,
+    "expression-en": "It's not that I don't cook at all, but when I'm alone it's a nuisance so I usually eat out.",
+    "expression-ja": "(私:わたし)は(料理:りょうり)はしない(a)、(一人:ひとり)のときは(面倒:めんどう)なのでたいてい(外:そと)で(食:た)べる。",
+    "answers": {
+      "a": ["ことも", "でも"]
+    }
+  },
+  {
+    "id": 188,
+    "expression-en": "I hear that person has gone to Tokyo and doesn't live here any more.",
+    "expression-ja": "あの(人:ひと)は(東京:とうきょう)へ(行:い}った(a)で、もうここにいないそうだ。",
+    "answers": {
+      "a": ["とのこと"]
+    }
+  },
+  {
+    "id": 189,
+    "expression-en": "He came into my room silently, without even being invited.",
+    "expression-ja": "(彼:かれ)は(呼:よ}ばれ(a)しない(b)、(黙:だま)って(私:わたし)の(部屋:へや)に(入:はい)ってきた。",
+    "answers": {
+      "a": ["も"],
+      "b": ["のに"]
+    }
+  },
+  {
+    "id": 190,
+    "expression-en": "Purely and simply because I studied very hard, I was able to get a good grade.",
+    "expression-ja": "(本当:ほんとう)によく(勉強:べんきょう)した(a)、よい(成績:せいせき)がとれたのだ。",
+    "answers": {
+      "a": ["からこそ"]
+    }
+  },
+  {
+    "id": 191,
+    "expression-en": "What with all the surprise and rejoicing, the place was in an uproar.",
+    "expression-ja": "(驚:おどろ}く(a)、(喜:よろこ}ぶ(b)、(会場:かいじょう)は(大騒:おおさわ}ぎだった。",
+    "answers": {
+      "a": ["やら"],
+      "b": ["やら"]
+    }
+  },
+  {
+    "id": 192,
+    "expression-en": "I can't get things sorted out unless I deal with them one at a time.",
+    "expression-ja": "(一:ひと)つ(一:ひと)つ(片付:かたづ}けていかない(a)には、(収:おさ}まらない。",
+    "answers": {
+      "a": ["こと"]
+    }
+  },
+  {
+    "id": 193,
+    "expression-en": "I can't figure out what's going on.  That person turned up with a year-end gift (\"oseibo\")!",
+    "expression-ja": "どういう(a)の(吹:ふ}き(b)なんでしょう。あの(人:ひと)が(御歳暮:おせいぼ)を(持:も}ってくるなんて、...。",
+    "answers": {
+      "a": ["(風:かぜ)"],
+      "b": ["(回:まわ)し"]
+    }
+  },
+  {
+    "id": 194,
+    "expression-en": "When you grow up, you must not become the kind of person who causes nuisance to others, even by mistake.",
+    "expression-ja": "(大:おお}きくなったら、(a)(人様:ひとさま)のご(迷惑:めいわく}になるような人になってはなりませんよ。",
+    "answers": {
+      "a": ["(間違:まちが)っても"]
+    }
+  },
+  {
+    "id": 195,
+    "expression-en": "That person is no prime minister, after he/she went so far as to embezzle public money.",
+    "expression-ja": "(国:くに}のお(金:かね)を(使:つか}い(込:こ}むなんて、あの(人:ひと)は(a)(総理大臣:そうりだいじん)なんかではない。",
+    "answers": {
+      "a": ["(到底:とうてい)"]
+    }
+  },
+  {
+    "id": 196,
+    "expression-en": "Carried away by her sorrow, she couldn't even cry; she just squatted down without any expression on her face.",
+    "expression-ja": "(悲:かな)しみの(a)、(泣:な)くこともできず、(無表情:むひょうじょう)で(座:すわ)り(込:こ)んでしまった。",
+    "answers": {
+      "a": ["あまり"]
+    }
+  },
+  {
+    "id": 197,
+    "expression-en": "[The government] lowered income taxes, but meanwhile it raised the consumption tax, in order to guarantee its financial resources.",
+    "expression-ja": "(所得税:しょとくぜい)の(減税:げんぜい)をする(a)、その(財源確保:ざいげんかくほ)のために(消費税:しょうひぜい)を(増税:ぞうぜい)した。",
+    "answers": {
+      "a": ["(一方:いっぽう)"]
+    }
+  },
+  {
+    "id": 198,
+    "expression-en": "Now that things have come to this, we have no choice but to do a drastic restructuring and reorganize management.",
+    "expression-ja": "こうなった(a)、(思:おも)い(切:き)った(リストラ:りすとら)をして、(経営:けいえい)を(立:た)て(直:なお)すしかない。",
+    "answers": {
+      "a": ["からには"]
+    }
+  },
+  {
+    "id": 199,
+    "expression-en": "I put a half-finished cup of coffee beside the computer while I was working, but I accidentally spilled it.",
+    "expression-ja": "(飲:の}みかけの(コーヒー:こーひー)を(コンピュータ:こんぴゅーた)の(横:よこ)に(置:お)いて(仕事:しごと)をしていたら、こぼしてしまった。",
+    "answers": {
+      "a": ["かけ"]
+    }
+  },
+  {
+    "id": 200,
+    "expression-en": "It's hard to believe that they can hunt down criminals by means of extrasensory perception.",
+    "expression-ja": "(超能力:ちょうのうりょく)で(犯人:はんにん)を(捜:さが}し(出:だ)せるなどというのは、(信:しん)じ(a)。",
+    "answers": {
+      "a": ["られない", "がたい"]
+    }
+  },
+  {
+    "id": 201,
+    "expression-en": "Making nothing of the cold, he went out in thin clothes.",
+    "expression-ja": "(寒:さむ)さを(a)ともせず、(彼:かれ)は(薄着:うすぎ)で(出:で)かけていった。",
+    "answers": {
+      "a": ["もの"]
+    }
+  },
+  {
+    "id": 202,
+    "expression-en": "The record of hundred wins would be merely a passing point for the player(pitcher).",
+    "expression-ja": "その(選手:せんしゅ)にとって、１００(勝:しょう)という(数字:すうじ)は(a)(通過点:つうかてん)にすぎないだろう。",
+    "answers": {
+      "a": ["単なる"]
+    }
+  },
+  {
+    "id": 203,
+    "expression-en": "It is a prejudice of the old to think that the language of the young is poor, and vogue-words are insignificant.",
+    "expression-ja": "(若者言葉:わかものことば)は(貧弱:ひんじゃく)だ、(流行語:りゅうこうご)など(取:と)るに(a)と(考:かんが)えるのは(老化:ろうか)した(大人:おとな)の(偏見:へんけん)だ。",
+    "answers": {
+      "a": ["(足:た)らない", "(足:た)らぬ"]
+    }
+  },
+  {
+    "id": 204,
+    "expression-en": "There is an opinion which we can always make a better product if we spend more money, but we don't agree with this.",
+    "expression-ja": "(金:かね)をかければ、(必:かなら)ずよいものができるという(意見:いけん)があるが、(私:わたし)たちはこれには(賛成:さんせい)し(a)。",
+    "answers": {
+      "a": ["かねる"]
+    }
+  },
+  {
+    "id": 205,
+    "expression-en": "The sculptor said that he had never had any perfect works which could satisfy him.",
+    "expression-ja": "その(彫刻家:ちょうこくか)は、(何:なに)(a)として(今:いま)までに(完璧:かんぺき)だと(実感:じっかん)できる(作品:さくひん)はなかったという。",
+    "answers": {
+      "a": ["(一:ひと)つ"]
+    }
+  },
+  {
+    "id": 206,
+    "expression-en": "The shop is so tiny that it becomes impossible to move with only five people inside the shop.",
+    "expression-ja": "その(店:みせ)は(猫の額:ねこのひたい)ほどの(店:みせ)で、(客:きゃく)が(五人:ごにん)も(入:はい)れば(身動:みうご)きが(a)。",
+    "answers": {
+      "a": ["(取:と)れない", "(取:と}れなくなる", "できない"]
+    }
+  },
+  {
+    "id": 207,
+    "expression-en": "His death was a tragedy which happened just as he was about to take action after saying, 'Who else would do it, if I don't.'",
+    "expression-ja": "(彼:かれ)の(死:し)は「(私:わたし)が(a)、(誰:だれ}がやる」といって、(立:た}ち(上:あが}がった(矢先:やさき)の(不幸:ふこう)であった。",
+    "answers": {
+      "a": ["やらねば"]
+    }
+  },
+  {
+    "id": 208,
+    "expression-en": "The player believed that he knew everything about the world of professional baseball, but he didn't realise the existence of the people supporting players behind the scenes.",
+    "expression-ja": "その(選手:せんしゅ)は、(プロ野球界:ぷろやきゅうかい)の(表:おもて)も(裏:うら)も(知:し)り(a)いるつもりだったが、(裏方:うらかた)で(自分たち:じぶんたち)を(支:ささ)えている(人々:ひとびと)の(存在:そんざい)にはまったく(気:き)がつかないでいた。",
+    "answers": {
+      "a": ["つくして"]
+    }
+  },
+  {
+    "id": 209,
+    "expression-en": "Many people disposed garbage that contains dangerous and unacceptable goods taking advantage of black garbage bags that do not show their contents.",
+    "expression-ja": "(黒:くろ}い(袋:ふくろ)で(中身:なかみ)が(見:み}えないのを(a)ことに、(危険物:きけんぶつ)や(非常識:ひじょうしき)な(汚物:おぶつ)を(平気:へいき)で(捨:す}てる(人:ひと)が(後:あと}を(b)。",
+    "answers": {
+      "a": ["いい"],
+      "b": ["たたなかった", "たたない"]
+    }
+  },
+  {
+    "id": 210,
+    "expression-en": "In spite of the voices appealing for the preservation of Hiroshima Peace Memorial as a world heritage, the landmark conveying the history of Hiroshima was about to be vanished.",
+    "expression-ja": "(世界遺産:せかいいさん)としての(保存:ほぞん)を(a)(被爆者:ひばくしゃ)の(声:こえ)を(b)、ヒロシマを(伝:つた)えるものが(消:き}えてゆくところであった。",
+    "answers": {
+      "a": ["(訴:うった)える"],
+      "b": ["(余所:よそ)"]
+    }
+  },
+  {
+    "id": 211,
+    "expression-en": "It was a heavy rain but not a serious one. However we judge that it caused floods in the various places due to its short duration.",
+    "expression-ja": "(中程度:ちゅうていど)の(豪雨:ごうう)であったが、(短時間:たんじかん)であったために(各地:かくち)で(川:かわ)が(氾濫:はんらん)したと(a)。",
+    "answers": {
+      "a": ["(見:み)られるられる", "(思:おも)われる"]
+    }
+  },
+  {
+    "id": 212,
+    "expression-en": "He/She finished a work up by drawing and erasing it again and again. After many repeats of writing and deleting, s/he completed the work.",
+    "expression-ja": "(書:か)い(a)(消:け)し、(書:か)い(a)(消:け)しして、(作品:さくひん)を(仕上:しあ)げていった。",
+    "answers": {
+      "a": ["ては"]
+    }
+  },
+  {
+    "id": 213,
+    "expression-en": "I feel abandoned and try to drink up a 1.8-litter-bottle of sake, but i have had a lot of it yet even if i keep drinking since i don't usually drink.",
+    "expression-ja": "(焼:や)け(酒:ざけ)で(一升:いっしょう)(ビン:びん)の(酒:さけ)を(飲:の)み(干:ほ)そうと(思:おも)っても、(日頃:ひごろ)(飲:の)まぬ(私:わたし)では、(飲:の)ん(a)(飲:の)ん(a)(なくならない。",
+    "answers": {
+      "a": ["でも"]
+    }
+  },
+  {
+    "id": 214,
+    "expression-en": "Even though he should speak his mind, he is still hesitating about doing so.",
+    "expression-ja": "(早:はや}く(打:う)ち(明:あ)ければ(a)のに、まだ(言:い)えないでいる。",
+    "answers": {
+      "a": ["いい"]
+    }
+  },
+  {
+    "id": 215,
+    "expression-en": "He became angry since someone woke him up while he was sound asleep, exhausted.",
+    "expression-ja": "(疲:つか)れ(切:き)って、ぐっすり(寝込:ねこ)んでいる(a)を(起:お)こされ、(機嫌:きげん)が(悪:わる)くなった。",
+    "answers": {
+      "a": ["ところ"]
+    }
+  },
+  {
+    "id": 216,
+    "expression-en": "These two writers are the novelists unmistakably appropriate to call the competent and influential.",
+    "expression-ja": "この(二人:ふたり)の(作家:さっか)は、(a)もなく(中堅:ちゅうけん)の(実力派:じつりょくは)の(名:な)に(恥:は)じない(小説家:しょうせつか)であった。",
+    "answers": {
+      "a": ["(紛:まぎ)れ"]
+    }
+  },
+  {
+    "id": 217,
+    "expression-en": "The three children wrote the pleasant memories of the year one by one in their diaries.",
+    "expression-ja": "(三人:さんにん)の(子供:こども)たちは、(思:おも)い(a)にこの(一年:いちねん)の(楽:たの)しかった(想:おも)い(出:で)を(日記:にっき)に(綴:つづ)った。",
+    "answers": {
+      "a": ["(思:おも)い"]
+    }
+  },
+  {
+    "id": 218,
+    "expression-en": "This sumo tournament has started with eventful episodes such as both of two yokozunas being defeated one after the other on the first day.",
+    "expression-ja": "(今場所:こんばしょ)は(初日:しょにち)から(二横綱:によこづな)が(a)、やぶれるという(波乱続:はらんつづ)きの(幕開:まくあ)けであった。",
+    "answers": {
+      "a": ["(相次:あいつ)いで"]
+    }
+  },
+  {
+    "id": 219,
+    "expression-en": "After having conducted the experiments several times, it was found that although it could be ignited, the flame would go out immediately.",
+    "expression-ja": "(実験:じっけん)を(数回:すうかい)(繰:く}り(返:かえ)したところ、(着火:ちゃっか)はする(a)すぐに(火:ひ)は(消:き)えることが(分:わ)かった。",
+    "answers": {
+      "a": ["ものの"]
+    }
+  },
+  {
+    "id": 220,
+    "expression-en": "What we should do in future will be discussed based on the bill which was legislated recently.",
+    "expression-ja": "この(先:さき)どのようにするかは、(a)に(決定:けってい)した(法案:ほうあん)を(元:もと)に(検討:けんとう)するとのことであった。",
+    "answers": {
+      "a": ["(先:さき)"]
+    }
+  },
+  {
+    "id": 221,
+    "expression-en": "I was just drinking beer at home without realising that such a terrible thing happened.",
+    "expression-ja": "そんな(大変:たいへん}なことになっているとは(a)、(知:し)らず、(家:うち)でゆっくり(ビール:びーる)でも(飲:の)んでいました。",
+    "answers": {
+      "a": ["(思:おも)わず"]
+    }
+  },
+  {
+    "id": 222,
+    "expression-en": "When I heard of my father's accident, I couldn't stand it and got on a flight right away, feeling restless.",
+    "expression-ja": "(父:ちち)が(事故:じこ)にあったと(聞:き}いて、(a)(立:た)ってもいられず、すぐに(飛行機:ひこうき)に(飛:と)び(乗:の)った。",
+    "answers": {
+      "a": ["いても"]
+    }
+  },
+  {
+    "id": 223,
+    "expression-en": "I think that it is very difficult, but don't give up and go for it! you have nothing to lose.",
+    "expression-ja": "とても(難:むずか}しいとは(思:おも)いますが、あきらめずに、(a)でやってみましょう。",
+    "answers": {
+      "a": ["(駄目元:だめもと)"]
+    }
+  },
+  {
+    "id": 224,
+    "expression-en": "I think it is quite good but because it is an expensive item, i'd better ask my wife whether it is okay for me to buy it.",
+    "expression-ja": "いいとは(思:おも)うけれど、(高:たか)い(品物:しなもの)なので(買:か)ってもいいかどうか、かみさんに(a)。",
+    "answers": {
+      "a": ["(聞:き)いてみないとね"]
+    },
+    "notes-ja": {
+      "聞いてみないとね": "「聞いてみないとね」は「聞いてみないとわからない」「聞いてみないといけない」のように（わからない／いけない）という言葉が省略されている。1999年に所ジョージが作曲した「明石家さんまさんに聞いてみないとね」（明石家さんま＆所ジョージ）はこの言葉を有名にした。"
+    }
+  },
+  {
+    "id": 225,
+    "expression-en": "I won't be easily cheated by such a childish trick.",
+    "expression-ja": "そんなに(安々:やすやす)と(子供:こども)(a)の(手:て)には(乗:の)るもんか。",
+    "answers": {
+      "a": ["(騙:だま)し"]
+    }
+  },
+  {
+    "id": 226,
+    "expression-en": "I was watching the historic moment on tv with bated breath.",
+    "expression-ja": "(歴史的瞬間:れきしてきしゅんかん)をじっと(息:いき)を(a)(テレビ:てれび)で(見:み)ていました。",
+    "answers": {
+      "a": ["のんで"]
+    },
+    "notes-ja": {
+      "息を飲む": "「息を飲む」は「思わず、ハッと、じっと」などの言葉につづけて、驚いて息をとめること。「この紅葉の美しさに思わず息を飲んでしまった」「息を殺して」「息を凝らして」「かたずをのんで」ともいう。"
+    }
+  },
+  {
+    "id": 227,
+    "expression-en": "It may have been impolite, but I could not help laughing because the design of her swimwear was very old-fashioned.",
+    "expression-ja": "(水着:みずぎ)の(デザイン:でざいん)が(古:ふる}くさかったので、(失礼:しつれい)だったかもしれないが、(笑:わら}わずには(a)。",
+    "answers": {
+      "a": ["いられなかった"]
+    },
+    "notes-ja": {
+      "〜ずにはいられない": "「〜ずにはいられない」は「自然と〜してしまう」「〜したくなってしまって困る」「〜したくてがまんできない」という意味。"
+    }
+  },
+  {
+    "id": 228,
+    "expression-en": "I have too much on my plate already.i can't do anything else for others.",
+    "expression-ja": "(自分:じぶん)のことで(a)(一杯:いっぱい)なのに、これ(以上:いじょう)、(他:ほか)の(人:ひと)の(世話:せわ)なんてできません。",
+    "answers": {
+      "a": ["(精:せい)"]
+    },
+    "notes-ja": {
+      "精一杯": "「精一杯やる」は、「一所懸命にやる」と文脈的には同じ意味もあるが、「これ以上できないほどの」という意味もあって、否定的に使われることもある。"
+    },
+    "notes-en": {
+      "精一杯": "\"Seiippai\" can mean \"to do one's best\" in context, but it can also mean \"to the extent that one cannot do any more,\" and is often used in a negative sense."
+    },
+    "example-ja": [
+      "(自分:じぶん)のことで(精一杯:せいいっぱい)なのに、これ(以上:いじょう)、(他:ほか)の(人:ひと)の(世話:せわ)なんてできません。",
+      "(今:いま)はこれが(精一杯:せいいっぱい)、これで(気:き)に(入:い)らなければ、(他:ほか)の(店:みせ)に(行:い)って。",
+      "(精一杯:)やって、それでだめだったら(諦:)めるしかない。",
+      "これでももういっぱいいっぱい。これ(以上:)もう(何:)も(車:)に(積:)み(込:)めませんよ。"
+    ],
+    "example-en": [
+      "I have too much on my plate already. I can't do anything else for others.",
+      "This is all I can do for now. If you don't like it, go to another store.",
+      "I'll do my best, and if that doesn't work, I'll just have to give up.",
+      "This is already full. I can't load anything else into the car."
+    ]
+  },
+  {
+    "id": 229,
+    "expression-en": "It is good that children are delighted, but they frolic too much that makes you wonder.",
+    "expression-ja": "(子供:こども}が(喜:よろこ}ぶのはいいことだが、こんなにはしゃぎすぎるのも(a)だね。",
+    "answers": {
+      "a": ["(考:かんが)えもの"]
+    },
+    "notes-ja": {
+      "考えもの": "「考えものだ」は、「よくないことだ」「問題がある」という意味。"
+    },
+    "notes-en": {
+      "考えもの": "\"Kangaemono da\" means \"it's not a good thing\" or \"there's a problem.\""
+    },
+    "example-ja": [
+      "(裏側:うらがわ)の(デザイン:でざいん)だけが(派手:はで)になるのは(考:かんが)え(a)。",
+      "(安:やす)いことはいいことだが、(故障:こしょう)が(少:すく}からずあるのは(考:かんが)え(a)だね。",
+      "(人:ひと)を(使:つか}うことばかり(覚:おぼ}えて、(自分:じぶん)から(何:なに}もしようとしなくなるのは(考:かんが)え(a)。",
+      "(子供:こども}が(喜:よろこ}ぶのはいいことだが、こんなにはしゃぎすぎるも(a)だね。",
+      "(最近:さいきん)、(若者言葉:わかものことば)があまりにも(乱用:らんよう)されるのは(考:かんが)え(a)。"
+    ],
+    "example-en": [
+      "It's a matter of concern that only the design on the back side is flashy.",
+      "It's a good thing that it's cheap, but it's a matter of concern that there are quite a few breakdowns.",
+      "It's a matter of concern that people only learn to use others and don't try to do anything themselves.",
+      "It's good that children are delighted, but they frolic too much that makes you wonder.",
+      "Recently, the excessive use of youth slang is a matter of concern."
+    ]
+  },
+  {
+    "id": 230,
+    "expression-en": "Tonight there will be a long waited game of IAAF (International Association of Athletics Federations), for the first time in Japan, and I am very excited about it.",
+    "expression-ja": "(今晩:こんばん)、(a)(待:ま)った(初:はつ)の(世界陸上:せかいりくじょう)(日本開催:にほんかいさい)にわくわく(ドキドキ:どきどき)している。",
+    "answers": {
+      "a": ["(待:ま)ちに"]
+    },
+    "notes-ja": {
+      "待ちに待った": "「待ちに待った」は「いよいよ」とも言い替えられる。「長い間待って、もうすぐその瞬間を迎える」という意味。"
+    },
+    "notes-en": {
+      "待ちに待った": "\"Machi ni matta\" can also be replaced with \"iyoiyo.\" It means \"after waiting for a long time, the moment is finally approaching.\""
+    },
+    "example-ja": [
+      "(遅咲:おそざ}きの(白:しろ}い(コブシ:こぶし)の(花:はな)が(咲:さ}いた。(樹齢:じゅれい)250(年:ねん)のこの(木:き)はなぜか(三年:さんねん)に(a)(一度:いちど)しか(花:はな)が(開:ひら}かず、(今年:ことし)が(待:ま}ちに(a)(満開:まんかい)の(年:とし)だった。",
+      "(待:ま}ちに(a)(待:ま}った(手紙:てがみ)がが(今日:きょう)(届:とど}きました。",
+      "(今晩:こんばん)は(a)(待:ま}ちに(a)(待:ま}った(海外旅行:かいがいりょこう)だったが、(テロ対策:てろたいさく)のため(空港:くうこう)の(セキュリティチェック:せきゅりてぃちぇっく)でちょっとうんざりした。"
+    ],
+    "example-en": [
+      "A tree of white kobushi that blooms late has bloomed. This 250-year-old tree only blooms once every three years, and this year was a year of full bloom that we had been waiting for.",
+      "The long-awaited letter arrived today.",
+      "Tonight is the long-awaited overseas trip, but I was a bit fed up with the security check at the airport due to anti-terrorism measures."
+    ]
+  },
+  {
+    "id": 231,
+    "expression-en": "It depends on circumstances whether it is proper or not.",
+    "expression-ja": "それがいいかどうかは、(時:とき)と(場合:ばあい)に(a)。",
+    "answers": {
+      "a": ["よりけり"]
+    },
+    "notes-ja": {
+      "けり": "「けり」は古語では過去や詠嘆を意味するが、この場合、強調の意味。"
+    },
+    "notes-en": {
+      "けり": "'keri' means past tense in classical Japanese, but it is emphasis in this case."
+    },
+    "example-ja": [
+      "冗談をいうのは、時と場合、それに相手によりけりですよ。",
+      "TPOというのは、time、place、occasionの頭文字から作られた和製英語で、場合によりけり、という意味であったが、そのうち、条件に応じた正しい服装をする（occasional dressing）という意味になった。"
+    ],
+    "example-en": []
+  },
+  {
+    "id": 232,
+    "expression-en": "He has a good eye for arts.",
+    "expression-ja": "(彼:かれ)には(絵:え)を(見:み)る(a)がありますね。",
+    "answer": {
+      "a": ["(目:め)"]
+    },
+    "notes-ja": {
+      "目がある": "「目がある」は「人、芸術、価値の選択・判断する力がある」という意味。「選択眼がある」ともいう。"
+    },
+    "notes-en": {
+      "目がある": "'Mega aru' means 'to have the ability to select and judge people, art, value.' It can also be said as 'sentakugan ga aru.'"
+    },
+    "example-ja": [
+      "人を見る目がある。",
+      "料理人の第一歩は、まず材料を見る目を養うことから始まる。 "
+    ],
+    "example-en": [
+      "He has an eye for people.",
+      "The first step for a cook is to start by developing an eye for ingredients."
+    ]
+  },
+  {
+    "id": 233,
+    "expression-en": "What physicists have been trying to unveil is, to tell the truth, nothing else but something about this natural world where we live as a matter of course.",
+    "expression-ja": "(物理学者:ぶつりがくしゃ)が(明:あき)らかにしようとしているものは、(何:なに)を(隠:かく)そうわれわれが(日常的:にちじょうてき)に(生:い)きているこの(自然界:しぜんかい)に(a)ならない。",
+    "answers": {
+      "a": ["(他:ほか)"]
+    },
+    "notes-ja": {
+      "他ならない": "「〜に他ならない」は「〜そのものだ」に言い替えられる。「何を隠そう」は「本当のことをいえば」の意味。「当然のごとく」は「あたりまえのように」「日常何の不思議もなく」の意味。"
+    },
+    "notes-en": {
+      "他ならない": "\"~ni hoka naranai\" can be replaced with \"~sono mono da.\" \"Nani o kakusou\" means \"to tell the truth.\" \"Tōzen no gotoku\" means \"as a matter of course,\" \"as if it's natural,\" or \"without any wonder in daily life.\""
+    },
+    "example-ja": [
+      "(成功:せいこう)の(秘訣:ひけつ)は、(努力:どりょく)に(他:ほか)ならない。",
+      "(彼:かれ)が(犯人:はんにん)であることは、(疑:うたが}い(他:ほか)ない。",
+      "(環境問題:かんきょうもんだい)を(解決:かいけつ)するためには、(一人一人:ひとりひとり)の(意識改革:いしきかいかく)に(他:ほか)ならない。",
+      "(物理学者:ぶつりがくしゃ)が(明:あき}らかにしようとしているものは、(何:なに}を(隠a:かく}そうわれわれが(日常的:にちじょうてき)に(生:い}きているこの(自然界:しぜんかい)にならない。",
+      "(この国:このくに)の(未来:みらい)は、(国民:こくみん)の(他:ほか)ならない。"
+    ],
+    "example-en": [
+      "The secret to success is nothing other than effort.",
+      "There is no doubt that he is the culprit.",
+      "To solve environmental problems, it is nothing other than the awareness reform of each and every person.",
+      "What physicists have been trying to unveil is, to tell the truth, nothing else but something about this natural world where we live as a matter of course.",
+      "The future of this country depends on its people."
+    ]
+  },
+  {
+    "id": 234,
+    "expression-en": "A politician who said last week 'I will make the politics of japan better' has been arrested today due to a corruption case.",
+    "expression-ja": "(先週:せんしゅう)「(私:わたし)の(仕事:しごと)で(日本:にほん)の(政治:せいじ)をきっとよくして(a)ます」と(言:い)っていた(政治家:せいじか)が、(今日:きょう)、(汚職事件:おしょくじけん)で(逮捕:たいほ)された。",
+    "answers": {
+      "a": ["(見:み)せ"]
+    },
+    "notes-ja": {
+      "〜てみせる": "「〜てみせる」は強い決意を意味する。「やってみせる」「合格してみせる」など。"
+    },
+    "notes-en": {
+      "〜てみせる": "\"~temiseru\" expresses strong determination. Examples include \"yatte miseru\" (I'll show you by doing it) and \"goukaku shite miseru\" (I'll show you by passing)."
+    },
+    "example-ja": [
+      "(必ず:かならず)(成功:せいこう)して(見:み)せる。",
+      "(君:きみ)の(期待:きたい)に(応:こた}えて(見:み)せよう。",
+      "(約束:やくそく}したからには、(守:まも}って(見:み)せる。"
+    ],
+    "example-en": [
+      "I will definitely succeed and show you.",
+      "I will meet your expectations and show you.",
+      "Since I made a promise, I will keep it and show you."
+    ]
+  },
+  {
+    "id": 235,
+    "expression-en": "\"About one person is so demanding that I did what she requested unwillingly.\" \"Do yo mean it's me?\"",
+    "expression-ja": "(一名:いちめい)いろいろうるさいことをいう(人:ひと}がいますので、あまりやりたくはないけれどもやりました。」「それ、(私:わたし)のこと？」",
+    "answers": {
+      "a": ["(約:やく)"]
+    },
+    "notes-ja": {
+      "約": "普通「１名」に「約」をつける必要はないが、わざとつけると皮肉(sarcasm; satire; irony)の意味になる。このようにわざと不要なものをつけると多くの場合皮肉を現わす。たとえば、明らかに敬語で言わなくても言い場面で敬語を使う、など。"
+    },
+    "notes-en": {
+      "約": "Normally, there is no need to add \"yaku\" (approximately) to \"ichimei\" (one person), but adding it intentionally can convey a sense of sarcasm or irony. This is often done by deliberately including unnecessary elements, such as using honorific language in situations where it is clearly not required."
+    }
+  },
+  {
+    "id": 236,
+    "expression-en": "Looking at a wedding as an outsider, it seems a full of happiness, but for the couple themselves it is indeed a very troublesome event.",
+    "expression-ja": "(結婚:けっこん)って(a)から(見:み)ている(分:ぶん)には、(幸:しあわ)せいっぱいに(見:み)えるけど、(実際:じっさい)に(結婚:けっこん)する(人:ひと)の(立場:たちば)になってみると、(結構:けっこう)めんどうなことばかりだ。",
+    "answers": {
+      "a": ["(端:はた)"]
+    },
+    "notes-ja": {
+      "端から見ている分には": "「端から見ている分には」は「第三者として見ている限りでは」「他人事と考えている限りでは」の意味。「分」にはいろいろな意味があるが、ここでは「立場」「身分」の意味。"
+    },
+    "notes-en": {
+      "端から見ている分には": "\"Hata kara miteiru bun ni wa\" means \"as long as one is looking as a third party\" or \"as long as one is considering it as someone else's business.\" The word \"bun\" has various meanings, but here it means \"position\" or \"status.\""
+    },
+    "example-ja": [
+      "(端:はた}から(見:み)ている(分:ぶん)には、(彼:かれ)は(立派:りっぱ)な(人:ひと)に(見:み)えるが、(実際:じっさい)に(知:し)っている(人:ひと)によれば、(全然:ぜんぜん)そんなことはないらしい。"
+    ],
+    "example-en": [
+      "From the outside, he looks like a great person, but according to those who actually know him, that's not the case at all."
+    ]
   }
 ]
