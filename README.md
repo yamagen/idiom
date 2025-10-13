@@ -11,6 +11,7 @@ The materials were originally prepared for the Tokyo Tech edX MOOC *“Idiom Exp
 
 ## Directory Structure
 
+```json
 .
 ├── booklets/ # Complete booklet-style PDFs (3 volumes)
 │ ├── IdiomaticJapaneseV01.pdf
@@ -35,7 +36,7 @@ The materials were originally prepared for the Tokyo Tech edX MOOC *“Idiom Exp
 ├── bicycle201801.pdf
 ├── William-Bouguereau.jpg
 └── ...
-
+```
 
 ---
 
