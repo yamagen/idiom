@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1759745193.33618 "IdiomaticJapaneseV01.dvi" "IdiomaticJapaneseV01.pdf" "IdiomaticJapaneseV01" 1759745193.71406 0
-  "IdiomaticJapaneseV01.dvi" 1759745193.27754 207656 d4cbfd0c6edc487bf6dfe245086ee6ce "latex"
+["dvipdf"] 1760324260.1318 "IdiomaticJapaneseV01.dvi" "IdiomaticJapaneseV01.pdf" "IdiomaticJapaneseV01" 1760324260.50229 0
+  "IdiomaticJapaneseV01.dvi" 1760324260.07724 207524 b7cc590a02fcd733f5cb3787ec01adbb "latex"
   (generated)
   "IdiomaticJapaneseV01.pdf"
   (rewritten before read)
-["latex"] 1759745190.97648 "IdiomaticJapaneseV01.tex" "IdiomaticJapaneseV01.dvi" "IdiomaticJapaneseV01" 1759745193.71245 0
+["latex"] 1760324257.81122 "IdiomaticJapaneseV01.tex" "IdiomaticJapaneseV01.dvi" "IdiomaticJapaneseV01" 1760324260.50067 0
   "/home/yamagen/Dropbox/PersonalStyle/bear_collections/style-files/nruby.sty" 1450355832 9641 88317e95b37a335ab37818900433a62a ""
   "/home/yamagen/Dropbox/PersonalStyle/plistings.sty" 1514453397 10830 f4e804d9f343d4747c14963f8ec86959 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -105,13 +105,13 @@
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1727217670 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
   "/usr/local/texlive/2024/texmf-var/web2c/euptex/uplatex.fmt" 1759071479 3294375 8d89daf8f87ba65a14d63fe2af88f58c ""
   "/usr/local/texlive/2024/texmf.cnf" 1759071385.7242 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "IdiomaticJapaneseV01.aux" 1759745193.27654 1135 541576bc9308536df1662026eca665c7 "latex"
+  "IdiomaticJapaneseV01.aux" 1760324260.0757 1135 541576bc9308536df1662026eca665c7 "latex"
   "IdiomaticJapaneseV01.ind" 1759404919 10774 b4e7d6733910d448bc336b8dc7651c0b "makeindex IdiomaticJapaneseV01.idx"
-  "IdiomaticJapaneseV01.out" 1759745193.27734 552 a6e22cea495a589d777b7524eccd5214 "latex"
-  "IdiomaticJapaneseV01.tex" 1759745189.53962 115718 87a6fadd1cf13de58dd1b7e96f51e226 ""
-  "IdiomaticJapaneseV01.toc" 1759745193.27754 360 44e3c9c49c4ec24546a71dec6c205c6f "latex"
+  "IdiomaticJapaneseV01.out" 1760324260.07724 552 a6e22cea495a589d777b7524eccd5214 "latex"
+  "IdiomaticJapaneseV01.tex" 1760324257.41172 114359 8e15ca7d02f6aa2636c5ceb2daa2d9de ""
+  "IdiomaticJapaneseV01.toc" 1760324260.07724 360 44e3c9c49c4ec24546a71dec6c205c6f "latex"
   "bicycle201801.pdf" 1759405332 85043 ed482c428a113a8cfba312f56083de88 ""
-  "idiom_compact.pdf" 1759405702 211493 2e8df3edd762562cc166cf294066b08c ""
+  "idiom_compact.pdf" 1759834710 839937 690032c1efed7706d7806a07021b706f ""
   "idiom_english1.tex" 1759407974 24246 7ea8803adf111b6d39053c5ed3c01846 ""
   (generated)
   "IdiomaticJapaneseV01.aux"
@@ -121,8 +121,8 @@
   "IdiomaticJapaneseV01.out"
   "IdiomaticJapaneseV01.toc"
   (rewritten before read)
-["makeindex IdiomaticJapaneseV01.idx"] 1759404919.47763 "IdiomaticJapaneseV01.idx" "IdiomaticJapaneseV01.ind" "IdiomaticJapaneseV01" 1759745193.71238 0
-  "IdiomaticJapaneseV01.idx" 1759745193.27754 18024 d37d84bd43f36ba10d76f1394450ce5a "latex"
+["makeindex IdiomaticJapaneseV01.idx"] 1759404919.47763 "IdiomaticJapaneseV01.idx" "IdiomaticJapaneseV01.ind" "IdiomaticJapaneseV01" 1760324260.5006 0
+  "IdiomaticJapaneseV01.idx" 1760324260.07724 18024 d37d84bd43f36ba10d76f1394450ce5a "latex"
   (generated)
   "IdiomaticJapaneseV01.ilg"
   "IdiomaticJapaneseV01.ind"
