@@ -84,6 +84,6 @@ Institute for Liberal Arts, Institute of Science Tokyo
 
 ## Citation
 
-    Yamamoto, Hilofumi. Idiomatic Japanese and Sentence Patterns (v2.0).
-    Tokyo Tech / Institute of Science Tokyo, 2025.
-    JSON dataset. Available at: https://github.com/yamagen/idiom
+> Yamamoto, Hilofumi. Idiomatic Japanese and Sentence Patterns (v2.0).
+> Institute of Science Tokyo, 2025.
+> JSON dataset. Available at: https://github.com/yamagen/idiom
