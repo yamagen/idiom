@@ -11,7 +11,7 @@
     ],
     "description": "Fill in the blanks with appropriate idiomatic expressions.",
     "version": "2.0",
-    "date": "Last change: 2025/10/12-13:55:23."
+    "date": "Last change: 2025/10/22-21:35:06."
   },
   {
     "id": 1,
@@ -2437,18 +2437,22 @@
     "id": 240,
     "date": [20251012],
     "expression-en": "Yesterday, I ran into my dear friend at a most unexpected place.",
-    "expression-ja": "(昨日:きのう)、(思:おも}いも(a)ところで、(懐:なつ}かしい(人:ひと)に(出会:であ}った)."
+    "expression-ja": "(昨日:きのう)、(思:おも}いも(a)ところで、(懐:なつ}かしい(人:ひと)に(出会:であ}った).",
     "answers": {
       "a": ["(寄:よ)らない"]
-    },    "notes-ja": {
+    },
+    "notes-ja": {
       "思いもよらない": "「思いもよらない」は「想像／予想できない」「意外な」の意味。"
-    },    "notes-en": {
+    },
+    "notes-en": {
       "思いもよらない": "\"Omoi mo yoranai\" means \"unimaginable/unexpected\" or \"surprising.\""
-    },    "example-ja": [
+    },
+    "example-ja": [
       "(思:おも}い(a)(場所:ばしょ)で(偶然:ぐうぜん)(会:あ)う。",
       "(思:おも}い(a)(知らせ:しらせ)に(驚:おどろ)く。",
       "(思:おも}い(a)(出来事:できごと)に(遭遇:そうぐう)する。"
-    ],    "example-en": [
+    ],
+    "example-en": [
       "To meet by chance in an unexpected place",
       "To be surprised by unexpected news",
       "To encounter an unexpected event"
@@ -2461,17 +2465,18 @@
     "expression-ja": "(会社:かいしゃ)は(倒産:とうさん)し、(大:おお)きな(借金:しゃっきん)を(抱:かか)えて、(妻:つま)には(離婚:りこん}され、(何:なに}をどうすればいいのか(a)に(暮:く)れてしまった。",
     "answers": {
       "a": ["(途方:とほう)"]
-    },    "notes-ja": {
+    },
+    "notes-ja": {
       "途方": "「途方」は「手段、方法」の意味。「途方に暮れる」で「解決方法が難し過ぎる、目標が遠過ぎるなどの理由で、どうしてよいのかわからなくなる」状態。「途方もない」は「考えられないほどかなり」の意味で、「途方もなく大きい彫刻」のように使う。"
     },
     "notes-en": {
       "途方": "\"Tohou\" means \"means, method.\" In the phrase \"tohou ni kureru,\" it describes a state of being unable to figure out what to do due to reasons such as the solution being too difficult or the goal being too far away. \"Tohou mo nai\" means \"considerably beyond imagination,\" and is used in contexts like \"a sculpture of unimaginable size.\""
-    },    
-"example-ja": [
+    },
+    "example-ja": [
       "(失恋:しつれん}して(a)に(暮:く}れる。",
       "(仕事:しごと}が(見:み}つからず(a)に(暮:く}れる。",
       "(病気:びょうき}が(治:なお}らず(a)に(暮:く}れる。"
-    ],    
+    ],
     "example-en": [
       "To be at a loss after a heartbreak.",
       "To be at a loss after not being able to find a job.",
@@ -2512,9 +2517,11 @@
     "expression-ja": "(私:わたし)は(子供:こども)の(時:とき}、(あまのじゃく)で、(ひねくれて)いて、(a)のつけられないいたずらっ子だった。",
     "answers": {
       "a": ["(手:て)"]
-    },    "notes-ja": {
+    },
+    "notes-ja": {
       "あまのじゃく": "「あまのじゃく」は「いつも(人:ひと)の(反対:はんたい)のことをやったり、いったりする(人:ひと)」のこと。「ひねくれている」は「(曲:ま)がっている」の(意味:いみ)で、(人:ひと)の(性格:せいかく)についていう(時:とき)は「(素直:すなお)でない(性格:せいかく)」の(意味:いみ)。「(手:て}が(つけられない」は「(おとなしく)させる(方法:ほうほう)がない」の(意味:いみ)。"
-    },    "notes-en": {
+    },
+    "notes-en": {
       "あまのじゃく": "\"Amanojaku\" refers to a person who always does or says the opposite of what others do or say. \"Hinekurete iru\" means \"to be twisted,\" and when referring to a person's character, it means \"not being straightforward.\" \"Te ga tsukerarenai\" means \"there is no way to make someone behave.\""
     }
   },
@@ -2525,9 +2532,11 @@
     "expression-ja": "(言:い)いたいならば、はっきり(a)いいのに、いつも(奥歯:おくば)に(物:もの)のはさまったような(言:い)い(方:かた)をする(人:ひと)だ。",
     "answers": {
       "a": ["(言:い)えば"]
-    },    "notes-ja": {
+    },
+    "notes-ja": {
       "奥歯に物のはさまったような言い方": "「(奥歯:おくば)に(物:もの)のはさまったような(言:い)い(方:かた)」は「はっきり(物事:ものごと)を(言:い}わずに(皮肉:ひにく)のように(言:い}う(言い方:いいかた)」の(意味:いみ)。"
-    },    "notes-en": {
+    },
+    "notes-en": {
       "奥歯に物のはさまったような言い方": "\"Okuba ni mono no hasamatta you na iikata\" means \"a way of speaking that is like saying something sarcastically without clearly stating the matter.\""
     }
   },
@@ -2664,10 +2673,27 @@
     "expression-ja": "(高級品:こうきゅうひん)は(長:なが}く(使:つか}うものですから、(派手:はで}な(色:いろ}や(奇抜:きばつ}なデザインを(避:さ}けて、(a)が(来:こ}ない(色:いろ}や(デザイン:でざいん)を(選:えら}んだ(方:ほう}が(無難:ぶなん}ですね。",
     "answers": {
       "a": ["(飽:あ)"]
-    },    "notes-ja": {
+    },
+    "notes-ja": {
       "飽き": "「飽き」は「だんだんつまらなくなって、使いたくなくなる、目立たなくなる」の意味。「無難な」は「とてもよいのでもないが、悪くもない、安全な」の意味。"
-    },    "notes-en": {
+    },
+    "notes-en": {
       "飽き": "\"Aki\" means \"gradually becoming boring, not wanting to use it anymore, becoming unnoticeable.\" \"Bunan na\" means \"not very good, but not bad either, safe.\""
+    }
+  },
+  {
+    "id": 253,
+    "date": [20251022],
+    "expression-en": "Although I have been indebted to you, I am ashamed to trouble you this time.",
+    "expression-ja": "お(世話:せわ)になったのに、この(度:たび)は、ご(迷惑:めいわく)をおかけして、(a)(顔:かお)がありません。",
+    "answers": {
+      "a": ["あわせる"]
+    },
+    "notes-ja": {
+      "あわせる顔がない": "「あわせる顔がない」は「非常に恥ずかしい、申し訳ない」の意味。"
+    },
+    "notes-en": {
+      "awaseru kao ga nai": "\"Awaseru kao ga nai\" means \"to be very embarrassed, to feel sorry.\""
     }
   }
 ]
